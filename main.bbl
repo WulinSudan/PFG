@@ -1,0 +1,24 @@
+\begin{thebibliography}{xxxx}
+
+\bibitem[{European Commission} 2020]{EuropeanCommission2020A}
+{European Commission}.
+\newblock {\em Coronavirus: online learning resources}.
+\newblock
+  \url{https://ec.europa.eu/education/resources-and-tools/coronavirus-online-learning-resources_en},
+  2020.
+\newblock Accessed: 10 November 2020.
+
+\bibitem[Garrison 2011]{Garrison2011A}
+Donn~Randy Garrison.
+\newblock E-learning in the 21st century: a framework for research and
+  practice.
+\newblock Routledge, New York (NY), USA, 2 edition, 2011.
+
+\bibitem[Ruiz 2011]{Ruiz2011A}
+Marc Ruiz, Anton Bardera, Imma Boada, Ivan Viola, Miquel Feixas and Mateu
+  Sbert.
+\newblock {\em Automatic transfer functions based on informational divergence}.
+\newblock IEEE Transactions on Visualization and Computer Graphics, vol.~17,
+  no.~12, pages 1932--1941, December 2011.
+
+\end{thebibliography}
