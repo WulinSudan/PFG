@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  9 AUG 2024 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  10 AUG 2024 12:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,45 +653,60 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@definition=\count312
 \c@theorem=\count313
+) (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip80
+\enit@outerparindent=\dimen190
+\enit@toks=\toks39
+\enit@inbox=\box66
+\enit@count@id=\count314
+\enitdp@description=\count315
 ) (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count314
-\l__pdf_internal_box=\box66
-) (main.aux)
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box67
+) (main.aux
+
+LaTeX Warning: Label `subsec: IntroducciÃ³' multiply defined.
+
+
+LaTeX Warning: Label `subsec:IntroducciÃ³' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 15.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 17.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 15.
-LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 17.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \l on input line 15.
-LaTeX Info: Redefining \L on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \l on input line 17.
+LaTeX Info: Redefining \L on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -760,95 +775,95 @@ Package minitoc(hints) Warning: W0023
 
 (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen190
-\scratchbox=\box67
-\nofMPsegments=\count316
-\nofMParguments=\count317
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen191
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count317
+\scratchdimen=\dimen191
+\scratchbox=\box68
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen192
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks41
 )
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 17.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 24.
-LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line 53.
+(Font)              scaled to size 16.58891pt on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line 55.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 53.
+(Font)              scaled to size 16.58891pt on input line 55.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 53.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 53.
-LaTeX Font Info:    Trying to load font information for OML+mdbch on input line 53.
+(Font)              scaled to size 9.60007pt on input line 55.
+LaTeX Font Info:    Trying to load font information for OML+mdbch on input line 55.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 16.58891pt on input line 53.
+(Font)              scaled to size 16.58891pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 53.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 53.
-LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line 53.
+(Font)              scaled to size 9.60007pt on input line 55.
+LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line 55.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 53.
+(Font)              scaled to size 16.58891pt on input line 55.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 53.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 53.
-LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 53.
+(Font)              scaled to size 9.60007pt on input line 55.
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 55.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 53.
+(Font)              scaled to size 16.58891pt on input line 55.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 53.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 53.
+(Font)              scaled to size 9.60007pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 53.
+(Font)              scaled to size 16.58891pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 53.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 53.
-LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 53.
+(Font)              scaled to size 9.60007pt on input line 55.
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 55.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 53.
+(Font)              scaled to size 16.58891pt on input line 55.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 53.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 53.
-LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line 53.
+(Font)              scaled to size 9.60007pt on input line 55.
+LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line 55.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 53.
+(Font)              scaled to size 16.58891pt on input line 55.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 53.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 53.
-<imatges/logo_eps.png, id=143, 161.85469pt x 45.16875pt>
+(Font)              scaled to size 9.60007pt on input line 55.
+<imatges/logo_eps.png, id=203, 161.85469pt x 45.16875pt>
 File: imatges/logo_eps.png Graphic file (type png)
 <use imatges/logo_eps.png>
-Package pdftex.def Info: imatges/logo_eps.png  used on input line 53.
+Package pdftex.def Info: imatges/logo_eps.png  used on input line 55.
 (pdftex.def)             Requested size: 145.66786pt x 40.65147pt.
  [1
 
@@ -857,50 +872,50 @@ Package pdftex.def Info: imatges/logo_eps.png  used on input line 53.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \begin{titlepage}
+l.61 \begin{titlepage}
                        [2
 
 ]
 File: imatges/logo_eps.png Graphic file (type png)
 <use imatges/logo_eps.png>
-Package pdftex.def Info: imatges/logo_eps.png  used on input line 62.
+Package pdftex.def Info: imatges/logo_eps.png  used on input line 64.
 (pdftex.def)             Requested size: 145.66786pt x 40.65147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
-(Font)              scaled to size 11.52008pt on input line 64.
+(Font)              scaled to size 11.52008pt on input line 66.
 LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
-(Font)              scaled to size 16.58891pt on input line 64.
+(Font)              scaled to size 16.58891pt on input line 66.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 68.
+(Font)              scaled to size 23.88496pt on input line 70.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 69.
+(Font)              scaled to size 11.52008pt on input line 71.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 23.88496pt on input line 69.
+(Font)              scaled to size 23.88496pt on input line 71.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 75.
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 13.82408pt on input line 76.
-LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
 (Font)              scaled to size 13.82408pt on input line 77.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 13.82408pt on input line 78.
+LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
+(Font)              scaled to size 13.82408pt on input line 79.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 \end{titlepage}
+l.87 \end{titlepage}
                      [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \titlepage
+l.89 \titlepage
                 [2
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 90.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 92.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout3 = `main.mtc1'.
@@ -966,11 +981,6 @@ Package minitoc Info: I0033
 ] [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -982,6 +992,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
@@ -1045,20 +1060,26 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 ]
 Cap\'{\i }tol 1.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 16.58891pt on input line 125.
+(Font)              scaled to size 16.58891pt on input line 127.
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line 145.
+LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line 147.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 145.
-
-Overfull \hbox (6.98914pt too wide) in paragraph at lines 156--157
-[]\T1/mdbch/m/n/12 Una pà-gi-na d'a-nà-li-si que pro-por-ci-o-ni in-for-ma-ció de-ta-lla-da so-bre les transac-
- []
+(Font)              scaled to size 11.52008pt on input line 147.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1069,6 +1090,16 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 [2]
 Cap\'{\i }tol 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
 [3
 
 ]
@@ -1081,17 +1112,32 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 [4]
 Cap\'{\i }tol 3.
-[5
 
-]
-<imatges/scrum.png, id=270, 533.49312pt x 229.35687pt>
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+<imatges/scrum.png, id=344, 533.49312pt x 229.35687pt>
 File: imatges/scrum.png Graphic file (type png)
 <use imatges/scrum.png>
-Package pdftex.def Info: imatges/scrum.png  used on input line 240.
-(pdftex.def)             Requested size: 395.15166pt x 169.88591pt.
+Package pdftex.def Info: imatges/scrum.png  used on input line 205.
+(pdftex.def)             Requested size: 316.12253pt x 135.91083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+[5
+
+ <./imatges/scrum.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1101,6 +1147,17 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
 [6]
+Cap\'{\i }tol 4.
+[7
+
+]
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 13.82408pt on input line 287.
+
+Overfull \hbox (68.12985pt too wide) in paragraph at lines 292--306
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1108,57 +1165,133 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[7 <./imatges/scrum.png>] [8
-
-]
-Cap\'{\i }tol 4.
-[9] [10
-
-]
+[8]
 Cap\'{\i }tol 5.
-[11] [12
+[9
+
+] [10
 
 ]
 Cap\'{\i }tol 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
+
+ []
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
 [13] [14
 
 ]
 Cap\'{\i }tol 7.
-[15] [16
 
-]
-Cap\'{\i }tol 8.
-[17] [18
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 427.
 
-]
-Cap\'{\i }tol 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+
+ []
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[17]
+Overfull \hbox (0.67627pt too wide) in paragraph at lines 536--537
+[]\T1/mdbch/m/n/12 Integració amb cli-ents GraphQL: Apo-llo Ser-ver s'in-te-gra per-fec-ta-ment amb
+ []
+
+
+Overfull \hbox (4.51141pt too wide) in paragraph at lines 538--539
+\T1/mdbch/m/n/12 clo-ent una in-ter-fí-cie grà-fi-ca d'u-su-a-ri (GUI) per ex-plo-rar l'es-que-ma GraphQL
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 547--550
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
 [19] [20
 
 ]
-Cap\'{\i }tol 10.
+Cap\'{\i }tol 8.
 [21] [22
 
 ]
-Cap\'{\i }tol 11.
+Cap\'{\i }tol 9.
 [23] [24
 
 ]
+Cap\'{\i }tol 10.
+[25] [26
+
+]
+Cap\'{\i }tol 11.
+[27] [28
+
+]
 Cap\'{\i }tol 12.
+
+Overfull \hbox (6.98914pt too wide) in paragraph at lines 592--593
+[]\T1/mdbch/m/n/12 Una pà-gi-na d'a-nà-li-si que pro-por-ci-o-ni in-for-ma-ció de-ta-lla-da so-bre les transac-
+ []
+
 (main.bbl (main.brf)
 \tf@brf=\write8
 \openout8 = `main.brf'.
 
- [25] [26
+ [29] [30
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [27] [28
+) [31] [32
 
 ]
 Annex A.
-[29]
+[33]
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1166,7 +1299,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[30]
+[34]
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1174,7 +1307,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[31] [32
+[35] [36
 
 ]
 Annex B.
@@ -1198,28 +1331,32 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[33] (main.aux)
+[37] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8885EC83145EBF8F47C815B5927D014B;4539.
+(rerunfilecheck)             Checksum: A1B8EDDD073D482B28CCE635835DC6EF;8746.
 Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17021 strings out of 474486
- 270789 string characters out of 5742340
- 1937542 words of memory out of 5000000
- 38874 multiletter control sequences out of 15000+600000
- 608833 words of font info for 105 fonts, out of 8000000 for 9000
+ 17413 strings out of 474486
+ 277486 string characters out of 5742340
+ 1938542 words of memory out of 5000000
+ 39233 multiletter control sequences out of 15000+600000
+ 611769 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,15n,107p,814b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,15n,107p,814b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdbch/md-chr8t.pfb>
-Output written on main.pdf (47 pages, 176694 bytes).
+Output written on main.pdf (51 pages, 208400 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 411 words of extra memory for PDF output out of 10000 (max. 10000000)
 

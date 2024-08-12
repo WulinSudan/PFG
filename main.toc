@@ -2,35 +2,50 @@
 \contentsline {chapter}{\numberline {1}Introducció, motivació, finalitat i objectius del projecte}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introducció}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivació}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objectius}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Finalitat i objectius del projecte}{2}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Viabilitats}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Viabilitat tècnica}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Viabilitat econòmica}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Viabilitat temporal}{3}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Viabilitat de mercat}{4}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Viabilitat Legal i Ètica}{4}{section.2.5}%
+\contentsline {section}{\numberline {2.1}Introducció}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Viabilitat tècnica}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Viabilitat econòmica}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Viabilitat de mercat}{3}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Metodologia}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Gestió de projecte}{6}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Planificació}{9}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Marc de treball i conceptes previ}{11}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Requisits del sistema}{13}{chapter.6}%
+\contentsline {section}{\numberline {3.1}Introducció}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Scrum}{5}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Planificació}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introducció}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Desenvolupament}{7}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Calendari previst}{8}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5}Marc de treball i conceptes previ}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introducció}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Propòsit}{9}{subsection.5.1.1}%
+\contentsline {chapter}{\numberline {6}Requisits del sistema}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introducció}{11}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Els requeriments funcionals i les novetats d'aplicació}{11}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Els requeriments no funcionals i les novetats d'aplicació}{13}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Matriu de dependències de requisits}{13}{subsection.6.1.3}%
 \contentsline {chapter}{\numberline {7}Estudi i decisions}{15}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Anàlisi i disseny del sistema}{17}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Implementació i proves}{19}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Implantació i resultats}{21}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Prova 1}{21}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Prova 2}{21}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Prova 3}{21}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Prova 4}{21}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Prova 5}{21}{section.10.5}%
-\contentsline {section}{\numberline {10.6}Prova 6}{21}{section.10.6}%
-\contentsline {section}{\numberline {10.7}Prova 7}{21}{section.10.7}%
-\contentsline {section}{\numberline {10.8}Prova 8}{21}{section.10.8}%
-\contentsline {section}{\numberline {10.9}Prova 9}{21}{section.10.9}%
-\contentsline {section}{\numberline {10.10}Prova 10}{21}{section.10.10}%
-\contentsline {section}{\numberline {10.11}Prova 11}{21}{section.10.11}%
-\contentsline {chapter}{\numberline {11}Conclusions}{23}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Treball futur}{25}{chapter.12}%
-\contentsline {chapter}{Bibliografia}{27}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Pressupost}{29}{appendix.a.A}%
-\contentsline {chapter}{\numberline {B}Planificació}{33}{appendix.a.B}%
+\contentsline {subsection}{\numberline {7.0.1}Fer estudi sobre protocols d'intercanvi de dades bancàries}{15}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {7.0.2}Fer estudi sobre diferents possibilitats per desenvolupar una app i simular un servidor (entorns, llenguatges, etc.)}{16}{subsection.7.0.2}%
+\contentsline {section}{\numberline {7.1}ESCOLLIR ENTORN (DECISIONS)}{17}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Escollir un protocol d'intercanvi de dades bancàries}{17}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Escollir un entorn i llenguatge per desenvolupar el app i simular un servidor}{17}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Escollir un sistema de control de versions i crear repositori de codi obert}{19}{subsection.7.1.3}%
+\contentsline {chapter}{\numberline {8}Anàlisi i disseny del sistema}{21}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Implementació i proves}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Implantació i resultats}{25}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Prova 1}{25}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Prova 2}{25}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Prova 3}{25}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Prova 4}{25}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Prova 5}{25}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Prova 6}{25}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Prova 7}{25}{section.10.7}%
+\contentsline {section}{\numberline {10.8}Prova 8}{25}{section.10.8}%
+\contentsline {section}{\numberline {10.9}Prova 9}{25}{section.10.9}%
+\contentsline {section}{\numberline {10.10}Prova 10}{25}{section.10.10}%
+\contentsline {section}{\numberline {10.11}Prova 11}{25}{section.10.11}%
+\contentsline {chapter}{\numberline {11}Conclusions}{27}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Treball futur}{29}{chapter.12}%
+\contentsline {chapter}{Bibliografia}{31}{chapter*.6}%
+\contentsline {chapter}{\numberline {A}Pressupost}{33}{appendix.a.A}%
+\contentsline {chapter}{\numberline {B}Planificació}{37}{appendix.a.B}%
