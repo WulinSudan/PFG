@@ -10,21 +10,34 @@
 \contentsline {xchapter}{Planificació}{7}{chapter.4}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Marc de treball i conceptes previ}{9}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Imatge d'un codi QR}}{10}{figure.5.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Requisits del sistema}{11}{chapter.6}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Estudi i decisions}{15}{chapter.7}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Anàlisi i disseny del sistema}{21}{chapter.8}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Diagrama de Casos d'Ús de Context de Client }}{21}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagrama de Casos d'Ús de Context d'Administrador }}{22}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Diagrama de base de dades }}{24}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces registrar nou usuari}}{28}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Pàgina de login - client}}{29}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Pàgina per generar codi QR de pagament}}{29}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Pàgina per generar codi QR de cobrament}}{30}{figure.8.7}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Pàgina per escanejar codi QR }}{30}{figure.8.8}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Pàgina de login - Admin}}{31}{figure.8.9}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Diagrama de processos }}{32}{figure.8.10}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Implementació i proves}{23}{chapter.9}%
+\contentsline {xchapter}{Implementació i proves}{35}{chapter.9}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Implantació i resultats}{25}{chapter.10}%
+\contentsline {xchapter}{Implantació i resultats}{39}{chapter.10}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusions}{27}{chapter.11}%
+\contentsline {xchapter}{Conclusions}{41}{chapter.11}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Treball futur}{29}{chapter.12}%
+\contentsline {xchapter}{Treball futur}{43}{chapter.12}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Pressupost}{33}{appendix.a.A}%
+\contentsline {xchapter}{Bibliografia}{45}{chapter.13}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Planificació}{37}{appendix.a.B}%
+\contentsline {xchapter}{Pressupost}{49}{appendix.a.A}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Planificació}{53}{appendix.a.B}%

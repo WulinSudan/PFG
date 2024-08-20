@@ -774,6 +774,7 @@ OUTPUT main.mtc12
 OUTPUT main.mtc13
 OUTPUT main.mtc14
 OUTPUT main.mtc15
+OUTPUT main.mtc16
 INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
 INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
 INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
@@ -827,6 +828,154 @@ INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch
 INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\vf\mathdesign\mdbch\mdbchb8t.vf
 INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch\md-chb8y.tfm
 INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch\md-chb8t.tfm
+INPUT .\imatges\qr2.png
+INPUT .\imatges\qr2.png
+INPUT .\imatges\qr2.png
+INPUT .\imatges\qr2.png
+INPUT .\imatges\qr2.png
+INPUT .\imatges\qr2.png
+INPUT .\imatges\qr2.png
+INPUT .\imatges\diagrama caso de uso client.png
+INPUT .\imatges\diagrama caso de uso client.png
+INPUT .\imatges\diagrama caso de uso client.png
+INPUT .\imatges\diagrama caso de uso client.png
+INPUT .\imatges\diagrama caso de uso client.png
+INPUT .\imatges\diagrama caso de uso client.png
+INPUT .\imatges\diagrama caso de uso client.png
+INPUT .\imatges\diagrama caso de uso admin.png
+INPUT .\imatges\diagrama caso de uso admin.png
+INPUT .\imatges\diagrama caso de uso admin.png
+INPUT .\imatges\diagrama caso de uso admin.png
+INPUT .\imatges\diagrama caso de uso admin.png
+INPUT .\imatges\diagrama caso de uso admin.png
+INPUT .\imatges\diagrama caso de uso admin.png
+INPUT .\imatges\diagrama base dades.png
+INPUT .\imatges\diagrama base dades.png
+INPUT .\imatges\diagrama base dades.png
+INPUT .\imatges\diagrama base dades.png
+INPUT .\imatges\diagrama base dades.png
+INPUT .\imatges\diagrama base dades.png
+INPUT .\imatges\diagrama base dades.png
+INPUT .\imatges\registerUser.png
+INPUT .\imatges\registerUser.png
+INPUT .\imatges\registerUser.png
+INPUT .\imatges\registerUser.png
+INPUT .\imatges\registerUser.png
+INPUT .\imatges\registerUser.png
+INPUT .\imatges\registerUser.png
+INPUT .\imatges\registerUserWithvalues.png
+INPUT .\imatges\registerUserWithvalues.png
+INPUT .\imatges\registerUserWithvalues.png
+INPUT .\imatges\registerUserWithvalues.png
+INPUT .\imatges\registerUserWithvalues.png
+INPUT .\imatges\registerUserWithvalues.png
+INPUT .\imatges\registerUserWithvalues.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\loginWithValue.png
+INPUT .\imatges\loginWithValue.png
+INPUT .\imatges\loginWithValue.png
+INPUT .\imatges\loginWithValue.png
+INPUT .\imatges\loginWithValue.png
+INPUT .\imatges\loginWithValue.png
+INPUT .\imatges\loginWithValue.png
+INPUT .\imatges\mainPage2.png
+INPUT .\imatges\mainPage2.png
+INPUT .\imatges\mainPage2.png
+INPUT .\imatges\mainPage2.png
+INPUT .\imatges\mainPage2.png
+INPUT .\imatges\mainPage2.png
+INPUT .\imatges\mainPage2.png
+INPUT .\imatges\paymentPage.png
+INPUT .\imatges\paymentPage.png
+INPUT .\imatges\paymentPage.png
+INPUT .\imatges\paymentPage.png
+INPUT .\imatges\paymentPage.png
+INPUT .\imatges\paymentPage.png
+INPUT .\imatges\paymentPage.png
+INPUT .\imatges\paymentPageWithValue.png
+INPUT .\imatges\paymentPageWithValue.png
+INPUT .\imatges\paymentPageWithValue.png
+INPUT .\imatges\paymentPageWithValue.png
+INPUT .\imatges\paymentPageWithValue.png
+INPUT .\imatges\paymentPageWithValue.png
+INPUT .\imatges\paymentPageWithValue.png
+INPUT .\imatges\mainPage3.png
+INPUT .\imatges\mainPage3.png
+INPUT .\imatges\mainPage3.png
+INPUT .\imatges\mainPage3.png
+INPUT .\imatges\mainPage3.png
+INPUT .\imatges\mainPage3.png
+INPUT .\imatges\mainPage3.png
+INPUT .\imatges\chargePage.png
+INPUT .\imatges\chargePage.png
+INPUT .\imatges\chargePage.png
+INPUT .\imatges\chargePage.png
+INPUT .\imatges\chargePage.png
+INPUT .\imatges\chargePage.png
+INPUT .\imatges\chargePage.png
+INPUT .\imatges\chargePageWithValue.png
+INPUT .\imatges\chargePageWithValue.png
+INPUT .\imatges\chargePageWithValue.png
+INPUT .\imatges\chargePageWithValue.png
+INPUT .\imatges\chargePageWithValue.png
+INPUT .\imatges\chargePageWithValue.png
+INPUT .\imatges\chargePageWithValue.png
+INPUT .\imatges\mainPage1.png
+INPUT .\imatges\mainPage1.png
+INPUT .\imatges\mainPage1.png
+INPUT .\imatges\mainPage1.png
+INPUT .\imatges\mainPage1.png
+INPUT .\imatges\mainPage1.png
+INPUT .\imatges\mainPage1.png
+INPUT .\imatges\scanQR.png
+INPUT .\imatges\scanQR.png
+INPUT .\imatges\scanQR.png
+INPUT .\imatges\scanQR.png
+INPUT .\imatges\scanQR.png
+INPUT .\imatges\scanQR.png
+INPUT .\imatges\scanQR.png
+INPUT .\imatges\capturedQR.png
+INPUT .\imatges\capturedQR.png
+INPUT .\imatges\capturedQR.png
+INPUT .\imatges\capturedQR.png
+INPUT .\imatges\capturedQR.png
+INPUT .\imatges\capturedQR.png
+INPUT .\imatges\capturedQR.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\login.png
+INPUT .\imatges\loginAdmin.png
+INPUT .\imatges\loginAdmin.png
+INPUT .\imatges\loginAdmin.png
+INPUT .\imatges\loginAdmin.png
+INPUT .\imatges\loginAdmin.png
+INPUT .\imatges\loginAdmin.png
+INPUT .\imatges\loginAdmin.png
+INPUT .\imatges\administer.png
+INPUT .\imatges\administer.png
+INPUT .\imatges\administer.png
+INPUT .\imatges\administer.png
+INPUT .\imatges\administer.png
+INPUT .\imatges\administer.png
+INPUT .\imatges\administer.png
+INPUT .\imatges\diagrama processos.png
+INPUT .\imatges\diagrama processos.png
+INPUT .\imatges\diagrama processos.png
+INPUT .\imatges\diagrama processos.png
+INPUT .\imatges\diagrama processos.png
+INPUT .\imatges\diagrama processos.png
+INPUT .\imatges\diagrama processos.png
+INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch\mdbchr8t.tfm
+INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\vf\mathdesign\mdbch\mdbchr8t.vf
+INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch\md-chr8y.tfm
+INPUT C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdbch\md-chr8t.tfm
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
@@ -839,6 +988,8 @@ OUTPUT main.brf
 OUTPUT main.maf
 INPUT .\main.mtc
 INPUT .\main.mtc
+INPUT .\main.mtc15
+INPUT .\main.mtc15
 INPUT .\main.mtc14
 INPUT .\main.mtc14
 INPUT .\main.mtc13
