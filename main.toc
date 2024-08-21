@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {2.1}Introducció}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Viabilitat tècnica}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Viabilitat econòmica}{3}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Viabilitat de mercat}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Viabilitat de mercat}{4}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Metodologia}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introducció}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Scrum}{5}{section.3.2}%
@@ -21,8 +21,8 @@
 \contentsline {subsection}{\numberline {5.1.2}Codi QR}{10}{subsection.5.1.2}%
 \contentsline {chapter}{\numberline {6}Requisits del sistema}{11}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Introducció}{11}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Els requeriments funcionals i les novetats d'aplicació}{11}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Els requeriments no funcionals i les novetats d'aplicació}{13}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.1}Els requeriments funcionals }{11}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Els requeriments no funcionals }{13}{subsection.6.1.2}%
 \contentsline {subsection}{\numberline {6.1.3}Matriu de dependències de requisits}{13}{subsection.6.1.3}%
 \contentsline {chapter}{\numberline {7}Estudi i decisions}{15}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Introducció}{15}{section.7.1}%
@@ -32,21 +32,21 @@
 \contentsline {subsection}{\numberline {7.3.2}Framework: Flutter}{16}{subsection.7.3.2}%
 \contentsline {subsection}{\numberline {7.3.3}IDE: Android Studio}{17}{subsection.7.3.3}%
 \contentsline {section}{\numberline {7.4}Back-end}{17}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Llenguatge: TS}{17}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.1}Llenguatge: TS}{18}{subsection.7.4.1}%
 \contentsline {subsection}{\numberline {7.4.2}Servidor: Apollo server}{18}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Base de dades}{18}{section.7.5}%
+\contentsline {section}{\numberline {7.5}Base de dades}{19}{section.7.5}%
 \contentsline {chapter}{\numberline {8}Anàlisi i disseny del sistema}{21}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Diagrama de casos d'ús}{21}{section.8.1}%
-\contentsline {section}{\numberline {8.2}diagrama de base de dades}{24}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}User}{24}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Account}{25}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Dictionary}{26}{subsection.8.2.3}%
-\contentsline {subsection}{\numberline {8.2.4}Transaction}{27}{subsection.8.2.4}%
-\contentsline {section}{\numberline {8.3} Interfícies d'usuari }{27}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Client}{28}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Admin}{31}{subsection.8.3.2}%
-\contentsline {section}{\numberline {8.4} Diagrama de processos }{32}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Descripció del procés}{33}{subsection.8.4.1}%
+\contentsline {section}{\numberline {8.2}diagrama de base de dades}{25}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}User}{25}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Account}{26}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Dictionary}{27}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Transaction}{28}{subsection.8.2.4}%
+\contentsline {section}{\numberline {8.3} Interfícies d'usuari }{29}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Client}{29}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Admin}{32}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4} Diagrama de processos }{33}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Descripció del procés}{34}{subsection.8.4.1}%
 \contentsline {chapter}{\numberline {9}Implementació i proves}{35}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Introducció}{35}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Organitza la idea}{35}{section.9.2}%
@@ -68,6 +68,9 @@
 \contentsline {section}{\numberline {10.13}Prova 11}{40}{section.10.13}%
 \contentsline {chapter}{\numberline {11}Conclusions}{41}{chapter.11}%
 \contentsline {chapter}{\numberline {12}Treball futur}{43}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Funcionalitats de l'aplicació}{43}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Seguretat de dades}{43}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Millora del codi}{44}{section.12.3}%
 \contentsline {chapter}{\numberline {13}Bibliografia}{45}{chapter.13}%
 \contentsline {chapter}{Bibliografia}{47}{chapter*.6}%
 \contentsline {chapter}{\numberline {A}Pressupost}{49}{appendix.a.A}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  20 AUG 2024 11:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  21 AUG 2024 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -863,7 +863,7 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 9.60007pt on input line 55.
-<imatges/logo_eps.png, id=295, 161.85469pt x 45.16875pt>
+<imatges/logo_eps.png, id=307, 161.85469pt x 45.16875pt>
 File: imatges/logo_eps.png Graphic file (type png)
 <use imatges/logo_eps.png>
 Package pdftex.def Info: imatges/logo_eps.png  used on input line 55.
@@ -983,27 +983,37 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc16.
 \openout3 = `main.mtc16'.
 
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[1
 
 ] [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
@@ -1075,26 +1085,26 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 ]
 Cap\'{\i }tol 1.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 16.58891pt on input line 127.
+(Font)              scaled to size 16.58891pt on input line 136.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line 147.
+LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line 156.
  (C:\Users\sudan.wu\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 147.
+(Font)              scaled to size 11.52008pt on input line 156.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1106,18 +1116,37 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 [2]
 Cap\'{\i }tol 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+<imatges/mongodb.png, id=503, 599.74063pt x 334.24875pt>
+File: imatges/mongodb.png Graphic file (type png)
+<use imatges/mongodb.png>
+Package pdftex.def Info: imatges/mongodb.png  used on input line 188.
+(pdftex.def)             Requested size: 316.12253pt x 176.18704pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 [3
 
 ]
+<imatges/paypal.png, id=509, 160.09813pt x 236.38312pt>
+File: imatges/paypal.png Graphic file (type png)
+<use imatges/paypal.png>
+Package pdftex.def Info: imatges/paypal.png  used on input line 206.
+(pdftex.def)             Requested size: 118.54669pt x 175.03618pt.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1125,32 +1154,32 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[4]
+[4 <./imatges/mongodb.png> <./imatges/paypal.png>]
 Cap\'{\i }tol 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-<imatges/scrum.png, id=487, 533.49312pt x 229.35687pt>
+<imatges/scrum.png, id=516, 533.49312pt x 229.35687pt>
 File: imatges/scrum.png Graphic file (type png)
 <use imatges/scrum.png>
-Package pdftex.def Info: imatges/scrum.png  used on input line 205.
+Package pdftex.def Info: imatges/scrum.png  used on input line 229.
 (pdftex.def)             Requested size: 316.12253pt x 135.91083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 [5
 
  <./imatges/scrum.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
@@ -1167,9 +1196,9 @@ Cap\'{\i }tol 4.
 
 ]
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 287.
+(Font)              scaled to size 13.82408pt on input line 305.
 
-Overfull \hbox (68.12985pt too wide) in paragraph at lines 292--306
+Overfull \hbox (68.12985pt too wide) in paragraph at lines 310--323
  [][] 
  []
 
@@ -1183,29 +1212,29 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 [8]
 Cap\'{\i }tol 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
-
- []
-
-<imatges/qr2.png, id=518, 155.58125pt x 152.57pt>
+<imatges/qr2.png, id=546, 155.58125pt x 152.57pt>
 File: imatges/qr2.png Graphic file (type png)
 <use imatges/qr2.png>
-Package pdftex.def Info: imatges/qr2.png  used on input line 351.
-(pdftex.def)             Requested size: 158.05824pt x 155.00008pt.
+Package pdftex.def Info: imatges/qr2.png  used on input line 367.
+(pdftex.def)             Requested size: 118.54669pt x 116.25238pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
@@ -1219,22 +1248,17 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 [10 <./imatges/qr2.png>]
 Cap\'{\i }tol 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--383
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
 
@@ -1249,6 +1273,21 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
 [12]
+Underfull \hbox (badness 1264) in paragraph at lines 477--477
+[]|\T1/mdbch/m/n/12 L'usuari ha d'-ha-ver ini-ci-at ses-sió per
+ []
+
+
+Overfull \hbox (71.762pt too wide) in paragraph at lines 471--494
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 36.03438pt on input line 496.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1256,22 +1295,40 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[13] [14
+[13]
 
-]
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[14]
 Cap\'{\i }tol 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--460
+Underfull \hbox (badness 10000) in paragraph at lines 515--517
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+[15
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
@@ -1283,12 +1340,17 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
@@ -1300,22 +1362,17 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 
  []
 
@@ -1327,7 +1384,12 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 
  []
 
@@ -1342,33 +1404,41 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 ]
 Cap\'{\i }tol 8.
-<imatges/diagrama caso de uso client.png, id=565, 1085.05376pt x 854.19125pt>
+<imatges/diagrama caso de uso client.png, id=593, 1085.05376pt x 854.19125pt>
 File: imatges/diagrama caso de uso client.png Graphic file (type png)
 <use imatges/diagrama caso de uso client.png>
-Package pdftex.def Info: imatges/diagrama caso de uso client.png  used on input line 560.
+Package pdftex.def Info: imatges/diagrama caso de uso client.png  used on input line 622.
 (pdftex.def)             Requested size: 395.15166pt x 311.07991pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
 [21 <./imatges/diagrama caso de uso client.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
-<imatges/diagrama caso de uso admin.png, id=572, 1054.94125pt x 824.07875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[22]
+<imatges/diagrama caso de uso admin.png, id=604, 1054.94125pt x 824.07875pt>
 File: imatges/diagrama caso de uso admin.png Graphic file (type png)
 <use imatges/diagrama caso de uso admin.png>
-Package pdftex.def Info: imatges/diagrama caso de uso admin.png  used on input line 573.
-(pdftex.def)             Requested size: 395.15166pt x 308.67668pt.
+Package pdftex.def Info: imatges/diagrama caso de uso admin.png  used on input line 640.
+(pdftex.def)             Requested size: 355.63408pt x 277.8065pt.
 
-Overfull \hbox (1.51347pt too wide) in paragraph at lines 578--579
-\T1/mdbch/m/n/12 pot dur a ter-me dins del sis-te-ma. Hi ha du-es ins-tàn-ci-es de l'ac-tor çli-ent,çadascuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
@@ -1379,39 +1449,14 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[22 <./imatges/diagrama caso de uso admin.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+[23
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
-
-[23]
-<imatges/diagrama base dades.png, id=582, 834.11626pt x 804.00375pt>
-File: imatges/diagrama base dades.png Graphic file (type png)
-<use imatges/diagrama base dades.png>
-Package pdftex.def Info: imatges/diagrama base dades.png  used on input line 601.
-(pdftex.def)             Requested size: 395.15166pt x 380.8875pt.
+ <./imatges/diagrama caso de uso admin.png>]
+<imatges/logs.png, id=610, 322.20375pt x 251.94125pt>
+File: imatges/logs.png Graphic file (type png)
+<use imatges/logs.png>
+Package pdftex.def Info: imatges/logs.png  used on input line 655.
+(pdftex.def)             Requested size: 237.0934pt x 185.39948pt.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1422,14 +1467,15 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 [24
 
- <./imatges/diagrama base dades.png>]
-Overfull \hbox (4.4454pt too wide) in paragraph at lines 623--624
-[]\T1/mdbch/b/n/12 accounts \T1/mdbch/m/n/12 (Ac-count List) [DE-FAULT: []]: Em-ma-gat-ze-ma tots els ID de comp-
- []
+ <./imatges/logs.png>]
+<imatges/diagrama base dades.png, id=616, 834.11626pt x 804.00375pt>
+File: imatges/diagrama base dades.png Graphic file (type png)
+<use imatges/diagrama base dades.png>
+Package pdftex.def Info: imatges/diagrama base dades.png  used on input line 670.
+(pdftex.def)             Requested size: 395.15166pt x 380.8875pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
-Overfull \hbox (11.04333pt too wide) in paragraph at lines 640--641
-[]\T1/mdbch/b/n/12 account_number \T1/mdbch/m/n/12 (String) [NOT NULL]: Em-ma-gat-ze-ma el nú-me-ro de comp-
  []
 
 
@@ -1439,14 +1485,21 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[25]
-Overfull \hbox (2.6592pt too wide) in paragraph at lines 655--656
-\T1/mdbch/m/n/12 L'entitat \T1/mdbch/b/n/12 Dic-ti-o-nary \T1/mdbch/m/n/12 em-ma-gat-ze-ma in-for-ma-ció com-ple-men-tà-ria re-la-ci-o-na-da amb
+[25
+
+ <./imatges/diagrama base dades.png>]
+Overfull \hbox (4.4454pt too wide) in paragraph at lines 692--693
+[]\T1/mdbch/b/n/12 accounts \T1/mdbch/m/n/12 (Ac-count List) [DE-FAULT: []]: Em-ma-gat-ze-ma tots els ID de comp-
  []
 
 
-Overfull \hbox (11.04333pt too wide) in paragraph at lines 661--662
-[]\T1/mdbch/b/n/12 account_number \T1/mdbch/m/n/12 (String) [NOT NULL]: Em-ma-gat-ze-ma el nú-me-ro de comp-
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--704
+
  []
 
 
@@ -1457,22 +1510,49 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
 [26]
-Overfull \hbox (1.19366pt too wide) in paragraph at lines 683--684
+Overfull \hbox (11.04333pt too wide) in paragraph at lines 711--712
+[]\T1/mdbch/b/n/12 account_number \T1/mdbch/m/n/12 (String) [NOT NULL]: Em-ma-gat-ze-ma el nú-me-ro de comp-
+ []
+
+
+Overfull \hbox (2.6592pt too wide) in paragraph at lines 726--727
+\T1/mdbch/m/n/12 L'entitat \T1/mdbch/b/n/12 Dic-ti-o-nary \T1/mdbch/m/n/12 em-ma-gat-ze-ma in-for-ma-ció com-ple-men-tà-ria re-la-ci-o-na-da amb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
+
+ []
+
+<imatges/dictionary.png, id=626, 643.40375pt x 332.24126pt>
+File: imatges/dictionary.png Graphic file (type png)
+<use imatges/dictionary.png>
+Package pdftex.def Info: imatges/dictionary.png  used on input line 731.
+(pdftex.def)             Requested size: 276.60495pt x 142.8356pt.
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[27 <./imatges/dictionary.png>]
+Overfull \hbox (11.04333pt too wide) in paragraph at lines 741--742
+[]\T1/mdbch/b/n/12 account_number \T1/mdbch/m/n/12 (String) [NOT NULL]: Em-ma-gat-ze-ma el nú-me-ro de comp-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
+
+ []
+
+
+Overfull \hbox (1.19366pt too wide) in paragraph at lines 763--764
 []\T1/mdbch/b/n/12 origin_account \T1/mdbch/m/n/12 (String) [NOT NULL]: Em-ma-gat-ze-ma el nú-me-ro de comp-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 698--699
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 700--701
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
 
  []
 
@@ -1483,81 +1563,89 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[27]
-<imatges/registerUser.png, id=601, 1084.05pt x 1927.2pt>
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 774--775
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
+
+ []
+
+<imatges/registerUser.png, id=637, 1084.05pt x 1927.2pt>
 File: imatges/registerUser.png Graphic file (type png)
 <use imatges/registerUser.png>
-Package pdftex.def Info: imatges/registerUser.png  used on input line 708.
+Package pdftex.def Info: imatges/registerUser.png  used on input line 784.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/registerUserWithvalues.png, id=602, 1084.05pt x 1927.2pt>
+<imatges/registerUserWithvalues.png, id=638, 1084.05pt x 1927.2pt>
 File: imatges/registerUserWithvalues.png Graphic file (type png)
 <use imatges/registerUserWithvalues.png>
-Package pdftex.def Info: imatges/registerUserWithvalues.png  used on input line 709.
+Package pdftex.def Info: imatges/registerUserWithvalues.png  used on input line 785.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/login.png, id=603, 1084.05pt x 1927.2pt>
+<imatges/login.png, id=639, 1084.05pt x 1927.2pt>
 File: imatges/login.png Graphic file (type png)
 <use imatges/login.png>
-Package pdftex.def Info: imatges/login.png  used on input line 717.
+Package pdftex.def Info: imatges/login.png  used on input line 793.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/loginWithValue.png, id=604, 1084.05pt x 1927.2pt>
+<imatges/loginWithValue.png, id=640, 1084.05pt x 1927.2pt>
 File: imatges/loginWithValue.png Graphic file (type png)
 <use imatges/loginWithValue.png>
-Package pdftex.def Info: imatges/loginWithValue.png  used on input line 718.
+Package pdftex.def Info: imatges/loginWithValue.png  used on input line 794.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imatges/mainPage2.png, id=605, 542.025pt x 963.6pt>
+<imatges/mainPage2.png, id=641, 542.025pt x 963.6pt>
 File: imatges/mainPage2.png Graphic file (type png)
 <use imatges/mainPage2.png>
-Package pdftex.def Info: imatges/mainPage2.png  used on input line 727.
+Package pdftex.def Info: imatges/mainPage2.png  used on input line 803.
 (pdftex.def)             Requested size: 118.54669pt x 210.74287pt.
-<imatges/paymentPage.png, id=606, 1084.05pt x 1927.2pt>
+<imatges/paymentPage.png, id=642, 1084.05pt x 1927.2pt>
 File: imatges/paymentPage.png Graphic file (type png)
 <use imatges/paymentPage.png>
-Package pdftex.def Info: imatges/paymentPage.png  used on input line 728.
+Package pdftex.def Info: imatges/paymentPage.png  used on input line 804.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/paymentPageWithValue.png, id=607, 1084.05pt x 1927.2pt>
+<imatges/paymentPageWithValue.png, id=643, 1084.05pt x 1927.2pt>
 File: imatges/paymentPageWithValue.png Graphic file (type png)
 <use imatges/paymentPageWithValue.png>
-Package pdftex.def Info: imatges/paymentPageWithValue.png  used on input line 729.
+Package pdftex.def Info: imatges/paymentPageWithValue.png  used on input line 805.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imatges/mainPage3.png, id=608, 542.025pt x 963.6pt>
+<imatges/mainPage3.png, id=644, 542.025pt x 963.6pt>
 File: imatges/mainPage3.png Graphic file (type png)
 <use imatges/mainPage3.png>
-Package pdftex.def Info: imatges/mainPage3.png  used on input line 736.
+Package pdftex.def Info: imatges/mainPage3.png  used on input line 812.
 (pdftex.def)             Requested size: 118.54669pt x 210.74287pt.
-<imatges/chargePage.png, id=609, 1084.05pt x 1927.2pt>
+<imatges/chargePage.png, id=645, 1084.05pt x 1927.2pt>
 File: imatges/chargePage.png Graphic file (type png)
 <use imatges/chargePage.png>
-Package pdftex.def Info: imatges/chargePage.png  used on input line 737.
+Package pdftex.def Info: imatges/chargePage.png  used on input line 813.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/chargePageWithValue.png, id=610, 1084.05pt x 1927.2pt>
+<imatges/chargePageWithValue.png, id=646, 1084.05pt x 1927.2pt>
 File: imatges/chargePageWithValue.png Graphic file (type png)
 <use imatges/chargePageWithValue.png>
-Package pdftex.def Info: imatges/chargePageWithValue.png  used on input line 738.
+Package pdftex.def Info: imatges/chargePageWithValue.png  used on input line 814.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imatges/mainPage1.png, id=611, 542.025pt x 963.6pt>
+<imatges/mainPage1.png, id=647, 542.025pt x 963.6pt>
 File: imatges/mainPage1.png Graphic file (type png)
 <use imatges/mainPage1.png>
-Package pdftex.def Info: imatges/mainPage1.png  used on input line 745.
+Package pdftex.def Info: imatges/mainPage1.png  used on input line 821.
 (pdftex.def)             Requested size: 118.54669pt x 210.74287pt.
-<imatges/scanQR.png, id=612, 1084.05pt x 1927.2pt>
+<imatges/scanQR.png, id=648, 1084.05pt x 1927.2pt>
 File: imatges/scanQR.png Graphic file (type png)
 <use imatges/scanQR.png>
-Package pdftex.def Info: imatges/scanQR.png  used on input line 746.
+Package pdftex.def Info: imatges/scanQR.png  used on input line 822.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/capturedQR.png, id=613, 1084.05pt x 1927.2pt>
+<imatges/capturedQR.png, id=649, 1084.05pt x 1927.2pt>
 File: imatges/capturedQR.png Graphic file (type png)
 <use imatges/capturedQR.png>
-Package pdftex.def Info: imatges/capturedQR.png  used on input line 747.
+Package pdftex.def Info: imatges/capturedQR.png  used on input line 823.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1569,7 +1657,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[28 <./imatges/registerUser.png> <./imatges/registerUserWithvalues.png>]
+[29 <./imatges/registerUser.png> <./imatges/registerUserWithvalues.png>]
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1577,7 +1665,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[29 <./imatges/login.png> <./imatges/loginWithValue.png> <./imatges/mainPage2.png> <./imatges/paymentPage.png> <./imatges/paymentPageWithValue.png>]
+[30 <./imatges/login.png> <./imatges/loginWithValue.png> <./imatges/mainPage2.png> <./imatges/paymentPage.png> <./imatges/paymentPageWithValue.png>]
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1585,20 +1673,20 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[30 <./imatges/mainPage3.png> <./imatges/chargePage.png> <./imatges/chargePageWithValue.png> <./imatges/mainPage1.png> <./imatges/scanQR.png> <./imatges/capturedQR.png>]
+[31 <./imatges/mainPage3.png> <./imatges/chargePage.png> <./imatges/chargePageWithValue.png> <./imatges/mainPage1.png> <./imatges/scanQR.png> <./imatges/capturedQR.png>]
 File: imatges/login.png Graphic file (type png)
 <use imatges/login.png>
-Package pdftex.def Info: imatges/login.png  used on input line 762.
+Package pdftex.def Info: imatges/login.png  used on input line 838.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/loginAdmin.png, id=639, 1084.05pt x 1927.2pt>
+<imatges/loginAdmin.png, id=675, 1084.05pt x 1927.2pt>
 File: imatges/loginAdmin.png Graphic file (type png)
 <use imatges/loginAdmin.png>
-Package pdftex.def Info: imatges/loginAdmin.png  used on input line 763.
+Package pdftex.def Info: imatges/loginAdmin.png  used on input line 839.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
-<imatges/administer.png, id=640, 1084.05pt x 1927.2pt>
+<imatges/administer.png, id=676, 1084.05pt x 1927.2pt>
 File: imatges/administer.png Graphic file (type png)
 <use imatges/administer.png>
-Package pdftex.def Info: imatges/administer.png  used on input line 764.
+Package pdftex.def Info: imatges/administer.png  used on input line 840.
 (pdftex.def)             Requested size: 118.54669pt x 210.72816pt.
 
 
@@ -1608,16 +1696,16 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[31
+[32
 
  <./imatges/loginAdmin.png> <./imatges/administer.png>]
-<imatges/diagrama processos.png, id=647, 1004.75375pt x 1044.90375pt>
+<imatges/diagrama processos.png, id=683, 1004.75375pt x 1044.90375pt>
 File: imatges/diagrama processos.png Graphic file (type png)
 <use imatges/diagrama processos.png>
-Package pdftex.def Info: imatges/diagrama processos.png  used on input line 777.
+Package pdftex.def Info: imatges/diagrama processos.png  used on input line 853.
 (pdftex.def)             Requested size: 395.15166pt x 410.93877pt.
 
-Overfull \hbox (8.46434pt too wide) in paragraph at lines 782--783
+Overfull \hbox (8.46434pt too wide) in paragraph at lines 858--859
 []\T1/mdbch/m/n/12 Aquesta di-a-gra-ma de flux re-pre-sen-ta els pro-ces-sos de ges-tió d'u-su-a-ris i transac-
  []
 
@@ -1632,7 +1720,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[32
+[33
 
  <./imatges/diagrama processos.png>]
 
@@ -1642,32 +1730,32 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
 
-[33] [34
-
-]
+[34]
 Cap\'{\i }tol 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--827
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+Underfull \hbox (badness 10000) in paragraph at lines 904--905
 
  []
 
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 838--839
+[35
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 840--841
+]
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 842--843
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 916--917
 
  []
 
@@ -1701,22 +1789,22 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 [38]
 Cap\'{\i }tol 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--880
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--888
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--890
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
@@ -1733,38 +1821,38 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 [40]
 Cap\'{\i }tol 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--916
+Underfull \hbox (badness 10000) in paragraph at lines 987--988
 
  []
 
 LaTeX Font Info:    Faking \texteuro for font family mdbch
-(Font)              in TS1 encoding on input line 917.
+(Font)              in TS1 encoding on input line 989.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 8.06401pt on input line 917.
+(Font)              scaled to size 8.06401pt on input line 989.
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--918
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 920--921
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 [41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 927--928
+Underfull \hbox (badness 10000) in paragraph at lines 999--1000
 
  []
 
@@ -1778,21 +1866,29 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 [42]
 Cap\'{\i }tol 12.
 
-Overfull \hbox (6.98914pt too wide) in paragraph at lines 938--939
+Overfull \hbox (6.98914pt too wide) in paragraph at lines 1015--1016
 []\T1/mdbch/m/n/12 Una pà-gi-na d'a-nà-li-si que pro-por-ci-o-ni in-for-ma-ció de-ta-lla-da so-bre les transac-
  []
 
 [43
 
-] [44
-
 ]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+[44]
 Cap\'{\i }tol 13.
 (main.bbl (main.brf)
 \tf@brf=\write8
 \openout8 = `main.brf'.
 
- [45] [46
+ [45
+
+] [46
 
 ]
 
@@ -1852,22 +1948,22 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C7DB70D8CC7A1C3CBBFDADC0262F9A9F;9999.
+(rerunfilecheck)             Checksum: D10124A65425BF639782816C57F5390F;10219.
 Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17690 strings out of 474486
- 284282 string characters out of 5742340
- 1940542 words of memory out of 5000000
- 39455 multiletter control sequences out of 15000+600000
+ 17734 strings out of 474486
+ 285288 string characters out of 5742340
+ 1941542 words of memory out of 5000000
+ 39492 multiletter control sequences out of 15000+600000
  614443 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,15n,107p,927b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,15n,107p,907b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/sudan.wu/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdbch/md-chr8t.pfb>
-Output written on main.pdf (69 pages, 3096418 bytes).
+Output written on main.pdf (69 pages, 3190438 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 695 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 831 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
+ 739 words of extra memory for PDF output out of 10000 (max. 10000000)
 
