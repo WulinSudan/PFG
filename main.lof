@@ -1,0 +1,49 @@
+\babel@toc {catalan}{}\relax 
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introducció}{1}{chapter.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Estudi de viabilitat}{3}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces El preu del servei MongoDB Atlas.}}{5}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Un codi QR de PayPal.}}{6}{figure.2.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Metodologia}{7}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sistema de treball Scrum.}}{8}{figure.3.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Planificació}{11}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de Gantt}}{12}{figure.4.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Marc de treball i conceptes previs}{13}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Imatge d'un codi QR.}}{15}{figure.5.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Requisits del sistema}{17}{chapter.6}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Matriu de dependències de requisits funcionals}}{21}{figure.6.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Estudi i decisions}{23}{chapter.7}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Anàlisi i disseny del sistema}{33}{chapter.8}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Diagrama de casos d'ús de context de client.}}{33}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagrama de casos d'ús de context d'administrador. \textcolor {red}{``Llitar'' hauria de ser ``Llistar'', i ``Cambiar'' hauria de ser ``Canviar''.}}}{35}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Diagrama de casos d'ús de context del sistema. \textcolor {red}{``bancàries'' hauria de ser ``bancaris''.}}}{36}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Diagrama de la base de dades.}}{37}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Ús de Dictionary. \textcolor {red}{Canviar ``informaciones'' per ``informacions'', ``inclouent, missatge'' per ``incloent missatge'', ``en DICTIONARY'' per ``a la taula Dictionary'', ``a DICTIONARY per trobat'' per ``a la taula Dictionary per trobar'', i ``a ACCOUNTS'' per ``a la taula Account''.}}}{39}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Registrar nou usuari.}}{41}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Pàgina de \textit {login} - Client.}}{42}{figure.8.7}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Pàgina per generar un codi QR de pagament.}}{42}{figure.8.8}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Pàgina per generar un codi QR de cobrament.}}{43}{figure.8.9}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Pàgina per escanejar un codi QR.}}{43}{figure.8.10}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Pàgina de \textit {login} - Administrador}}{44}{figure.8.11}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Diagrama de processos.}}{45}{figure.8.12}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implementació i proves}{47}{chapter.9}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implantació i resultats}{51}{chapter.10}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusions}{53}{chapter.11}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Treball futur}{55}{chapter.12}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Bibliografiaaaaa}{57}{chapter.13}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Pressupost}{59}{appendix.a.A}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Planificació}{63}{appendix.a.B}%

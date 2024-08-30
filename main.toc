@@ -1,0 +1,68 @@
+\babel@toc {catalan}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducció}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivació}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Finalitat i objectius del projecte}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Estudi de viabilitat}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introducció}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Viabilitat tècnica}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Viabilitat econòmica}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Viabilitat de mercat}{6}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Metodologia}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introducció}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Scrum}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Adaptació del scrum}{9}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Planificació}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introducció}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Desenvolupament}{11}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Marc de treball i conceptes previs}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introducció}{13}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Propòsit}{13}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Conceptes clau}{13}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Codi QR}{15}{subsection.5.1.3}%
+\contentsline {chapter}{\numberline {6}Requisits del sistema}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introducció}{17}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Els requisits funcionals}{17}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Els requisits no funcionals}{19}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Matriu de dependències de requisits}{20}{subsection.6.1.3}%
+\contentsline {chapter}{\numberline {7}Estudi i decisions}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introducció}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Maquinari}{23}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Front-end}{23}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Tecnologies més conegudes}{24}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Tecnologia Escollida: Flutter}{25}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}IDE Escollida: Android Studio}{26}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Back-end}{27}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Tecnologies més conegudes}{27}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Tecnologia Escollida: GraphQL}{29}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Codi obert per implementar servidors GraphQL: Apollo Server}{29}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}Llenguatge: TS}{30}{subsection.7.4.4}%
+\contentsline {section}{\numberline {7.5}Base de dades}{31}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Opcions}{31}{subsection.7.5.1}%
+\contentsline {chapter}{\numberline {8}Anàlisi i disseny del sistema}{33}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Diagrama de casos d'ús}{33}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Diagrama de la base de dades}{36}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}User}{36}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Account}{38}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Dictionary}{39}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Transaction}{40}{subsection.8.2.4}%
+\contentsline {section}{\numberline {8.3}Interfícies d'usuari}{40}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Client}{41}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Administrador}{41}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Diagrama de processos}{45}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Descripció del procés}{46}{subsection.8.4.1}%
+\contentsline {chapter}{\numberline {9}Implementació i proves}{47}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Introducció}{47}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Organitza la idea \textcolor {red}{(potser millor ``Idea inicial'')}}{47}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Desenvolupament d'aplicació}{48}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Proves}{49}{section.9.4}%
+\contentsline {chapter}{\numberline {10}Implantació i resultats}{51}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Implantació}{51}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Resultats}{51}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Conclusions}{53}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Treball futur}{55}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Funcionalitats de l'aplicació}{55}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Seguretat de dades}{55}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Millora del codi}{56}{section.12.3}%
+\contentsline {chapter}{\numberline {13}Bibliografiaaaaa}{57}{chapter.13}%
+\contentsline {chapter}{\numberline {A}Pressupost}{59}{appendix.a.A}%
+\contentsline {chapter}{\numberline {B}Planificació}{63}{appendix.a.B}%
