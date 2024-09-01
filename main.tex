@@ -774,22 +774,17 @@ En comparació amb tecnologies com REST, que requereixen múltiples endpoints pe
 \subsection{Codi obert per implementar servidors GraphQL: Apollo Server}
 \label{Codi obert per implementar servidors GraphQL: Apollo Server}
 
-Apollo Server és una biblioteca que permet construir un servidor GraphQL de manera senzilla i eficaç. S'integra fàcilment amb diverses tecnologies i entorns, i és compatible amb els estàndards i especificacions de GraphQL. Es dissenya per funcionar amb qualsevol servidor HTTP i és flexible en la configuració i integració.
 
-Apollo Server és una de les solucions més destacades per a la creació de servidors GraphQL. Els següents punts ressalten els avantatges més importants:
+Apollo Server és una biblioteca poderosa i versàtil que simplifica la creació i gestió de servidors GraphQL, oferint una interfície intuïtiva i un ecosistema integrat que facilita el desenvolupament.\\
 
-\begin{itemize}
-    \item \textbf{Ecosistema Integrat:} Apollo Server forma part d'un ecosistema complet que inclou **Apollo Client**, **Apollo Studio**, i altres eines. Aquesta integració facilita la creació d'una solució completa de GraphQL, amb una gestió unificada tant del client com del servidor.
-    
-    \item \textbf{Suport per a Subscripcions:} Ofereix suport per a **subscripcions**, permetent actualitzacions en temps real i la sincronització d'informació entre el servidor i el client. Aquesta funcionalitat és ideal per a aplicacions que requereixen dades en temps real, com aplicacions de xat o eines de col·laboració.
-    
-    \item \textbf{Monitorització i Anàlisi:} A través d'**Apollo Studio**, proporciona eines avançades per a **monitorització i anàlisi**. Aquestes eines permeten rastrejar el rendiment de les consultes i identificar problemes de rendiment, facilitant l'optimització i la millora contínua de l'aplicació.
-\end{itemize}
+Un dels seus punts forts més destacats és la seva completa compatibilitat amb els estàndards i especificacions de GraphQL, garantint que les aplicacions creades amb aquesta tecnologia segueixin les millors pràctiques i funcionin de manera òptima en qualsevol entorn GraphQL. Entre les seves característiques avançades, destaquen la gestió de subscripcions per a dades en temps real, el suport per a directives personalitzades i una gestió eficient de la memòria cau.\\
 
+Distribuït a través de npm (Node Package Manager), Apollo Server és fàcil d'instal·lar i actualitzar, la qual cosa permet als desenvolupadors integrar-lo ràpidament en els seus projectes. Aquesta facilitat d'ús és un factor clau per al seu èxit en entorns de desenvolupament moderns.\\
 
+Finalment, Apollo Server és altament configurable, permetent als desenvolupadors adaptar-lo a les necessitats específiques del projecte. Aquesta flexibilitat es manifesta en la seva capacitat per funcionar amb qualsevol servidor HTTP, facilitant la seva integració en arquitectures existents sense necessitat de realitzar canvis significatius.
 
-\subsection{Llenguatge: TS}
-\label{subsec:Llenguatge: TS}
+\subsection{Llenguatge Escollit: TS}
+\label{subsec:Llenguatge Escillit: TS}
 
 El llenguatge de programació utilitzat en la part de \textit{back end} d'aquest projecte és TypeScript (TS). TypeScript és una extensió de JavaScript que incorpora tipatge estàtic al llenguatge. Això permet definir els tipus de dades per a variables i funcions, facilitant la detecció d'errors en temps de compilació abans que el codi s'executi. Aquesta funcionalitat no només millora la qualitat del codi, sinó que també enriqueix l'experiència de desenvolupament amb autocompleció i suggeriments intel·ligents en els editors de codi, augmentant així la productivitat dels desenvolupadors.\\
 
@@ -800,37 +795,130 @@ A més, TypeScript és totalment compatible amb el codi JavaScript existent, ja 
 \section{Base de dades}
 \label{subsec: Base de dades}
 
+Una base de dades és un sistema organitzat per emmagatzemar, gestionar i recuperar dades de manera eficient. Aquest sistema permet als usuaris emmagatzemar gran quantitat d'informació en un format estructurat, facilitant la consulta i actualització de les dades. Amb l'evolució de la tecnologia, les bases de dades en el núvol s'han convertit en una opció popular per a moltes organitzacions. 
 
-En el projecte, la base de dades s'ha implementat utilitzant MongoDB Atlas, un servei de base de dades en el núvol gestionat per MongoDB. Atlas ofereix una solució NoSQL basada en el núvol que destaca per la seva escalabilitat, flexibilitat i facilitat de gestió. A diferència de les bases de dades relacionals tradicionals, MongoDB adopta un model de dades orientat a documents, emmagatzemant la informació en documents BSON (Binary JSON). Aquest enfocament proporciona una gran flexibilitat en l'estructura de les dades, adaptant-se millor a les necessitats canviants dels projectes.\\
+Les bases de dades en el núvol representen una solució moderna per a l'emmagatzematge i gestió de dades, proporcionades com a servei a través d'Internet. Aquest enfocament ofereix nombrosos avantatges en comparació amb les bases de dades tradicionals instal·lades localment.
 
-MongoDB Atlas també integra característiques avançades de seguretat, com el xifrat de dades tant en repòs com en trànsit, controls d'accés detallats i monitorització en temps real. Aquestes funcions asseguren que les dades estiguin protegides contra accessos no autoritzats i permeten als administradors vigilar l'estat de la base de dades de manera eficaç.\\
+\begin{itemize}
+    \item \textbf{Escalabilitat:}
+    Les bases de dades en el núvol permeten ajustar fàcilment els recursos disponibles en funció de les necessitats de l'aplicació. Això significa que pots augmentar o disminuir la capacitat de la base de dades sense haver de preocupar-te per la infraestructura física.
+    
+    \item \textbf{Accessibilitat Global:}
+    Com que es proporcionen a través d'Internet, les bases de dades en el núvol són accessibles des de qualsevol lloc del món, permetent la col·laboració i accés remot a les dades, cosa que és ideal per a equips distribuïts i aplicacions amb usuaris globals.
+    
+    \item \textbf{Manteniment i Actualitzacions:}
+    El proveïdor del servei de base de dades en el núvol es fa càrrec del manteniment, les actualitzacions de programari i les tasques de seguretat. Això redueix la càrrega de treball dels administradors de sistemes i garanteix que la base de dades es mantingui actualitzada i segura.
+    
+    \item \textbf{Cost Flexible:}
+    Les bases de dades en el núvol sovint utilitzen un model de pagament basat en el consum, on pagues només pel que utilitzes. Això pot resultar més econòmic en comparació amb la compra i el manteniment de maquinari propi.
+    
+    \item \textbf{Seguretat:}
+    Els proveïdors de serveis en el núvol sovint ofereixen mesures de seguretat avançades, com xifrat de dades, autenticació multifactor i controls d'accés, per protegir les dades emmagatzemades contra amenaces i atacs.
+\end{itemize}
 
-A més, Atlas proporciona eines completes per a la còpia de seguretat i la recuperació de dades, incloent la creació automàtica de còpies de seguretat i la recuperació en cas de fallades. També ofereix integració amb diversos serveis de dades i aplicacions, així com eines avançades de consulta i agregació que faciliten la manipulació i l'anàlisi de dades.
+
+\subsection{Proveïdors Populars de Bases de Dades en el Núvol}
+\label{subsec:Proveïdors Populars de Bases de Dades en el Núvol}
+
+Hi ha diversos proveïdors destacats que ofereixen serveis de bases de dades en el núvol, cadascun amb les seves pròpies característiques i avantatges. A continuació es presenten alguns dels més coneguts:
+
+\begin{itemize}
+    \item \textbf{Amazon Web Services (AWS) - Amazon RDS:}
+    AWS ofereix Amazon Relational Database Service (RDS), que suporta diverses bases de dades relacionals com MySQL, PostgreSQL, MariaDB, Oracle i SQL Server. Amazon RDS facilita la gestió de bases de dades amb funcions com el backup automàtic, la restauració, i l'escalabilitat.
+    
+    \item \textbf{Google Cloud Platform (GCP) - Cloud SQL:}
+    Google Cloud SQL és un servei de base de dades gestionada que admet MySQL, PostgreSQL i SQL Server. Ofereix una gestió senzilla de les bases de dades amb funcions com el backup automàtic, l'escalabilitat i una integració profunda amb altres serveis de Google Cloud.
+    
+    \item \textbf{Microsoft Azure - Azure SQL Database:}
+    Azure SQL Database és un servei de base de dades relacional completament gestionat per Microsoft. Suporta la migració de bases de dades SQL Server al núvol i proporciona una alta disponibilitat, escalabilitat automàtica i seguretat integrada.
+    
+    \item \textbf{MongoDB Atlas:}
+    MongoDB Atlas és el servei de base de dades en el núvol gestionat per MongoDB, Inc. Ofereix una solució completament gestionada per a MongoDB, amb funcions com el backup automàtic, l'escalabilitat dinàmica i l'anàlisi en temps real. És ideal per a aplicacions que utilitzen dades no relacionals.
+    
+    \item \textbf{Firebase Realtime Database:}
+    Firebase, una plataforma de Google, ofereix Firebase Realtime Database com a servei de base de dades NoSQL en temps real. Aquesta base de dades permet la sincronització automàtica de dades en temps real entre clients i la base de dades, facilitant el desenvolupament d'aplicacions mòbils i web amb funcionalitats en temps real.
+\end{itemize}
 
 
-\subsection{Opcions}
-\label{subsec: Opcions}
+
+\subsection{Base de Dades Escollida: MongoDB Atlas}
+\label{Base de Dades Escollida: MongoDB Atlas}
+
+
+En aquest projecte, la base de dades s'ha implementat utilitzant MongoDB Atlas.\\
+
+MongoDB, a diferència de MySQL i PostgreSQL, és una base de dades NoSQL basada en documents. Aquesta característica li confereix una gran flexibilitat en l'estructura de dades, ja que no requereix un esquema fix com les bases de dades relacionals. En contrast, MySQL i PostgreSQL utilitzen esquemes fixos que poden complicar la modificació de l'estructura de les dades un cop establerta.\\
+
+En comparació amb Firebase, una base de dades en temps real i basada en núvol, MongoDB ofereix un control més gran sobre la infraestructura i les opcions d'escalat. Firebase proporciona una solució gestionada que simplifica el procés de desenvolupament, mentre que MongoDB permet una personalització més gran i un control detallat en la configuració i el desplegament, especialment útil per a projectes que requereixen escalabilitat horitzontal o integració amb altres serveis de núvol.\\
+
+Quant a escalabilitat, MongoDB destaca per la seva capacitat per gestionar grans volums de dades mitjançant el "sharding" (distribució de dades en múltiples servidors), facilitant l'escalat horitzontal. Aquesta característica és particularment avantatjosa en comparació amb MySQL i PostgreSQL, que tradicionalment escalen verticalment (és a dir, millorant el maquinari del servidor) i poden trobar limitacions quan es tracta d'escalar per a grans volums de dades.
+
+
+\section{Control de Versions}
+
+El control de versions és una pràctica essencial en el desenvolupament de software que permet gestionar i seguir els canvis realitzats en el codi font d'un projecte al llarg del temps. Utilitzant sistemes de control de versions, els desenvolupadors poden:
+
+\begin{itemize}
+    \item \textbf{Rastrejar canvis:} Cada modificació al codi es registra amb informació sobre qui la va fer, quan i per què. Això facilita la revisió de l'historial de canvis i ajuda a identificar la causa de qualsevol problema que pugui sorgir.
+    \item \textbf{Col·laborar:} Diversos desenvolupadors poden treballar simultàniament en diferents parts d'un projecte. El control de versions facilita la fusió de les seves contribucions i la resolució de conflictes que puguin sorgir.
+    \item \textbf{Revertir canvis:} Si un canvi resulta ser problemàtic, és possible tornar a una versió anterior del codi sense perdre altres modificacions realitzades posteriorment.
+    \item \textbf{Gestionar versions:} Els sistemes de control de versions permeten mantenir diverses versions del projecte, com ara versions de desenvolupament, versions estables i versions de producció.
+\end{itemize}
+
+\subsection{Control de Versions Escollida: GitHub}
+\label{subsec: Control de Versions Escollida: GitHub}
+
+GitHub és una plataforma de control de versions basada en Git que proporciona diversos avantatges significatius. Facilita una col·laboració eficaç entre desenvolupadors mitjançant el sistema de pull requests, que permet la revisió i fusió de canvis en el codi.\\
+
+En un entorn amb múltiples desenvolupadors, cada un d'ells disposa d'una còpia completa del repositori, la qual cosa afavoreix un treball descentralitzat i una sincronització efectiva dels canvis.\\
+
+En el cas d'aquest projecte, utilitzar branques ha facilitat la gestió de tasques i ha permès un control més acurat dels canvis, optimitzant el flux de treball i la integració de novetats.\\
+
+A més, GitHub proporciona eines per gestionar projectes, com issues i taules Kanban, que ajuden a organitzar tasques i seguir l'evolució del projecte. La plataforma també suporta integracions amb eines d'automatització, com CI/CD, que milloren l'eficiència del procés de desenvolupament.\\
+
+Amb la seva comunitat activa i la possibilitat de contribuir a projectes de codi obert, GitHub ofereix visibilitat i oportunitats per a la col·laboració amb altres desenvolupadors. Finalment, les funcionalitats de seguretat de GitHub permeten gestionar l'accés i protegir el codi, assegurant que només les persones autoritzades puguin realitzar canvis.
 
 
 \chapter{Anàlisi i disseny del sistema}
 \label{chp:analisi}
 
-\pau{Podria estar bé algun petit text introductori, almenys per dir què s'explicarà a les següents seccions.}
+
+\section{Introducció}
+\label{sec: Introducció}
+L'anàlisi i el disseny són dues etapes clau en el desenvolupament de sistemes informàtics, cadascuna amb objectius específics.\\
+
+L'anàlisi es centra en identificar i definir les necessitats del sistema. En aquesta fase, es creen models detallats que inclouen el model de dades, que defineix l'estructura i les relacions de les dades, i el model de processos, que descriu els fluxos de treball i les operacions necessàries.\\
+
+El disseny, en canvi, ofereix solucions concretes basades en els resultats de l'anàlisi. Aquesta fase implica la creació d'interfícies d'usuari, models físics de dades i processos, i, si és necessari, models d'objectes. S'utilitzen patrons de disseny per aplicar solucions establertes a problemes comuns, facilitant la creació de sistemes que siguin eficaços i reutilitzables.\\
+
+En les següents seccions, es presentarà el disseny del sistema mitjançant diversos diagrames.
+
+
+\pau{Podria estar bé algun petit text introductori, almenys per dir què s'explicarà a les següents seccions.}\sudan{corregit}
 
 
 \section{Diagrama de casos d'ús}
 \label{sec: Diagrama de casos d'ús}
 
+El diagrama de casos d'ús és una eina gràfica utilitzada en el desenvolupament de sistemes per identificar i representar les interaccions entre els usuaris (client i administrador) i el sistema en si. Aquest diagrama ajuda a entendre les funcionalitats que el sistema ha de proporcionar als usuaris i com els usuaris interactuen amb aquestes funcionalitats.
+
+
+\subsection{Diagrama de casos d'ús de l'usuari client}
+\label{subsec: Diagrama de casos d'ús de l'usuari client}
+
+El diagrama de casos d'ús~\ref{fig:Diagrama de Casos d'Ús de Context de Client} il·lustra les diferents operacions que un \textbf{client} pot realitzar dins del sistema. Encara que hi ha dues instàncies de l'actor client, aquestes representen el mateix actor i es mostren així per a millorar la llegibilitat del gràfic. \pau{(Aquest incís també s'hauria de posar a la llegenda de la figura)\sudan{corregit}.} Cadascuna d'aquestes instàncies està connectada a diversos casos d'ús.
+
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{imatges/diagrama caso de uso client.png}
-    \caption[Diagrama de casos d'ús de context de client.]{Diagrama de casos d'ús de context de client.\pau{``Cambiar'' hauria de ser ``Canviar'', i ``tranferencies'' hauria de ser ``transferències''.} \pau{Si la llegenda és massa llarga i no vols que a l'índex de figures del principi t'hi quedi una frase tan llarga, pots utilitzar els \texttt{[]}, tal com t'ho he posat en aquest cas si mires el codi LaTeX de la figura.}}
+    \caption[Diagrama de casos d'ús de context de client.]{Diagrama de casos d'ús de context de client.\pau{``Cambiar'' hauria de ser ``Canviar'', i ``tranferencies'' hauria de ser ``transferències''.} \pau{Si la llegenda és massa llarga i no vols que a l'índex de figures del principi t'hi quedi una frase tan llarga, pots utilitzar els \texttt{[]}, tal com t'ho he posat en aquest cas si mires el codi LaTeX de la figura.}}\sudan{corregit}
     \label{fig:Diagrama de Casos d'Ús de Context de Client}
 \end{figure}
 
-\pau{Recorda citar la figura (per exemple: ``El diagrama il·lustrat a la Figura~\ref{fig:Diagrama de Casos d'Ús de Context de Client} mostra les diferents operacions...'').}
+\pau{Recorda citar la figura (per exemple: ``El diagrama il·lustrat a la Figura~\ref{fig:Diagrama de Casos d'Ús de Context de Client} mostra les diferents operacions...'').}\sudan{corregit}
 
-Aquest diagrama de casos d'ús il·lustra les diferents operacions que un \textbf{client} pot realitzar dins del sistema. Encara que hi ha dues instàncies de l'actor client, aquestes representen el mateix actor i es mostren així per a millorar la llegibilitat del gràfic. \pau{(Aquest incís també s'hauria de posar a la llegenda de la figura).} Cadascuna d'aquestes instàncies està connectada a diversos casos d'ús.
+
 
 L'actor client pot realitzar operacions relacionades amb la gestió del seu compte d'usuari, incloent-hi donar-se d'alta, donar-se de baixa, modificar les seves dades personals, canviar la contrasenya i modificar l'estat del seu compte. Totes aquestes operacions formen part d'un cas d'ús més general anomenat \textbf{Mantenir usuari}, que centralitza aquestes funcions. Per poder realitzar aquestes accions, el client ha de passar pel procés d'\textbf{Identificar usuari}, que és un pas previ necessari per garantir la seguretat de les operacions.\\
 
@@ -840,51 +928,140 @@ Un altre grup important de casos d'ús està relacionat amb les \textbf{operacio
 
 
 
+\subsection{Diagrama de casos d'ús de l'usuari administrador}
+\label{subsec: Diagrama de casos d'ús de l'usuari administrador}
+
+Aquest segon diagrama de cas d'ús~\ref{subsec: Diagrama de casos d'ús de l'usuari administrador} mostra les diferents funcions que un \textbf{administrador} pot dur a terme dins d'un sistema. L'actor principal és l'administrador, qui interactua amb diversos casos d'ús que representen les operacions disponibles.
+
 \clearpage
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\textwidth]{imatges/diagrama caso de uso admin.png}
-    \caption{Diagrama de casos d'ús de context d'administrador. \pau{``Llitar'' hauria de ser ``Llistar'', i ``Cambiar'' hauria de ser ``Canviar''.}}
+    \caption{Diagrama de casos d'ús de context d'administrador. \pau{``Llitar'' hauria de ser ``Llistar'', i ``Cambiar'' hauria de ser ``Canviar''.}}\sudan{corregit}
     \label{fig:Diagrama de Casos d'Ús de Context d'Administrador}
 \end{figure}
 
-\pau{Cal citar bé la figura.}
+\pau{Cal citar bé la figura.}\sudan{corregit}
 
 
-Aquest segon diagrama de cas d'ús mostra les diferents funcions que un \textbf{administrador} pot dur a terme dins d'un sistema. L'actor principal és l'administrador, qui interactua amb diversos casos d'ús que representen les operacions disponibles. Un dels casos d'ús centrals és \textbf{Mantenir clients}, que inclou accions com donar d'alta nous clients, donar de baixa clients existents, modificar les dades dels clients, llistar els usuaris clients, restablir la contrasenya dels clients i modificar l'estat dels clients. Un altre cas d'ús important és \textbf{Mantenir admins}, que implica afegir nous administradors, eliminar administradors, modificar les dades dels administradors, llistar els administradors existents i modificar l'estat dels administradors.\\
+ Un dels casos d'ús centrals és \textbf{Mantenir clients}, que inclou accions com donar d'alta nous clients, donar de baixa clients existents, modificar les dades dels clients, llistar els usuaris clients, restablir la contrasenya dels clients i modificar l'estat dels clients. Un altre cas d'ús important és \textbf{Mantenir admins}, que implica afegir nous administradors, eliminar administradors, modificar les dades dels administradors, llistar els administradors existents i modificar l'estat dels administradors.\\
 
 A més, el diagrama mostra altres casos d'ús relacionats amb la gestió de comptes i operacions. \textbf{Llistar comptes} permet veure la llista de comptes de clients, mentre que \textbf{Eliminar compte} s'encarrega d'eliminar un compte de client. \textbf{Llistar operacions} permet revisar les operacions realitzades pels clients, i \textbf{Llistar moviments} té una funció similar però aplicada als comptes o administradors. També hi ha casos d'ús que fan referència a la identificació d'usuaris, comptes, clients i administradors, mostrant la interrelació entre aquestes operacions i la necessitat d'autenticació o identificació per dur-les a terme.
 
+\subsection{Diagrama de casos d'ús del sistema}
+\label{subsec: Diagrama de casos d'ús del sistema}
+
+Addicionalment, el sistema compta amb la funció de generar \textit{logs} per a cada operació, tal com es mostra a la figura~\ref{fig:Diagrama de Casos d'Ús de Context del sistema}. Això vol dir que, fins i tot en cas d'eliminació d'un usuari o un compte, l'historial associat es manté sempre guardat. Aquest enfocament assegura la conservació de dades importants per a possibles auditories o revisions posteriors, garantint així la traçabilitat i la seguretat del sistema.
 
 
-% \clearpage
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.6\textwidth]{imatges/logs.png}
-    \caption{Diagrama de casos d'ús de context del sistema. \pau{``bancàries'' hauria de ser ``bancaris''.}}
+    \caption{Diagrama de casos d'ús de context del sistema. \pau{``bancàries'' hauria de ser ``bancaris''.}}\sudan{corregit}
     \label{fig:Diagrama de Casos d'Ús de Context del sistema}
 \end{figure}
 
-\pau{Cal citar bé la figura.}
+\pau{Cal citar bé la figura.}\sudan{corregit}
 
 
-Addicionalment, el sistema disposa de la funció de generar \textit{logs} per a cada operació. Això significa que, fins i tot en cas d'eliminació d'un usuari o un compte, l'historial associat es manté sempre guardat. Aquest enfocament assegura la conservació de dades importants per a possibles auditories o revisió posterior, garantint la traçabilitat i la seguretat del sistema.
+
+\section{Fitxes de cas d'ús}
+\label{sec: fitxes de cas d'ús}
+
+Un fitxer de cas d'ús és un document que descriu detalladament les interaccions entre un usuari i un sistema per aconseguir un objectiu concret. Aquest fitxer és fonamental en el desenvolupament de sistemes informàtics, ja que proporciona una visió clara i comprensible dels requisits funcionals del sistema des de la perspectiva de l'usuari.
+
+A continuació, es presenten cinc fitxers de cas d'ús que han estat creats per descriure les funcionalitats clau del sistema:
+
+\subsection{Generar codi QR de cobrament}
+\label{subsec:Generar codi QR de cobrament}
+
+Aquest primer fitxer de cas d'ús que mostra la figura~\ref{fig:Generar codi QR de cobrament} descriu el procés que un usuari segueix per generar un codi QR de cobrament. Inclou la identificació de l'usuari, la validació del compte bancari i la generació del codi QR amb les condicions específiques. Com que es tracta d'un cas de cobrament d'import, els missatges en el codi QR no estan xifrats i, a més, aquest codi QR no caduca mai.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/f1.png}
+    \caption{Generar codi QR de cobrament}
+    \label{fig:Generar codi QR de cobrament}
+\end{figure}
+
+\clearpage
+\subsection{Generar codi QR de pagament}
+\label{subsec:Generar codi QR de pagament}
+
+Aquest segon fitxer de cas d'ús que mostra la figura~\ref{fig:Generar codi QR de pagament} és molt similar al primer. L'única diferència és que, en aquest cas, es tracta d'un pagament, cosa que implica més restriccions. En concret, el missatge del codi QR està xifrat, el codi QR caduca i, a més, un codi QR només pot ser escanejat una sola vegada.
+
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/f2.png}
+    \caption{Generar codi QR de pagament}
+    \label{fig:Generar codi QR de pagament}
+\end{figure}
+
+\clearpage
+
+
+\subsection{Escanejar un codi QR de pagament}
+\label{subsec:Escanejar un codi QR de pagament}
+
+El quart fitxer de cas d'ús que mostra la figura~\ref{fig:Escanejar un codi QR de pagament}, detalla els passos que un usuari ha de seguir per escanejar un codi QR de pagament i completar la transacció. Inclou la verificació de l'import i el compte bancari, així com el procés de cobrament.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/f3.png}
+    \caption{Generar codi QR de cobrament}
+    \label{fig:Escanejar un codi QR de pagament}
+\end{figure}
+
+\clearpage
+
+
+\subsection{Escanejar un codi QR de cobrament}
+\label{subsec:Escanejar un codi QR de cobrament}
+
+Aquest quart fitxer de cas d'ús, que es mostra a la figura~\ref{fig:Escanejar un codi QR de cobrament}, detalla els passos que un usuari ha de seguir per escanejar un codi QR de cobrament i completar la transacció. Inclou la verificació de l’import i el compte bancari, així com el procés de cobrament.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/f4.png}
+    \caption{Escanejar un codi QR de cobrament}
+    \label{fig:Escanejar un codi QR de cobrament}
+\end{figure}
+
+
+\clearpage
+\subsection{Modificar l'estat d'un compte bancari}
+\label{subsec:Modificar l'estat d'un compte bancari}
+
+El últim fitxer de cas d'ús que apareix a sota de la figura~\ref{fig:Modificar l'estat d'un compte bancari} explica el procés mitjançant el qual un administrador pot canviar l'estat d'un compte bancari associat a un client. Inclou la identificació del compte bancari, la selecció del compte a modificar, i la realització de la modificació.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/f5.png}
+    \caption{Modificar l'estat d'un compte bancari}
+    \label{fig:Modificar l'estat d'un compte bancari}
+\end{figure}
+
 
 \pau{Hauries de posar algunes fitxes de cas d'ús. Almenys unes 5 o 6 dels casos d'ús més importants.}
 
-% \clearpage
+\clearpage
 \section{Diagrama de la base de dades}
 \label{sec: diagrama de base de dades}
+
+Un diagrama de la base de dades que hi ha a sota és una representació visual que mostra com es distribueixen i organitzen les dades dins d'una base de dades. Aquest tipus de diagrama facilita la comprensió de l'estructura, les relacions i l'organització de les dades dins del sistema. A continuació, es presenta el diagrama~\ref{fig: Diagrama de base de dades} amb una descripció detallada de les seves components principals:
 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{imatges/diagrama base dades.png}
-    \caption{Diagrama de la base de dades.}
+    \caption{Diagrama de la base de dades}
     \label{fig: Diagrama de base de dades}
 \end{figure}
 
-\pau{Cal citar bé la figura.}
+\pau{Cal citar bé la figura.}\sudan{corregit}
 
 El diagrama representa un model de dades que inclou quatre entitats principals: User, Account, Transaction i Dictionary. Aquestes entitats estan interrelacionades per gestionar informació d'usuaris, comptes, transaccions i altres dades associades.
 
@@ -932,20 +1109,23 @@ Aquesta entitat conté les dades obligatòries que cada compte ha de tenir:
 \end{itemize}
 
 
+\clearpage
 
 
 \subsection{Dictionary}
 \label{subsec: Dictionary}
 
-L'entitat \textbf{Dictionary} emmagatzema informació complementària relacionada amb els comptes i les transaccions. Aquesta entitat es fa servir per guardar dades com missatges encriptats, dates de creació, i estats d'activació, permetent verificar i processar correctament les operacions financeres dins del sistema.\\
+L'entitat \textbf{Dictionary} que mostra la figura~\ref{fig: Ús de Dictionary} de sota emmagatzema informació complementària relacionada amb els comptes i les transaccions. Aquesta entitat es fa servir per guardar dades com missatges encriptats, dates de creació, i estats d'activació, permetent verificar i processar correctament les operacions financeres dins del sistema.\\
 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{imatges/dictionary.png}
-    \caption{Ús de Dictionary. \pau{Canviar ``informaciones'' per ``informacions'', ``inclouent, missatge'' per ``incloent missatge'', ``en DICTIONARY'' per ``a la taula Dictionary'', ``a DICTIONARY per trobat'' per ``a la taula Dictionary per trobar'', i ``a ACCOUNTS'' per ``a la taula Account''.}}
+    \includegraphics[width=1\textwidth]{imatges/dictionary.png}
+    \caption{Ús de Dictionary. \pau{Canviar ``informaciones'' per ``informacions'', ``inclouent, missatge'' per ``incloent missatge'', ``en DICTIONARY'' per ``a la taula Dictionary'', ``a DICTIONARY per trobat'' per ``a la taula Dictionary per trobar'', i ``a ACCOUNTS'' per ``a la taula Account''.}}\sudan{corregit}
     \label{fig: Ús de Dictionary}
 \end{figure}
+
+
 
 \pau{Cal citar bé la figura.}
 
@@ -980,101 +1160,24 @@ Aquesta entitat conté les dades obligatòries que cada transacció ha de tenir:
 \end{itemize}
 
 
-\section{Interfícies d'usuari}
-\label{ sec: Interfícies d'usuari }
-
-
-El disseny de les interfícies d'usuari ha estat una prioritat abans d'endinsar-nos en el desenvolupament del \textit{front end}. Aquestes interfícies proporcionen una visió preliminar de l'aspecte i la sensació que tindrà l'aplicació. Les figures següents mostren els dissenys de les interfícies d'usuari. \\
-
-Dissenyar tots els possibles estats de l'aplicació en un temps tan limitat és inviable. No obstant això, atès que l'aplicació principal i la dels usuaris comparteixen gran part de la seva interfície, només s'han dissenyat les vistes principals. En desenvolupar l'aplicació de l'usuari, la majoria dels components s'han reutilitzat, modificant-ne el comportament segons les necessitats, ja que les interaccions dels usuaris són limitades.\\
-
-És important destacar que algunes vistes no corresponen exactament a com són a l'aplicació final, principalment perquè s'han modificat o afegit funcionalitats segons les necessitats durant el desenvolupament.\\
-
-\pau{Per cada secció caldria explicar una mica la interfície (quines opcions té, per a què serveix cada botó... una explicació molt senzilla), i citar correctament la figura que s'està descrivint.}
-
-
-\subsection{Client}
-\label{subsec: Client}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{imatges/registerUser.png}
-    \includegraphics[width=0.3\textwidth]{imatges/registerUserWithvalues.png}
-    \caption{Registrar nou usuari.}
-    \label{fig: registrar nou usuari}
-\end{figure}
-
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{imatges/login.png}
-    \includegraphics[width=0.3\textwidth]{imatges/loginWithValue.png}
-    \caption{Pàgina de \textit{login} - Client.}
-    \label{fig: Pàgina de login - client}
-\end{figure}
-
-
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{imatges/mainPage2.png}
-    \includegraphics[width=0.3\textwidth]{imatges/paymentPage.png}
-    \includegraphics[width=0.3\textwidth]{imatges/paymentPageWithValue.png}
-    \caption{Pàgina per generar un codi QR de pagament.}
-    \label{fig: Pàgina per generar codi QR de pagament}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{imatges/mainPage3.png}
-    \includegraphics[width=0.3\textwidth]{imatges/chargePage.png}
-    \includegraphics[width=0.3\textwidth]{imatges/chargePageWithValue.png}
-    \caption{Pàgina per generar un codi QR de cobrament.}
-    \label{fig: Pàgina per generar codi QR de cobrament}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{imatges/mainPage1.png}
-    \includegraphics[width=0.3\textwidth]{imatges/scanQR.png}
-    \includegraphics[width=0.3\textwidth]{imatges/capturedQR.png}
-    \caption{Pàgina per escanejar un codi QR.}
-    \label{fig: Pàgina per escanerjar codi QR }
-\end{figure}
-
-
-
-
-% \clearpage
-\subsection{Administrador}
-\label{subsec: Admin}
-
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.3\textwidth]{imatges/login.png}
-    \includegraphics[width=0.3\textwidth]{imatges/loginAdmin.png}
-    \includegraphics[width=0.3\textwidth]{imatges/administer.png}
-    \caption{Pàgina de \textit{login} - Administrador}
-    \label{fig: Pàgina de login - Admin}
-\end{figure}
-
-\clearpage
-
 \section{Diagrama de processos}
 \label{ sec: Diagrama de processos }
 
+Aquesta diagrama de flux~\ref{fig: Diagrama de processos} representa els processos de gestió d'usuaris i transaccions de pagament mitjançant codis QR. Mostra com les diferents decisions i funcions es ramifiquen en funció de les característiques i accions de l'usuari, garantint que cada procés es gestiona adequadament segons les condicions del sistema.
+
+
+\clearpage
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{imatges/diagrama processos.png}
     \caption{Diagrama de processos.}
-    \label{fig: Diagrama de processos }
+    \label{fig: Diagrama de processos}
 \end{figure}
 
-\pau{Cal citar bé la figura.}
+\pau{Cal citar bé la figura.}\sudan{corregit}
 
-Aquesta diagrama de flux representa els processos de gestió d'usuaris i transaccions de pagament mitjançant codis QR. Mostra com les diferents decisions i funcions es ramifiquen en funció de les característiques i accions de l'usuari, garantint que cada procés es gestiona adequadament segons les condicions del sistema.
+
 
 
 \subsection{Descripció del procés}
@@ -1094,11 +1197,453 @@ Aquesta diagrama de flux representa els processos de gestió d'usuaris i transac
     \begin{itemize}
         \item Si l'usuari és un client, té l'opció de \textbf{gestionar les seves dades personals i d'usuari}.
         \item També pot optar per \textbf{entrar les dades de pagament manualment}, una solució en cas que la càmera no funcioni.
-        \item \textbf{Funcions 2 i 3}: S'utilitzen per generar el codi QR de cobrament i de pagament. En cas de cobrament, no cal fixar res \pau{(no cal fixar res, o no cal fixar-se en res?)}, però en cas de pagament, cal verificar si el compte disposa de saldo suficient. Un cop generat el codi QR, la càmera entra en joc per escanejar-lo.
+        \item \textbf{Funcions 2 i 3}: S'utilitzen per generar el codi QR de cobrament i de pagament. En cas de cobrament, no cal fixar-se en res \pau{(no cal fixar res, o no cal fixar-se en res?)}\sudan{corregit}, però en cas de pagament, cal verificar si el compte disposa de saldo suficient. Un cop generat el codi QR, la càmera entra en joc per escanejar-lo.
         \item \textbf{Funció 1}: La càmera s'encarrega de llegir el text que hi ha darrere del codi QR i, si el missatge és correcte, processa l'operació.
         \item Cal destacar que es pot introduir l'import tant en el moment de generar el codi QR com després d'escanejar-lo.
     \end{itemize}
 \end{itemize}
+
+
+
+
+\section{Interfícies d'usuari}
+\label{ sec: Interfícies d'usuari }
+
+
+El disseny de les interfícies d'usuari ha estat una prioritat abans d'endinsar-nos en el desenvolupament del \textit{front end}. Aquestes interfícies proporcionen una visió preliminar de l'aspecte i la sensació que tindrà l'aplicació. Les figures següents mostren els dissenys de les interfícies d'usuari. \\
+
+Dissenyar tots els possibles estats de l'aplicació en un temps tan limitat és inviable. No obstant això, atès que l'aplicació principal i la dels usuaris comparteixen gran part de la seva interfície, només s'han dissenyat les vistes principals. En desenvolupar l'aplicació de l'usuari, la majoria dels components s'han reutilitzat, modificant-ne el comportament segons les necessitats, ja que les interaccions dels usuaris són limitades.\\
+
+És important destacar que algunes vistes no corresponen exactament a com són a l'aplicació final, principalment perquè s'han modificat o afegit funcionalitats segons les necessitats durant el desenvolupament.\\
+
+\pau{Per cada secció caldria explicar una mica la interfície (quines opcions té, per a què serveix cada botó... una explicació molt senzilla), i citar correctament la figura que s'està descrivint.}
+
+
+\subsection{Client}
+\label{subsec: Client}
+
+L'usuari client és qui utilitza les funcionalitats de l'aplicació per gestionar les seves pròpies operacions i accions.
+
+\subsubsection{Primeres pàgines}
+\label{subsubsec: Primeres pàgines}
+
+Al entrar a l'aplicació, es mostra una pàgina de benvinguda. Aquesta pàgina durarà 3 segons, després anirà a la pàgina de \textbf{Login}.\\
+
+En el cas que el client no estigui registrat, cal anar primer a la pàgina de registre per donar-se d'alta. Amb el botó de \textbf{Register} s'anirà a la pàgina de registre.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/welcomepage.png}
+    \includegraphics[width=0.4\textwidth]{imatges/login.png}
+    \caption{Primeres pàgines}
+    \label{fig: Primeres pàgines}
+\end{figure}
+
+\clearpage
+\subsubsection{Registrar un nou usuari}
+\label{subsubsec: Registrar un nou usuari}
+
+El sistema fa una comprovació per verificar si les dades introduïdes corresponen al format esperat.\\
+
+Si les dades són correctes, envia la informació al servidor per iniciar el procés de registre. Si no ho són, el sistema indicarà que no s'ha pogut completar l'operació de registre. Si tot està correcte, s'anirà automàticament a la pàgina de \texttt{login}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/registration.png}
+    \includegraphics[width=0.4\textwidth]{imatges/registrationwithvalue.png}
+    \caption{Registrar nou usuari client}
+    \label{fig: registrar nou usuari client}
+\end{figure}
+
+\clearpage
+
+\subsubsection{Login}
+\label{subsubsec:Login}
+
+Una vegada l'usuari estigui registrat, podrà accedir a l'aplicació. La figura de la dreta mostra la pàgina principal de l'aplicació, on apareixen diversos botons. A les figures següents es detallarà el significat de cadascun d'aquests elements.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/loginNil.png}
+    \includegraphics[width=0.4\textwidth]{imatges/mainPage.png}
+    \caption{Pàgina de \textit{login} - Client.}
+    \label{fig: Pàgina de login - client}
+\end{figure}
+
+\clearpage
+
+\subsubsection{Càmera per escanejar codi QR}
+\label{subsubsec:Càmera per escanejar codi QR}
+
+Per activar la funció de la càmera, primer cal seleccionar un compte bancari. A continuació, utilitza la càmera per escanejar un codi QR generat prèviament. La càmera escanejarà el codi i, si les dades són correctes, es processarà l'operació. Si tot va bé, es mostrarà un missatge de 'OK' amb els detalls de l'operació, i finalment es proporciona un botó per tornar a la pàgina principal.\\
+
+En tornar a la pàgina principal, es mostrarà la transacció que s'ha fet just abans.
+
+\begin{figure}[h]
+    \centering
+    % Primera fila de dos imatges
+    \begin{minipage}{0.31\textwidth}
+        \includegraphics[width=\linewidth]{imatges/mainpageAccount1.png}
+        \includegraphics[width=\linewidth]{imatges/capturedQR.png}
+    \end{minipage}
+    % Segona fila de tres imatges
+    \begin{minipage}{0.31\textwidth}
+        \includegraphics[width=\linewidth]{imatges/scanQR.png}
+        \includegraphics[width=\linewidth]{imatges/scanresult.png}
+    \end{minipage}
+    
+    \caption{Escanejar codi QR}
+    \label{fig:EscanejarCodiQR}
+\end{figure}
+
+
+\clearpage
+
+\subsubsection{Pagina per generar codi QR de pagament}
+\label{subsubsec:Pagina per generar codi QR de pagament}
+
+Cal seleccionar un compte bancari per activar aquesta funció. En entrar a la pàgina, hi haurà dues opcions:
+
+\begin{itemize} 
+    \item Amb import introduït: el sistema fa una comprovació per assegurar-se que l'import és acceptable. 
+    \item Sense import introduït: l'import serà introduït per la persona que escaneja, i després el sistema farà la comprovació. 
+\end{itemize}
+
+De totes maneres, el codi QR caducarà després d'un temps, només serà vàlid l'últim QR generat i només es podrà escanejar una sola vegada.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.32\textwidth]{imatges/mainpageAccount2.png}
+    \includegraphics[width=0.32\textwidth]{imatges/paymentPage.png}
+    \includegraphics[width=0.32\textwidth]{imatges/paymentPageWithValue.png}
+    \caption{Generar un codi QR de pagament.}
+    \label{fig: Generar codi QR de pagament}
+\end{figure}
+
+\clearpage
+
+\subsubsection{Generar codi QR de cobrament}
+\label{subsubsec:Generar codi QR de cobrament}
+
+És molt similar a la funcionalitat de "Generar un codi QR de pagament". Per defecte, en entrar a la pàgina, ja es mostra el codi QR de cobrament sense un import definit.\\
+
+La diferència és que aquest codi QR de cobrament no caduca mai i es pot fer servir tantes vegades com es vulgui.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.32\textwidth]{imatges/mainpageAccount3.png}
+    \includegraphics[width=0.32\textwidth]{imatges/chargePage.png}
+    \includegraphics[width=0.32\textwidth]{imatges/chargePageWithValue.png}
+    \caption{Pàgina per generar un codi QR de cobrament.}
+    \label{fig: Pàgina per generar codi QR de cobrament}
+\end{figure}
+
+\clearpage
+
+\subsubsection{Eliminar un compte bancari}
+\label{subsubsec:Eliminar un compte bancari}
+
+Per eliminar un compte bancari, cal que el saldo sigui 0. Si no és així, caldrà fer una transferència per deixar-lo a zero. Per facilitar-ho, l'app ofereix l'opció de fer transferències entre comptes bancaris del mateix client.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.32\textwidth]{imatges/mainpageAccount4.png}
+    \includegraphics[width=0.32\textwidth]{imatges/deleteAccount.png}
+    \includegraphics[width=0.32\textwidth]{imatges/transferBalance.png}
+    \caption{Pàgina per generar un codi QR de cobrament.}
+    \label{fig: Pàgina per generar codi QR de cobrament}
+\end{figure}
+
+
+
+
+\clearpage
+
+\subsubsection{Modificar l'estat del compte bancari}
+\label{subsubsec:Modificar l'estat del compte bancari}
+
+Cal que hi hagi un compte seleccionat. Simplement clicant en l'icona del cadenat, es canviarà l'estat del compte bancari. Si està en estat de desactivat, no es podrà generar un QR de pagament ni efectuar cap pagament.
+
+El cadenat es tanca o obre segons l'estat.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.32\textwidth]{imatges/mainpageAccount5.png}
+    \includegraphics[width=0.32\textwidth]{imatges/changeStatus1.png}
+    \includegraphics[width=0.32\textwidth]{imatges/changeStatus2.png}
+    \caption{Modificar l'estat del compte bancari}
+    \label{fig: Modificar l'estat del compte bancari}
+\end{figure}
+
+
+\clearpage
+
+\subsubsection{Altres operacions sobre el compte bancari}
+\label{subsubsec:Altres operacions sobre el compte bancari}
+
+
+A més de les funcionalitats bàsiques, també es poden realitzar les següents operacions sobre el compte bancari:
+
+\begin{itemize} 
+    \item Fer transaccions manualment sense generar ni escanejar un codi QR. 
+    \item Definir el nou límit de pagament per transacció. 
+    \item Definir una nova descripció per al compte bancari.
+\end{itemize}
+
+
+\begin{figure}[h]
+    \centering
+    % Primera fila amb 2 imatges
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imatges/mainpageAccount6.png}
+    \end{minipage}
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imatges/otherOperation.png}
+    \end{minipage}
+
+    % Espai entre files
+    \vspace{1em}
+
+    % Segona fila amb 3 imatges
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imatges/otherOperation1.png}
+    \end{minipage}
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imatges/otherOperation2.png}
+    \end{minipage}
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imatges/otherOperation3.png}
+    \end{minipage}
+
+    \caption{Modificar l'estat del compte bancari}
+    \label{fig:Altres operacions sobre el compte bancari}
+\end{figure}
+
+
+\clearpage
+\subsubsection{Afegir un compte bancari per a l'usuari}
+\label{subsubsec:Afegir un compte bancari per a l'usuari}
+
+Per afegir un nou compte bancari per a l'usuari, només cal clicar a l'icona de "+". Es generarà i es mostrarà el nou compte creat, amb un import per defecte de 10,50 €.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/mainpageAccount8.png}
+    \includegraphics[width=0.4\textwidth]{imatges/addAccount.png}
+    \caption{Afegir un compte bancari per a l'usuari}
+    \label{fig: Afegir un compte bancari per a l'usuari}
+\end{figure}
+
+
+\clearpage
+\subsubsection{Refrescar la pàgina}
+\label{subsubsec:Refrescar la pàgina}
+
+Per refrescar la pàgina, simplement clica al botó de refrescar. Això actualitzarà el contingut i mostrarà qualsevol canvi recent.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/mainpageAccount7.png}
+    \caption{Refrescar la pàgina}
+    \label{fig:Refrescar la pàgina}
+\end{figure}
+
+\clearpage
+\subsubsection{Sortir de la secció}
+\label{subsubsec:Sortir de la secció}
+
+Per sortir de la secció, se't preguntarà si estàs segur que vols sortir. Un cop confirmada la teva decisió, es eliminaran les credencials i seràs redirigit a la pàgina de login.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.31\textwidth]{imatges/mainpageAccount9.png}
+    \includegraphics[width=0.31\textwidth]{imatges/logOut.png}
+    \includegraphics[width=0.31\textwidth]{imatges/login.png}
+    \caption{Sortir de la secció}
+    \label{fig: Sortir de la secció}
+\end{figure}
+
+\clearpage
+
+\subsubsection{Altres gestions de l'usuari}
+\label{subsubsec:Gestió de l'usuari}
+
+\begin{itemize}
+    \item \textbf{Change password:} Per canviar la contrasenya, cal que introdueixis la contrasenya antiga i la nova dues vegades.
+    \item \textbf{Change color:} Per canviar el color de fons, cal que seleccionis el color que més et conveni.
+    \item \textbf{Set user status:} Per modificar l'estat de l'usuari, si l'usuari està desactivat no podrà realitzar cap operació amb el compte bancari.
+    \item \textbf{Remove user:} Per eliminar l'usuari, cal que no hi hagi import en els seus comptes bancaris.
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.25\textwidth]{imatges/userGestion.png}
+    \includegraphics[width=0.25\textwidth]{imatges/userGestion1.png}
+    \includegraphics[width=0.25\textwidth]{imatges/userGestion3.png}
+    \includegraphics[width=0.25\textwidth]{imatges/userGestion2.png}
+    \includegraphics[width=0.25\textwidth]{imatges/userGestion4.png}
+    \includegraphics[width=0.25\textwidth]{imatges/userGestion5.png}
+    \caption{Altres gestions de l'usuari}
+    \label{fig: Altres gestions de l'usuari}
+\end{figure}
+
+
+
+\clearpage
+\subsection{Administrador}
+\label{subsec: Admin}
+
+L'usuari administrador és qui té permisos especials per gestionar i configurar l'aplicació, incloent la creació i eliminació d'altres usuaris, així com la gestió de configuracions i opcions avançades.
+
+\subsubsection{Login d'un administrador}
+\label{subsubsec: Login d'un administrador}
+
+Un administrador accedeix de la mateixa manera que un client. Per defecte, hi ha un administrador predefinit amb el nom d'usuari \textit{"Admin"} i la contrasenya \textit{"Admin123"}. Aquest administrador no es pot eliminar. A partir d'aquí, es poden registrar altres administradors.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.31\textwidth]{imatges/login.png}
+    \includegraphics[width=0.31\textwidth]{imatges/loginAdmin.png}
+    \includegraphics[width=0.31\textwidth]{imatges/administer.png}
+    \caption{Pàgina de \textit{login} - Administrador}
+    \label{fig: Pàgina de login - Admin}
+\end{figure}
+
+
+
+\clearpage
+\subsubsection{Llistar els comptes de l'usuari i modificar l'estat del compte}
+\label{subsubsec:Llistar els comptes de l'usuari i modificar l'estat del compte}
+
+Un administrador permet visualitzar tots els usuaris clients i els seus comptes bancaris. També permet modificar l'estat dels comptes bancaris.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.31\textwidth]{imatges/mainAdmin1.png}
+    \includegraphics[width=0.31\textwidth]{imatges/userAccounts1.png}
+    \includegraphics[width=0.31\textwidth]{imatges/userAccounts2.png}
+    \caption{Llistar els comptes de l'usuari i modificar l'estat del compte}
+    \label{fig: Llistar els comptes de l'usuari i modificar l'estat del compte}
+\end{figure}
+
+
+
+\clearpage
+\subsubsection{Crear una nova contrasenya per client}
+\label{subsubsec: Crear una nova contrasenya per client}
+
+Un administrador pot canviar la contrasenya d'un usuari client sense haver de proporcionar la contrasenya antiga.\\
+
+Cal proporcionar una contrasenya d'almenys 3 caràcters, i el canvi es pot efectuar només si les dues contrasenyes coincideixen.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.31\textwidth]{imatges/mainAdmin2.png}
+    \includegraphics[width=0.31\textwidth]{imatges/setPassword2.png}
+    \includegraphics[width=0.31\textwidth]{imatges/setPassword3.png}
+    \caption{Crear una nova contrasenya per client}
+    \label{fig: Crear una nova contrasenya per client}
+\end{figure}
+
+
+\clearpage
+\subsubsection{Modificar l'estat de l'usuari client}
+\label{subsubsec: Modificar l'estat de l'usuari client}
+
+Un administrador té el privilegi de modificar l'estat d'un usuari. Si un usuari té l'estat desactivat, no podrà realitzar cap operació sobre els comptes bancaris.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.31\textwidth]{imatges/mainAdmin3.png}
+    \includegraphics[width=0.31\textwidth]{imatges/confirmation.png}
+    \includegraphics[width=0.31\textwidth]{imatges/confirmacion1.png}
+    \caption{Modificar l'estat de l'usuari client}
+    \label{fig: Modificar l'estat de l'usuari client}
+\end{figure}
+
+
+\clearpage
+\subsubsection{Eliminar un usuari client}
+\label{subsubsec: Eliminar un usuari client}
+
+Només es pot eliminar un usuari client quan no hi hagi saldo en els seus comptes. Primer es fa una comprovació, i després es mostra un diàleg de confirmació.
+
+\sudan{tornar a fer el codi, crear una nova funcio que es digui, removable}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/mainAdmin4.png}
+    \includegraphics[width=0.4\textwidth]{imatges/delete1.png}
+    \caption{Eliminar un usuari client}
+    \label{fig: Eliminar un usuari client}
+\end{figure}
+
+
+
+\clearpage
+\subsubsection{Visualitzar els moviments d'un usuari}
+\label{subsubsec: Visualitzar els moviments d'un usuari}
+
+
+Un administrador visualitzar tots els moviments de tots els usuari clients.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/mainAdmin5.png}
+    \includegraphics[width=0.4\textwidth]{imatges/movements.png}
+    \caption{Visualitzar els moviments d'un usuari}
+    \label{fig: Visualitzar els moviments d'un usuari}
+\end{figure}
+
+
+
+\clearpage
+\subsubsection{Llistar tots els administradors i veure els seus moviments}
+\label{subsubsec: Llistar tots els administradors i veure els seus moviments}
+
+Els administradors poden veure les operacions realitzades entre ells.
+
+
+\begin{figure}[h]
+    \centering
+    % Primera fila de dos imatges
+    \begin{minipage}{0.31\textwidth}
+        \includegraphics[width=\linewidth]{imatges/adminMain.png}
+        \includegraphics[width=\linewidth]{imatges/showAdminMovement.png}
+    \end{minipage}
+    % Segona fila de tres imatges
+    \begin{minipage}{0.31\textwidth}
+        \includegraphics[width=\linewidth]{imatges/adminNavigation1.png}
+        \includegraphics[width=\linewidth]{imatges/showHisMovements.png}
+    \end{minipage}
+    
+    \caption{Llistar tots els administradors i veure els seus moviments}
+    \label{fig:Llistar tots els administradors i veure els seus moviments}
+\end{figure}
+
+
+
+
+\clearpage
+\subsubsection{Canviar la pròpia contrasenya}
+\label{subsubsec: Canviar la pròpia contrasenya}
+
+L'usuari administrador pot modificar la seva pròpia contrasenya, però cal introduir la contrasenya antiga.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.31\textwidth]{imatges/adminMain.png}
+    \includegraphics[width=0.31\textwidth]{imatges/adminNavigation2.png}
+    \includegraphics[width=0.31\textwidth]{imatges/adminchangepassword.png}
+    \caption{Canviar la pròpia contrasenya}
+    \label{fig:Canviar la pròpia contrasenya }
+\end{figure}
 
 
 
@@ -1110,12 +1655,10 @@ Aquesta diagrama de flux representa els processos de gestió d'usuaris i transac
 \section{Introducció}
 \label{sec: Introducció}
 
-L'objectiu d'aquest capítol és explicar el procés de desenvolupament, des de la idea inicial
-de l'aplicació i la seva estructura, al desenvolupament actual de la mateixa. També ho serà
-incloure i explicació de com l'aplicació s'ha provat constantment \pau{(potser millor ``També s'explicaran les diferents proves que s'han dut a terme per verificar el funcionament de l'aplicació'')}.
+L'objectiu d'aquest capítol és explicar el procés de desenvolupament, des de la idea inicial de l'aplicació i la seva estructura fins al desenvolupament actual de la mateixa. També s'inclourà una explicació sobre com s'ha provat constantment l'aplicació. A més, es detallaran les diferents proves que s’han realitzat per verificar el funcionament de l’aplicació.\pau{(potser millor ``També s'explicaran les diferents proves que s'han dut a terme per verificar el funcionament de l'aplicació'')}.\sudan{corregit}
 
 
-\section{Organitza la idea \pau{(potser millor ``Idea inicial'')}}
+\section{Idea inicial \pau{(potser millor ``Idea inicial'')}}\sudan{corregit}
 \label{sec: Organitza la idea}
 
 Quan se'm va ocórrer la idea de l'aplicació, vaig acabar amb una barreja de pensaments i conceptes que necessitaven ser organitzats i connectats de manera coherent. El primer pas en aquest procés va ser redactar una explicació detallada de l'aplicació, incloent l'objectiu general, les funcionalitats principals que hauria d'oferir, així com les limitacions i allò que no inclouria. Va ser essencial intentar cobrir tants detalls com fos possible per assegurar una comprensió clara del projecte.\\
@@ -1124,21 +1667,209 @@ Durant aquesta fase, vaig analitzar com es relacionava cada component de l'aplic
 
 Tot i que probablement canviaria l'estructura en el futur en resposta a noves necessitats o oportunitats de millora, la idea inicial de l'arquitectura va ser útil per establir una base sòlida. A partir d'aquesta base, vaig poder començar a especificar els requisits funcionals i no funcionals de manera més detallada. Aquesta etapa va ser probablement la tasca més exigent del projecte, ja que va requerir una atenció meticulosa a cada aspecte del disseny i l'estructura, a més de l'organització dels paquets de treball. Després que aquestes parts estiguessin definides i estructurades, vaig poder visualitzar un full de ruta clar i detallat per al desenvolupament del sistema, el que em va permetre avançar amb una estratègia ben definida i metòdica.
 
-\section{Desenvolupament d'aplicació}
-\label{sec: Desenvolupament d'aplicació}
+
+
+\section{Biblioteques utilitzades}
+\label{sec: Biblioteques utilitzades}
+
+
+Per a aquest projecte, ha estat necessari utilitzar diverses biblioteques que han facilitat el desenvolupament i la implementació de les funcionalitats previstes. Aquestes biblioteques han proporcionat les eines i els recursos necessaris per gestionar diferents aspectes del projecte.\\
+
+A continuació, es detallen les biblioteques específiques que s'han utilitzat i la seva utilitat en el context del projecte, com ara generar codis QR, llegir codis QR, encriptar missatges, gestionar contrasenyes i administrar credencials.
+
+
+
+
+\subsection{Generar codi QR}
+\label{subsec: Generar codi QR}
+
+Per generar codis QR en Flutter, una biblioteca popular és \textbf{qr\_flutter}. Aquesta biblioteca facilita la creació de codis QR a partir de text i la seva renderització com a widgets dins de l'aplicació Flutter. A més de la seva funcionalitat bàsica, qr\_flutter ofereix diverses opcions de personalització, com ara ajustar la mida del codi QR, configurar el color del codi QR i afegir imatges al centre del codi QR.\\
+
+El problema que vaig trobar en la generació del codi QR es deu a l'actualització de la biblioteca qr\_flutter. En les versions \textit{2.0.0} fins a a \textit{3.0.0}, utilitzàvem la nomenclatura \textit{QrImage}. No obstant això, en la versió actual \textit{4.1.0}, s'ha actualitzat a \textit{QrImageView}. Inicialment, això causava errors de compilació perquè el sistema no reconeixia \textit{QrImage}. Em va sorprendre molt, però finalment vaig descobrir que el problema es devia a aquesta actualització.\\ 
+
+En la figura~\ref{fig:Versió antiga vs. versió nova}  es mostren dues imatges que il·lustren el codi per a les dues versions:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imatges/qrold.png}
+    \includegraphics[width=0.5\textwidth]{imatges/qrnew.png}
+    \caption{Versió antiga vs. versió nova}
+    \label{fig:Versió antiga vs. versió nova}
+\end{figure}
+
+
+\clearpage
+\subsection{Llegir codi QR}
+\label{subsec: Llegir codi QR}
+
+Per llegir codis QR en Flutter, aquest projecte utilitza la biblioteca \textbf{qr\_code\_scanner}. Aquesta biblioteca facilita la lectura de codis QR mitjançant la càmera del dispositiu i permet integrar fàcilment la funcionalitat d'escanneig de codis QR en aplicacions Flutter. Ofereix una solució senzilla i eficient per capturar i processar dades codificades en codis QR.\\
+
+Vaig trobar un problema, encara que vaig sortir de la pantalla de la càmera, el webcam del portàtil seguia encès. La solució consisteix a utilitzar el controlador de la biblioteca \textbf{qr\_code\_scanner}. Cal controlar el controlador de la càmera i assegurar-se de cridar el mètode \textit{dispose()} quan ja no es necessiti utilitzar la càmera.
+
+
+\subsection{Encriptar Missatge}
+\label{subsec: Encriptar Missatge}
+
+Per encriptar els missatges dels codis QR en flutter, utilitza la biblioteca \textbf{encrypt 5.0.3}. Aquesta biblioteca ofereix una àmplia gamma de mètodes d'encriptació, i per a aquesta pràctica s'ha escollit l'algorisme AES.\\
+
+La biblioteca encrypt proporciona eines robustes per gestionar tant l'encriptació com la desencriptació de dades, facilitant així la protecció de la informació codificada en els codis QR. L'algorisme AES (Advanced Encryption Standard) és un mètode de xifrat simètric que utilitza la mateixa clau per a l'encriptació i la desencriptació, garantint així la seguretat de les dades. Utilitzant AES, podem assegurar que els missatges emmagatzemats en els codis QR siguin segurs i només accessibles per aquells que disposin de la clau correcta per desencriptar-los.\\
+
+Inicialment, vaig implementar una clau única per a tots els usuaris de l'aplicació. No obstant això, vaig adonar-me que aquesta solució podia ser molt arriscada en cas de pèrdua de la clau. Per garantir la màxima seguretat, he optat per utilitzar una clau independent per a cada compte bancari. A més, a mesura que es generen nous codis QR de pagament, la clau associada s'actualitza automàticament.
+
+
+\subsection{Encriptar la contrasenya}
+\label{subsec: Encriptar la contrasenya}
+
+Per guardar les contrasenyes dels usuaris a la base de dades, és molt perillós emmagatzemar-les en text clar. Per garantir la seguretat, aquest projecte utilitza la biblioteca crypto de Node.js. El mòdul crypto de Node.js proporciona eines essencials per a la seguretat de les aplicacions, incloent funcionalitats com encriptació, hashing, signatura digital i més. En aquest projecte, s'empla la funcionalitat de hashing.\\
+
+El hashing és una tècnica criptogràfica clau que transforma les dades en una representació fixa i, idealment, irreversible. Aquesta tècnica permet emmagatzemar les contrasenyes de manera segura, verificar la integritat de les dades i assegurar l'autenticitat dels missatges gràcies a les seves propietats úniques.
+
+
+\subsection{Gestionar les credencials}
+\label{subsec: Gestionar les credencials}
+
+
+En aquest projecte, gestionem les credencials d'usuari utilitzant la biblioteca jsonwebtoken. Aquesta biblioteca proporciona les eines necessàries per treballar amb tokens JWT, que són essencials per a l'autenticació i l'autorització d'usuaris. Les funcions inclouen:
+
+\begin{itemize}
+    \item \textbf{Generació de Tokens d'Accés}: La funció getAccessToken crea un token JWT signat amb una clau secreta a partir d'un payload proporcionat. Aquest token es configura amb una durada de 1 dia, la qual cosa significa que l'usuari haurà de tornar a autenticar-se després d'aquest període per obtenir un nou token.
+    \item \textbf{Verificació de Tokens}: La funció getUserId extreu i verifica el token JWT des de l'encapçalament d'autorització de la sol·licitud. Si el token és vàlid, retorna l'identificador de l'usuari emmagatzemat en el token, permetent accedir a recursos protegits.
+\end{itemize}
+
 
 \pau{Aquí es podria explicar també les biblioteques que ha calgut utilitzar per generar i llegir codis QR, com les has integrat a la teva aplicació, problemes que t'has trobat i com els has solucionat, etc. I el mateix per biblioteques o mòduls utilitzats per encriptar missatges.}
 
 
-Vaig començar a desenvolupar l'aplicació API \pau{(vols dir l'API de l'aplicació?)}, ja que això ajudava a definir la base de dades. La meva estratègia consistia a implementar primer les funcionalitats més crítiques i bàsiques, assegurant-me que cada component essencial funcionés correctament abans de passar a les següents etapes. Per exemple, vaig començar amb l'operació de transacció entre dos comptes bancaris, assegurant-me que aquest procés fonamental fos fiable. Un cop aquesta funcionalitat va estar operativa, vaig afegir seguretat amb l'encriptació de dades. Posteriorment, vaig implementar controls addicionals, com ara verificar si un compte disposava de saldo suficient i comprovar si el compte estava actiu.\\
+\section{Desenvolupament d'aplicació}
+\label{sec: desenvolupament d'aplicació }
+
+Vaig començar a desenvolupar el servidor \pau{(vols dir l'API de l'aplicació?)}\sudan{corregit}, ja que això ajudava a definir la base de dades. La meva estratègia consistia a implementar primer les funcionalitats més crítiques i bàsiques, assegurant-me que cada component essencial funcionés correctament abans de passar a les següents etapes. Per exemple, vaig començar amb l'operació de transacció entre dos comptes bancaris, assegurant-me que aquest procés fonamental fos fiable. Un cop aquesta funcionalitat va estar operativa, vaig afegir seguretat amb l'encriptació de dades. Posteriorment, vaig implementar controls addicionals, com ara verificar si un compte disposava de saldo suficient i comprovar si el compte estava actiu.\\
 
 Un cop vaig tenir una base sòlida al servidor, vaig començar a dissenyar la interfície d'usuari. Durant aquest procés, vaig adaptar el disseny en funció dels punts finals disponibles i les funcionalitats implementades en el servidor, mentre identificava les possibles mancances en l'API. Així, després de completar el disseny de la interfície, vaig tornar a l'API per afegir les funcionalitats que faltaven i per netejar el codi existent.\\
 
-A mesura que avançava en el desenvolupament, vaig començar a treballar en les aplicacions d'interfície d'usuari \pau{(potser millor ``vaig començar a treballar en les interfícies d'usuari'')}. Vaig desenvolupar primer l'aplicació bàsica \pau{(aplicació?)}, que contenia la major part de la lògica i complexitat. Aquesta fase va ser crucial, ja que vaig afegir diversos components i vistes que posteriorment es reutilitzarien a l'aplicació client. Vaig adoptar un enfocament iteratiu: cada vegada que afegia o ajustava una funcionalitat en el servidor, feia el mateix en el client, variant les funcionalitats de manera sincronitzada. Aquesta estratègia em va permetre assegurar-me que ambdues parts de l'aplicació estiguessin alineades i funcionessin conjuntament.\\
+A mesura que avançava en el desenvolupament, vaig començar a treballar en les interfície d'usuari \pau{(potser millor ``vaig començar a treballar en les interfícies d'usuari'')}\sudan{corregit}. Vaig desenvolupar primer l'aplicació bàsica \pau{(aplicació?)}, que contenia la major part de la lògica i complexitat. Aquesta fase va ser crucial, ja que vaig afegir diversos components i vistes que posteriorment es reutilitzarien a l'aplicació client. Vaig adoptar un enfocament iteratiu: cada vegada que afegia o ajustava una funcionalitat en el servidor, feia el mateix en el client, variant les funcionalitats de manera sincronitzada. Aquesta estratègia em va permetre assegurar-me que ambdues parts de l'aplicació estiguessin alineades i funcionessin conjuntament.\\
 
-Tot i que no vaig utilitzar eines específiques com ``Nx'', vaig intentar fer abstracció i reutilitzar el codi de manera eficaç per simplificar el desenvolupament. Si en el futur es necessita afegir una altra aplicació \pau{(aplicació?)}, el procés serà més senzill, ja que molts components i funcions podrien ser reutilitzats.
+Tot i que no vaig utilitzar eines específiques com ``Nx'', vaig intentar fer abstracció i reutilitzar el codi de manera eficaç per simplificar el desenvolupament. Si en el futur es necessita afegir un altre projecte \pau{(aplicació?)}\sudan{corregit}, el procés serà més senzill, ja que molts components i funcions podrien ser reutilitzats.
 
-\pau{Faltaria indicar quins problemes t'has trobat durant la implementació (sigui el que sigui), i com els has acabat solucionant.}
+
+\section{Problemes i Solucions en la Implementació}
+\label{sec:Problemes i Solucions en la Implementació}
+
+Durant el desenvolupament del projecte, s'han presentat diversos reptes i obstacles que han afectat la implementació de les funcionalitats previstes. A mesura que avançava en el procés, vaig identificar diversos problemes que requereixen una atenció detallada per garantir el bon funcionament de l'aplicació.\\
+
+En aquest apartat, es descriuen els problemes més significatius que vaig trobar, juntament amb les estratègies i solucions que vaig aplicar per superar-los. Cada problema s'explica en detall, incloent el context en què va sorgir, l'impacte que va tenir sobre el projecte, i les solucions implementades per resoldre'l. Aquest enfocament proporciona una visió clara dels desafiaments afrontats i de com es va assegurar el bon desenvolupament i la funcionalitat final del projecte.\\
+
+
+\subsection{Android Studio}
+\label{subsec: Android Studio}
+
+Vaig enfrontar diversos problemes amb Android Studio. Amb el mateix codi, l'aplicació fallava al dia següent. Inicialment, no estava clar si el problema es devia a Android Studio o al codi mateix. Vaig intentar revisar les versions anteriors del codi utilitzant el control de versions, però això no va resoldre el problema.\\
+
+En la figura~\ref{fig:Problemes d'implementació amb Android Studio} es mostra un dels errors que he trobat.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/errorAndroid.png}
+    \caption{Problemes d'implementació amb Android Studio}
+    \label{fig:Problemes d'implementació amb Android Studio}
+\end{figure}
+
+Més endavant, vaig descobrir que el simulador sovint es pot omplir de memòria, cosa que pot provocar que no arranqui correctament. El simulador té un límit de memòria, i gestionar-ho adequadament és important per garantir que funcioni de manera fluida. Si experimentes problemes de rendiment, cal ajustar la configuració del simulador i fer una neteja periòdica de dades. La solució que faig servir és realitzar un \textbf{wipe data} del simulador, el qual neteja les dades emmagatzemades i resol els problemes de càrrega.\\
+
+
+Una altra opció que es pot combinar amb el wipe data és crear una pàgina d'entrada simple. Aquesta mesura permet comprovar si el problema es resol amb un simulador net, abans de tornar a implementar el codi del projecte. D'aquesta manera, es pot excloure la possibilitat que el problema provingui del codi i determinar si el problema és del simulador. Un altre avantatge d'aquesta pàgina simple és que permet fer implementacions complexes en aquest espai de manera independent del codi global, cosa que facilita les proves en casos quan no es té la seguretat total sobre la funcionalitat.\\
+
+La figura~\ref{fig: pàgina de prova} mostrada a continuació presenta el codi de la pàgina simple (mutation.dart). Aquesta pàgina es carrega canviant la ruta del main.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/hola.png}
+    \caption{Pàgina de prova}
+    \label{fig: pàgina de prova}
+\end{figure}
+
+\subsection{Flutter}
+\label{subsec: Flutter}
+
+Si l'error de compilació no es pot resoldre amb les mesures esmentades anteriorment, és probable que el problema estigui relacionat amb el compilador de Flutter.\\
+
+La comanda \textbf{flutter clean} és utilitzat per netejar el directori de construcció i altres fitxers generats que poden causar problemes. Posteriorment cal fer servir \textbf{flutter pub get} per tornat a descarregar les dependències. Algunes situacions en què és necessari utilitzar aquesta comanda inclouen:
+
+\begin{itemize}
+  \item Problemes de Compilació
+  \item Actualitzacions de Dependències
+  \item Problemes Amb el Simulador o Dispositiu
+  \item Actualització de Flutter o el SDK
+\end{itemize}
+
+També hi ha la comanda \textbf{flutter doctor}, que és utilitzat per verificar la configuració de l'entorn de desenvolupament i solucionar problemes de configuració. Algunes situacions en què és necessari utilitzar aquesta comanda inclouen:
+
+\begin{itemize}
+  \item Verificació de l'Entorn de Desenvolupament
+  \item Solució de Problemes de Configuració
+  \item Abans de Reportar Problemes 
+\end{itemize}
+
+Aquesta imatge~\ref{fig: Comanda flutter doctor} mostra l'execució de flutter doctor, indicant que l'entorn de desenvolupament està configurat correctament.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/flutterdoctor.png}
+    \caption{Comanda flutter doctor}
+    \label{fig: Comanda flutter doctor}
+\end{figure}
+
+
+\subsection{GitHub}
+\label{subsec: GitHub}
+
+Un error important que vaig cometre en aquest projecte va ser que, quan el codi no arrencava, la primera cosa que feia era anar al repositori i retirar els commits, fent còpies del projecte localment per seguretat. Si, després de retirar un commit, el codi seguia sense funcionar, procedia a retirar-ne un altre, i així successivament.\\
+
+Més endavant, em vaig adonar que aquest enfocament no era efectiu i em vaig adonar que "això no és possible; el codi de fa una setmana funcionava correctament..."\\
+
+En aquest punt, em vaig adonar que la millor solució era recuperar els commits, però sovint em trobava bloquejat, ja que havia eliminat commits del repositori local sense sincronitzar-los amb el repositori remot. Això em va portar a perdre temps i a confondre'm en diverses ocasions.\\
+
+Per solucionar aquest problema, és necessari estudiar a fons les comandes de Git:
+
+
+\subsubsection{Eliminar Commits}
+
+\begin{itemize}
+    \item \textit{git reset --soft HEAD~1}: Elimina el commit més recent però manté els canvis en l'índex.
+    \item \textit{git reset --hard HEAD~1}: Elimina el commit més recent i descarta els canvis.
+    \item \textit{git revert <commit>}: Desfà els canvis d'un commit específic creant un nou commit que els elimina.
+    \item \textit{git rebase -i HEAD~n}: Permet modificar, combinar o eliminar múltiples commits en l'historial.
+  \end{itemize}
+
+\subsubsection{Recuperar Commits}
+
+\begin{itemize}
+  \item \textit{git log}: Mostra l'historial de commits i identifica el commit que vols recuperar.
+  \item \textit{git checkout <commit>}: Permet revisar l'estat de l'arbre de treball en el moment d'un commit específic.
+  \item \textit{git cherry-pick <commit>}: Aplica els canvis d'un commit específic a la branca actual.
+  \item \textit{git reflog}: Mostra l'historial de referències i permet recuperar commits que no són visibles en l'historial normal.
+\end{itemize}
+
+
+\subsection{MongoDB}
+\label{subsec: MongoDB}
+
+Vaig passar més d'un dia barallant-me amb un error aparentment simple. El problema era el següent: tenia la taula \textbf{users} creada, però no contenia tots els atributs necessaris. Un dels atributs era el compte bancari, i volia actualitzar-lo per incloure una llista de comptes bancaris.\\
+
+Vaig revisar tots els atributs de l'esquema i vaig revisar el codi del resolver una i altra vegada. Vaig anar a MongoDB per esborrar totes les dades anteriors de la taula (sense eliminar la taula mateixa). No hi havia manera que funcionés correctament; només es podia inserir un sol compte bancari, tot i que el servidor indicava que la inserció es realitzava correctament.\\
+
+Finalment, vaig descobrir que havia d'eliminar la taula sencera per poder efectuar l'actualització, com indica la figura~\ref{fig: Eliminar la taula de mongoDB} següent.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/eliminarMongo.png}
+    \caption{Eliminar la taula de mongoDB}
+    \label{fig: Eliminar la taula de mongoDB}
+\end{figure}
+
+
+
+\pau{Faltaria indicar quins problemes t'has trobat durant la implementació (sigui el que sigui), i com els has acabat solucionant.}\sudan{corregit}
 
 
 \section{Proves}

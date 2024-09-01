@@ -8,6 +8,9 @@
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.1}Tecnologies més conegudes}{\reset@font\mtcSSfont 27}{subsection.7.4.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.2}Tecnologia Escollida: GraphQL}{\reset@font\mtcSSfont 29}{subsection.7.4.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.3}Codi obert per implementar servidors GraphQL: Apollo Server}{\reset@font\mtcSSfont 29}{subsection.7.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.4}Llenguatge: TS}{\reset@font\mtcSSfont 30}{subsection.7.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.4}Llenguatge Escollit: TS}{\reset@font\mtcSSfont 30}{subsection.7.4.4}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.5}Base de dades}{\reset@font\mtcSfont 31}{section.7.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.5.1}Opcions}{\reset@font\mtcSSfont 31}{subsection.7.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.5.1}Proveïdors Populars de Bases de Dades en el Núvol}{\reset@font\mtcSSfont 31}{subsection.7.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.5.2}Base de Dades Escollida: MongoDB Atlas}{\reset@font\mtcSSfont 32}{subsection.7.5.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.6}Control de Versions}{\reset@font\mtcSfont 33}{section.7.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.6.1}Control de Versions Escollida: GitHub}{\reset@font\mtcSSfont 33}{subsection.7.6.1}}

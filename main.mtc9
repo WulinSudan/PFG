@@ -1,4 +1,17 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.1}Introducció}{\reset@font\mtcSfont 47}{section.9.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.2}Organitza la idea \textcolor {red}{(potser millor ``Idea inicial'')}}{\reset@font\mtcSfont 47}{section.9.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.3}Desenvolupament d'aplicació}{\reset@font\mtcSfont 48}{section.9.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.4}Proves}{\reset@font\mtcSfont 49}{section.9.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.1}Introducció}{\reset@font\mtcSfont 73}{section.9.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.2}Idea inicial \textcolor {red}{(potser millor ``Idea inicial'')}}{\reset@font\mtcSfont 73}{section.9.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.3}Biblioteques utilitzades}{\reset@font\mtcSfont 74}{section.9.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.3.1}Generar codi QR}{\reset@font\mtcSSfont 74}{subsection.9.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.3.2}Llegir codi QR}{\reset@font\mtcSSfont 76}{subsection.9.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.3.3}Encriptar Missatge}{\reset@font\mtcSSfont 76}{subsection.9.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.3.4}Encriptar la contrasenya}{\reset@font\mtcSSfont 76}{subsection.9.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.3.5}Gestionar les credencials}{\reset@font\mtcSSfont 77}{subsection.9.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.4}Desenvolupament d'aplicació}{\reset@font\mtcSfont 77}{section.9.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.5}Problemes i Solucions en la Implementació}{\reset@font\mtcSfont 78}{section.9.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.1}Android Studio}{\reset@font\mtcSSfont 79}{subsection.9.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.2}Flutter}{\reset@font\mtcSSfont 80}{subsection.9.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.3}GitHub}{\reset@font\mtcSSfont 81}{subsection.9.5.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {9.5.3.1}Eliminar Commits}{\reset@font\mtcSSSfont 82}{subsubsection.9.5.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {9.5.3.2}Recuperar Commits}{\reset@font\mtcSSSfont 82}{subsubsection.9.5.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {9.5.4}MongoDB}{\reset@font\mtcSSfont 82}{subsection.9.5.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {9.6}Proves}{\reset@font\mtcSfont 83}{section.9.6}}

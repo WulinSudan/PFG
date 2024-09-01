@@ -1,11 +1,42 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.1}Diagrama de casos d'ús}{\reset@font\mtcSfont 33}{section.8.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.2}Diagrama de la base de dades}{\reset@font\mtcSfont 36}{section.8.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.1}User}{\reset@font\mtcSSfont 36}{subsection.8.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.2}Account}{\reset@font\mtcSSfont 38}{subsection.8.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.3}Dictionary}{\reset@font\mtcSSfont 39}{subsection.8.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.4}Transaction}{\reset@font\mtcSSfont 40}{subsection.8.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.3}Interfícies d'usuari}{\reset@font\mtcSfont 40}{section.8.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.1}Client}{\reset@font\mtcSSfont 41}{subsection.8.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.2}Administrador}{\reset@font\mtcSSfont 41}{subsection.8.3.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.4}Diagrama de processos}{\reset@font\mtcSfont 45}{section.8.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.4.1}Descripció del procés}{\reset@font\mtcSSfont 46}{subsection.8.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.1}Introducció}{\reset@font\mtcSfont 35}{section.8.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.2}Diagrama de casos d'ús}{\reset@font\mtcSfont 35}{section.8.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.1}Diagrama de casos d'ús de l'usuari client}{\reset@font\mtcSSfont 35}{subsection.8.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.2}Diagrama de casos d'ús de l'usuari administrador}{\reset@font\mtcSSfont 37}{subsection.8.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.3}Diagrama de casos d'ús del sistema}{\reset@font\mtcSSfont 39}{subsection.8.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.3}Fitxes de cas d'ús}{\reset@font\mtcSfont 39}{section.8.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.1}Generar codi QR de cobrament}{\reset@font\mtcSSfont 39}{subsection.8.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.2}Generar codi QR de pagament}{\reset@font\mtcSSfont 41}{subsection.8.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.3}Escanejar un codi QR de pagament}{\reset@font\mtcSSfont 42}{subsection.8.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.4}Escanejar un codi QR de cobrament}{\reset@font\mtcSSfont 43}{subsection.8.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.5}Modificar l'estat d'un compte bancari}{\reset@font\mtcSSfont 44}{subsection.8.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.4}Diagrama de la base de dades}{\reset@font\mtcSfont 45}{section.8.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.4.1}User}{\reset@font\mtcSSfont 46}{subsection.8.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.4.2}Account}{\reset@font\mtcSSfont 46}{subsection.8.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.4.3}Dictionary}{\reset@font\mtcSSfont 48}{subsection.8.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.4.4}Transaction}{\reset@font\mtcSSfont 49}{subsection.8.4.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.5}Diagrama de processos}{\reset@font\mtcSfont 49}{section.8.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.5.1}Descripció del procés}{\reset@font\mtcSSfont 50}{subsection.8.5.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.6}Interfícies d'usuari}{\reset@font\mtcSfont 51}{section.8.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.6.1}Client}{\reset@font\mtcSSfont 52}{subsection.8.6.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.1}Primeres pàgines}{\reset@font\mtcSSSfont 52}{subsubsection.8.6.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.2}Registrar un nou usuari}{\reset@font\mtcSSSfont 53}{subsubsection.8.6.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.3}Login}{\reset@font\mtcSSSfont 54}{subsubsection.8.6.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.4}Càmera per escanejar codi QR}{\reset@font\mtcSSSfont 55}{subsubsection.8.6.1.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.5}Pagina per generar codi QR de pagament}{\reset@font\mtcSSSfont 56}{subsubsection.8.6.1.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.6}Generar codi QR de cobrament}{\reset@font\mtcSSSfont 57}{subsubsection.8.6.1.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.7}Eliminar un compte bancari}{\reset@font\mtcSSSfont 58}{subsubsection.8.6.1.7}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.8}Modificar l'estat del compte bancari}{\reset@font\mtcSSSfont 59}{subsubsection.8.6.1.8}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.9}Altres operacions sobre el compte bancari}{\reset@font\mtcSSSfont 60}{subsubsection.8.6.1.9}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.10}Afegir un compte bancari per a l'usuari}{\reset@font\mtcSSSfont 61}{subsubsection.8.6.1.10}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.11}Refrescar la pàgina}{\reset@font\mtcSSSfont 62}{subsubsection.8.6.1.11}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.12}Sortir de la secció}{\reset@font\mtcSSSfont 63}{subsubsection.8.6.1.12}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.1.13}Altres gestions de l'usuari}{\reset@font\mtcSSSfont 64}{subsubsection.8.6.1.13}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.6.2}Administrador}{\reset@font\mtcSSfont 65}{subsection.8.6.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.1}Login d'un administrador}{\reset@font\mtcSSSfont 65}{subsubsection.8.6.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.2}Llistar els comptes de l'usuari i modificar l'estat del compte}{\reset@font\mtcSSSfont 66}{subsubsection.8.6.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.3}Crear una nova contrasenya per client}{\reset@font\mtcSSSfont 67}{subsubsection.8.6.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.4}Modificar l'estat de l'usuari client}{\reset@font\mtcSSSfont 68}{subsubsection.8.6.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.5}Eliminar un usuari client}{\reset@font\mtcSSSfont 69}{subsubsection.8.6.2.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.6}Visualitzar els moviments d'un usuari}{\reset@font\mtcSSSfont 70}{subsubsection.8.6.2.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.7}Llistar tots els administradors i veure els seus moviments}{\reset@font\mtcSSSfont 71}{subsubsection.8.6.2.7}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {8.6.2.8}Canviar la pròpia contrasenya}{\reset@font\mtcSSSfont 72}{subsubsection.8.6.2.8}}
