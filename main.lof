@@ -3,8 +3,7 @@
 \contentsline {xchapter}{Introducció}{1}{chapter.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Estudi de viabilitat}{3}{chapter.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces El preu del servei MongoDB Atlas.}}{5}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Un codi QR de PayPal.}}{6}{figure.2.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Un codi QR de PayPal.}}{6}{figure.2.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Metodologia}{7}{chapter.3}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Sistema de treball Scrum.}}{8}{figure.3.1}%
@@ -16,59 +15,65 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Imatge d'un codi QR.}}{15}{figure.5.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Requisits del sistema}{17}{chapter.6}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Matriu de dependències de requisits funcionals}}{21}{figure.6.1}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Matriu de dependències de requisits funcionals}}{20}{figure.6.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Estudi i decisions}{23}{chapter.7}%
+\contentsline {xchapter}{Estudi i decisions}{21}{chapter.7}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Anàlisi i disseny del sistema}{35}{chapter.8}%
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Diagrama de casos d'ús de context de client.}}{36}{figure.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagrama de casos d'ús de context d'administrador. \textcolor {red}{``Llitar'' hauria de ser ``Llistar'', i ``Cambiar'' hauria de ser ``Canviar''.}}}{38}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Diagrama de casos d'ús de context del sistema. \textcolor {red}{``bancàries'' hauria de ser ``bancaris''.}}}{39}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Generar codi QR de cobrament}}{40}{figure.8.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Generar codi QR de pagament}}{41}{figure.8.5}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Generar codi QR de cobrament}}{42}{figure.8.6}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Escanejar un codi QR de cobrament}}{43}{figure.8.7}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Modificar l'estat d'un compte bancari}}{44}{figure.8.8}%
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Diagrama de la base de dades}}{45}{figure.8.9}%
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Ús de Dictionary. \textcolor {red}{Canviar ``informaciones'' per ``informacions'', ``inclouent, missatge'' per ``incloent missatge'', ``en DICTIONARY'' per ``a la taula Dictionary'', ``a DICTIONARY per trobat'' per ``a la taula Dictionary per trobar'', i ``a ACCOUNTS'' per ``a la taula Account''.}}}{48}{figure.8.10}%
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Diagrama de processos.}}{50}{figure.8.11}%
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Primeres pàgines}}{52}{figure.8.12}%
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Registrar nou usuari client}}{53}{figure.8.13}%
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Pàgina de \textit {login} - Client.}}{54}{figure.8.14}%
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Escanejar codi QR}}{55}{figure.8.15}%
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Generar un codi QR de pagament.}}{56}{figure.8.16}%
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Pàgina per generar un codi QR de cobrament.}}{57}{figure.8.17}%
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Pàgina per generar un codi QR de cobrament.}}{58}{figure.8.18}%
-\contentsline {figure}{\numberline {8.19}{\ignorespaces Modificar l'estat del compte bancari}}{59}{figure.8.19}%
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Modificar l'estat del compte bancari}}{60}{figure.8.20}%
-\contentsline {figure}{\numberline {8.21}{\ignorespaces Afegir un compte bancari per a l'usuari}}{61}{figure.8.21}%
-\contentsline {figure}{\numberline {8.22}{\ignorespaces Refrescar la pàgina}}{62}{figure.8.22}%
-\contentsline {figure}{\numberline {8.23}{\ignorespaces Sortir de la secció}}{63}{figure.8.23}%
-\contentsline {figure}{\numberline {8.24}{\ignorespaces Altres gestions de l'usuari}}{64}{figure.8.24}%
-\contentsline {figure}{\numberline {8.25}{\ignorespaces Pàgina de \textit {login} - Administrador}}{65}{figure.8.25}%
-\contentsline {figure}{\numberline {8.26}{\ignorespaces Llistar els comptes de l'usuari i modificar l'estat del compte}}{66}{figure.8.26}%
-\contentsline {figure}{\numberline {8.27}{\ignorespaces Crear una nova contrasenya per client}}{67}{figure.8.27}%
-\contentsline {figure}{\numberline {8.28}{\ignorespaces Modificar l'estat de l'usuari client}}{68}{figure.8.28}%
-\contentsline {figure}{\numberline {8.29}{\ignorespaces Eliminar un usuari client}}{69}{figure.8.29}%
-\contentsline {figure}{\numberline {8.30}{\ignorespaces Visualitzar els moviments d'un usuari}}{70}{figure.8.30}%
-\contentsline {figure}{\numberline {8.31}{\ignorespaces Llistar tots els administradors i veure els seus moviments}}{71}{figure.8.31}%
-\contentsline {figure}{\numberline {8.32}{\ignorespaces Canviar la pròpia contrasenya}}{72}{figure.8.32}%
+\contentsline {xchapter}{Anàlisi i disseny del sistema}{33}{chapter.8}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Diagrama de casos d'ús de context de client.}}{34}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagrama de casos d'ús de context d'administrador. \textcolor {red}{``Llitar'' hauria de ser ``Llistar'', i ``Cambiar'' hauria de ser ``Canviar''.}}}{36}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Diagrama de casos d'ús de context del sistema. \textcolor {red}{``bancàries'' hauria de ser ``bancaris''.}}}{37}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Generar codi QR de cobrament}}{38}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Generar codi QR de pagament}}{39}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Generar codi QR de cobrament}}{40}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Escanejar un codi QR de cobrament}}{41}{figure.8.7}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Administrador modificar l'estat d'un compte bancari}}{42}{figure.8.8}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Diagrama de la base de dades}}{43}{figure.8.9}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Ús de Dictionary. \textcolor {red}{Canviar ``informaciones'' per ``informacions'', ``inclouent, missatge'' per ``incloent missatge'', ``en DICTIONARY'' per ``a la taula Dictionary'', ``a DICTIONARY per trobat'' per ``a la taula Dictionary per trobar'', i ``a ACCOUNTS'' per ``a la taula Account''.}}}{46}{figure.8.10}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Diagrama de processos.}}{48}{figure.8.11}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Primeres pàgines}}{50}{figure.8.12}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Registrar nou usuari client}}{51}{figure.8.13}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Pàgina de \textit {login} - Client.}}{52}{figure.8.14}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Escanejar codi QR}}{53}{figure.8.15}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Generar un codi QR de pagament.}}{54}{figure.8.16}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Pàgina per generar un codi QR de cobrament.}}{55}{figure.8.17}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Pàgina per generar un codi QR de cobrament.}}{56}{figure.8.18}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Modificar l'estat del compte bancari}}{57}{figure.8.19}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Modificar l'estat del compte bancari}}{58}{figure.8.20}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Afegir un compte bancari per a l'usuari}}{59}{figure.8.21}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Refrescar la pàgina}}{60}{figure.8.22}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Sortir de la secció}}{61}{figure.8.23}%
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Altres gestions de l'usuari}}{62}{figure.8.24}%
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Pàgina de \textit {login} - Administrador}}{63}{figure.8.25}%
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Llistar els comptes dels clients i modificar-ne l'estat}}{64}{figure.8.26}%
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Crear una nova contrasenya per client}}{65}{figure.8.27}%
+\contentsline {figure}{\numberline {8.28}{\ignorespaces Modificar l'estat de l'usuari client}}{66}{figure.8.28}%
+\contentsline {figure}{\numberline {8.29}{\ignorespaces Eliminar un usuari client}}{67}{figure.8.29}%
+\contentsline {figure}{\numberline {8.30}{\ignorespaces Visualitzar els moviments d'un usuari}}{68}{figure.8.30}%
+\contentsline {figure}{\numberline {8.31}{\ignorespaces Registrar un nou usuari}}{69}{figure.8.31}%
+\contentsline {figure}{\numberline {8.32}{\ignorespaces Llistar tots els administradors i veure els seus moviments}}{70}{figure.8.32}%
+\contentsline {figure}{\numberline {8.33}{\ignorespaces Canviar la pròpia contrasenya}}{71}{figure.8.33}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Implementació i proves}{73}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Versió antiga vs. versió nova}}{75}{figure.9.1}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Problemes d'implementació amb Android Studio}}{79}{figure.9.2}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Pàgina de prova}}{80}{figure.9.3}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Comanda flutter doctor}}{81}{figure.9.4}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Eliminar la taula de mongoDB}}{83}{figure.9.5}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Versió antiga vs. versió nova}}{74}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Problemes d'implementació amb Android Studio}}{78}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Pàgina de prova}}{79}{figure.9.3}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Comanda flutter doctor}}{80}{figure.9.4}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Eliminar la taula de mongoDB}}{82}{figure.9.5}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Les contrasenyes codificades}}{83}{figure.9.6}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Resolució d'una transferència QR}}{83}{figure.9.7}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Xifratge del codi QR de pagament}}{84}{figure.9.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Implantació i resultats}{85}{chapter.10}%
+\contentsline {xchapter}{Implantació i resultats}{87}{chapter.10}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces La pàgina principal de l'usuari client}}{90}{figure.10.1}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces La pàgina principal de l'usuari client}}{92}{figure.10.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusions}{87}{chapter.11}%
+\contentsline {xchapter}{Conclusions}{93}{chapter.11}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Treball futur}{89}{chapter.12}%
+\contentsline {xchapter}{Treball futur}{95}{chapter.12}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Bibliografiaaaaa}{91}{chapter.13}%
+\contentsline {xchapter}{Bibliografia}{97}{chapter.13}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Pressupost}{93}{appendix.a.A}%
+\contentsline {xchapter}{Pressupost}{99}{appendix.a.A}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Planificació}{97}{appendix.a.B}%
+\contentsline {xchapter}{Planificació}{103}{appendix.a.B}%

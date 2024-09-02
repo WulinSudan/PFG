@@ -179,11 +179,11 @@ En conjunt demostra que el projecte és viable i té un alt potencial de creixem
 \section{Viabilitat tècnica}
 \label{subsec:Viabilitat tècnica}
 
-Per assegurar la viabilitat tècnica de l'aplicació de pagaments mitjançant codis QR, és essencial considerar la disponibilitat de tecnologies que permetin desenvolupar tant el \textit{front end} com el \textit{back end} de l'aplicació. Existeixen tecnologies àmpliament utilitzades per a aquest tipus d'aplicacions, que inclouen solucions per a la generació i lectura de codis QR, així com plataformes de desenvolupament per a dispositius mòbils.\\
+Per assegurar la viabilitat tècnica de l'aplicació de pagaments mitjançant codis QR, és essencial considerar la disponibilitat de tecnologies que permetin desenvolupar tant el \textit{front-end} com el \textit{back-end} de l'aplicació. Existeixen tecnologies àmpliament utilitzades per a aquest tipus d'aplicacions, que inclouen solucions per a la generació i lectura de codis QR, així com plataformes de desenvolupament per a dispositius mòbils.\\
 
 A més, és important assegurar-se que l'aplicació pugui operar en una infraestructura robusta i segura, i que el desenvolupament es pugui dur a terme amb les competències tècniques disponibles dins l'equip. Tal com es detallarà al Capítol~\ref{chp:estudi}, es farà una selecció de les eines i tecnologies més adequades per garantir la viabilitat tècnica del projecte, les quals seran avaluades amb detall per assegurar que compleixin amb els requisits del sistema i els objectius del projecte.
 
-\pau{En teoria aquí encara no has decidit quines eines utilitzaràs; ho faràs al Capítol~\ref{chp:estudi}. Pots fer dues coses: (1) podries dir igualment que hi ha tecnologies àmpliament utilitzades, així en general, per implementar aplicacions d'aquest tipus, incloent \textit{front end} i \textit{back end}, o bé (2) podries dir que, tal com es veurà al Capítol~\ref{chp:estudi}, s'ha decidit utilitzar aquestes eines (abans de parlar d'elles i dir que són viables).}\sudan{corregit}
+\pau{En teoria aquí encara no has decidit quines eines utilitzaràs; ho faràs al Capítol~\ref{chp:estudi}. Pots fer dues coses: (1) podries dir igualment que hi ha tecnologies àmpliament utilitzades, així en general, per implementar aplicacions d'aquest tipus, incloent \textit{front-end} i \textit{back-end}, o bé (2) podries dir que, tal com es veurà al Capítol~\ref{chp:estudi}, s'ha decidit utilitzar aquestes eines (abans de parlar d'elles i dir que són viables).}\sudan{corregit}
 
 \section{Viabilitat econòmica}
 \label{subsec:Viabilitat económica}
@@ -197,45 +197,37 @@ Per calcular el cost de desenvolupament de l’aplicació, es tindran en compte 
     \begin{tabular}{|l|c|r|}
     \hline
     \textbf{Fase de Desenvolupament} & \textbf{Hores estimades} & \textbf{Cost (€)} \\ \hline
-    Anàlisi de Requisits       & 40 h  & 600 € \\ \hline
-    Disseny de l'Aplicació     & 60 h  & 900 € \\ \hline
-    Desenvolupament del Front End & 120 h & 1.800 € \\ \hline
-    Desenvolupament del Back End  & 150 h & 2.250 € \\ \hline
-    Proves i Depuració         & 50 h  & 750 € \\ \hline
-    Implementació i Lliurament & 30 h  & 450 €  \\ \hline
-    \textbf{Total}             & \textbf{450 h} & \textbf{6.750 €}  \\ \hline
+    Anàlisi de Requisits       & 80 h  & 1.200 € \\ \hline
+    Disseny de l'Aplicació     & 120 h  & 1.800 € \\ \hline
+    Desenvolupament del front-end & 240 h & 3.600 € \\ \hline
+    Desenvolupament del back-end  & 300 h & 4.500 € \\ \hline
+    Proves i Depuració         & 100 h  & 1.500 € \\ \hline
+    Implementació i Lliurament & 60 h  & 900 €  \\ \hline
+    \textbf{Total}             & \textbf{900 h} & \textbf{13.500 €}  \\ \hline
     \end{tabular}
-    \caption{Cost estimat del desenvolupament de l'aplicació}
+    \caption{Cost estimat del desenvolupament de l'aplicació amb hores multiplicades per 2 i preu/hora de 15€}
     \label{tab:costos_desenvolupament}
 \end{table}
 
 
-El cost estimat del desenvolupament de l'aplicació es mostra a la Taula~\ref{tab:costos_desenvolupament}. Aquesta taula detalla els costos associats a cada fase del projecte, amb un total de 6.750 € per al desenvolupament intern.\\
+
+El cost estimat del desenvolupament de l'aplicació es mostra a la Taula~\ref{tab:costos_desenvolupament}. Aquesta taula detalla els costos associats a cada fase del projecte, amb un total de 13.500 € per al desenvolupament intern.\\
 
 
 \pau{Tot i que el desenvolupament es realitzi internament, estaria bé calcular quant costaria. Bàsicament, hores de desenvolupament multiplicades pel preu/hora d'un programador.}\sudan{corregit}\\
 
-Tal com es detallarà al Capítol~\ref{chp:estudi}, aquest projecte utilitzarà MongoDB Atlas per gestionar el servei de bases de dades, proporcionant una solució escalable i segura per a l'emmagatzematge i la gestió de dades. A la següent figura~\ref{fig:El preu del servei MongoDB Atlas} es detalla el cost del servei MongoDB.
 
-
-\begin{figure}[h!] % La posició de la figura pot ser ajustada amb 'h!', 't', 'b', etc.
-    \centering
-    \includegraphics[width=0.8\textwidth]{imatges/mongodb.png} % Ajusta el nom i el camí del fitxer d'imatge
-    \caption{El preu del servei MongoDB Atlas.} % Títol de la imatge
-    \label{fig:El preu del servei MongoDB Atlas} % Etiqueta per referenciar la imatge
-  \end{figure}
-
-\pau{En algun lloc del text hauries de citar la figura, com per exemple ``tal com es veu a la Figura~\ref{fig:El preu del servei MongoDB Atlas}, ...''. Recorda el mateix que abans, també, que en principi encara no has decidit si ho faràs amb MongoDB Atlas (pots fer com abans: ``tal com es veurà al Capítol~\ref{chp:estudi}...''.}
+\pau{En algun lloc del text hauries de citar la figura, com per exemple ``tal com es veu a la Figura~\ref{fig:El preu del servei MongoDB Atlas}, ...''. Recorda el mateix que abans, també, que en principi encara no has decidit si ho faràs amb MongoDB Atlas (pots fer com abans: ``tal com es veurà al Capítol~\ref{chp:estudi}...''.}\sudan{corregit}
 
 
 
 Per determinar la viabilitat econòmica del projecte, és crucial estimar els ingressos potencials i calcular el temps necessari per amortitzar la inversió inicial. A continuació es presenten les estimacions basades en les dades actuals:\\
 
-El cost inicial del projecte es compon de 6.750 € per al desenvolupament de l'aplicació i 5.000 € per al manteniment anual, sumant un total de 11.750 €.\\
+El cost inicial del projecte es compon de 13.500 € per al desenvolupament de l'aplicació i 5.000 € per al manteniment anual, sumant un total de 18.500 €.\\
 
 Amb una previsió de 1.000 clients, cadascun amb un dipòsit de 1.000 €, el total de dipòsits seria de 1.000.000 €. Aquesta quantitat permetrà realitzar inversions que generaran interessos. Si assumim una taxa d'interès anual del 2\%, els interessos generats seran de 20.000 € cada any.\\
 
-Així, amb aquests guanys d'interessos, la recuperació dels 11.750 € invertits es podria aconseguir en aproximadament 0,6 anys, equivalent a uns 7 mesos. Aquest càlcul indica que, amb una base sòlida de clients i dipòsits, la inversió inicial podria ser amortitzada en un període relativament curt, mostrant així un bon potencial de rendibilitat per al projecte.\\
+Així, amb aquests guanys d'interessos, la recuperació dels 18.500 € invertits es podria aconseguir en aproximadament 1 anys. Aquest càlcul indica que, amb una base sòlida de clients i dipòsits, la inversió inicial podria ser amortitzada en un període relativament curt, mostrant així un bon potencial de rendibilitat per al projecte.\\
 
 \pau{Aquí podria estar bé fer una estimació dels ingressos, i així poder dir quan es creu que pot amortitzar-se la inversió inicial, comptant el desenvolupament de l'aplicació i el seu manteniment.}\sudan{corregit}
 
@@ -262,7 +254,7 @@ Encara que hi ha altres solucions de pagament basades en codis QR, el nostre sis
     \label{fig:Un codi QR de Paypal} % Etiqueta per referenciar la imatge
   \end{figure}
 
-  La imatge mostrada a la Figura~\ref{fig:Un codi QR de Paypal} és un exemple d'un anunci de PayPal. Com es pot observar, l'anunci destaca la facilitat d'ús del sistema: només cal escanejar el codi QR, efectuar el pagament i continuar amb les activitats diàries. Aquest procés de pagament és extremadament còmode i simplificat per a l'usuari.
+  La imatge mostrada a la Figura~\ref{fig:Un codi QR de Paypal} és un exemple d'un anunci de PayPal. Com es pot observar, l'anunci destaca la facilitat d'ús del sistema: només cal escanejar el codi QR, efectuar el pagament i continuar amb les activitats diàries. Aquest procés de pagament és extremadament còmode i simplificat per a l'usuari i comercials.
 
 \chapter{Metodologia}
 \label{chp:metodologia}
@@ -275,8 +267,8 @@ La metodologia utilitzada en aquest projecte és la metodologia àgil, en concre
 
 Les metodologies àgils són un conjunt de principis i pràctiques de gestió de projectes dissenyades per a la flexibilitat i la rapidesa en el desenvolupament de productes. A diferència dels enfocaments tradicionals, que sovint són rígids i seqüencials, les metodologies àgils se centren en la iteració, la col·laboració i l'adaptabilitat. Ofereixen diversos avantatges respecte a les metodologies tradicionals:
 \begin{itemize}
-    \item \textbf{Adaptabilitat als Canvis}: Les metodologies àgils permeten ajustar els requisits i prioritats al llarg del projecte, mentre que les metodologies tradicionals són més rígides i difícils de modificar un cop el desenvolupament està en marxa.
-    \item \textbf{Desenvolupament Iteratiu}: Amb àgil, es treballa en iteracions curtes i incrementals, proporcionant resultats parcials i millorant contínuament el producte. En canvi, les metodologies tradicionals solen seguir un enfocament seqüencial, amb un lliurament complet al final del projecte.
+    \item \textbf{Adaptabilitat als Canvis}: Permeten ajustar els requisits i prioritats al llarg del projecte, mentre que les metodologies tradicionals són més rígides i difícils de modificar un cop el desenvolupament està en marxa.
+    \item \textbf{Desenvolupament Iteratiu}: Es treballa en iteracions curtes i incrementals, proporcionant resultats parcials i millorant contínuament el producte. En canvi, les metodologies tradicionals solen seguir un enfocament seqüencial, amb un lliurament complet al final del projecte.
     \item \textbf{Reducció de Riscos}: La revisió contínua i les iteracions àgils ajuden a identificar i abordar problemes abans que es converteixin en grans obstacles, mentre que les metodologies tradicionals poden identificar riscos tardanament, quan ja poden ser més difícils de gestionar.
 \end{itemize}
 
@@ -303,7 +295,7 @@ Per a la planificació del projecte, es defineixen \textit{sprints} de dues setm
   
   \pau{Citar figura al text.}\sudan{corregit}
 
-Tal com es veu en la figura~\ref{fig:Sistema de treball Scrum}, es crea i es gestiona un \textit{product backlog} que llista totes les funcionalitats a desenvolupar. Aquest \textit{backlog} es prioritza d'acord amb la seva importància i la complexitat de la implementació. Cada \textit{sprint} es planifica tenint en compte aquesta llista, garantint que es treballa sempre en les tasques més rellevants per al progrés del projecte.\\
+Tal com es veu a la figura~\ref{fig:Sistema de treball Scrum}, es crea i es gestiona un \textit{product backlog} que llista totes les funcionalitats a desenvolupar. Aquest \textit{backlog} es prioritza d'acord amb la seva importància i la complexitat de la implementació. Cada \textit{sprint} es planifica tenint en compte aquesta llista, garantint que es treballa sempre en les tasques més rellevants per al progrés del projecte.\\
 
 L'ús d'Scrum, adaptat a un entorn individual, va ser fonamental per a la gestió eficient del temps i la consecució dels objectius del projecte. Va permetre que el desenvolupament es realitzés de manera ordenada i progressiva, proporcionant la flexibilitat necessària per fer ajustos sobre la marxa. Aquesta metodologia va resultar especialment útil per mantenir el ritme de treball i assegurar que cada fase del projecte es completés amb èxit abans de passar a la següent.
 
@@ -320,6 +312,8 @@ Un cop definida la idea principal de l'aplicació, el següent pas és la seva i
     \item \textbf{Revisió i ajustament}: Realitzar revisió per avaluar el treball completat i ajustar les tasques futures. Utilitzar les retrospectives per millorar el procés de desenvolupament. 
     \item \textbf{Entrega}: Lliurar els resultats parcials al final de cada sprint, permetent una validació progressiva i realitzant ajustaments abans de la finalització completa del projecte
 \end{itemize}
+
+Per al projecte actual, seguint la metodologia Scrum, primer es crea un backlog amb l'esquelet de codi que estableix la relació entre el client i el servidor. A partir d'aquí, s'afegeixen funcionalitats en els sprints successius. Si en algun moment cal fer modificacions, es inclouen en el següent backlog, avançant progressivament fins a l'entrega final.\\
 
 En Scrum, el procés de desenvolupament permet realitzar canvis en qualsevol moment. Aquesta flexibilitat és una de les principals avantatges, ja que ens permet adaptar-nos de manera contínua als nous requisits. L'enfocament àgil facilita l'ajustament dels objectius i les funcionalitats del projecte al llarg del seu desenvolupament, assegurant que el producte final s'alineï amb les necessitats canviants i les expectatives dels clients. Aquesta capacitat d'adaptació contínua garanteix que el projecte pugui respondre eficaçment a les variacions del mercat i a les noves oportunitats que puguin sorgir.
 
@@ -361,8 +355,8 @@ El procés de creació i construcció del producte de programari inclou les seg�
   \begin{itemize}
       \item Escriure el codi font segons les especificacions.
       \item Implementar les funcionalitats del sistema.
-      \item Desenvolupar codi de \textit{back end} i \textit{front end}. 
-      \pau{Teòricament encara no has decidit les eines: jo potser diria directament ``codi de \textit{back end} i \textit{front end}, sense especificar.}\sudan{corregit}
+      \item Desenvolupar codi de \textit{back-end} i \textit{front-end}. 
+      \pau{Teòricament encara no has decidit les eines: jo potser diria directament ``codi de \textit{back-end} i \textit{front-end}, sense especificar.}\sudan{corregit}
   \end{itemize}
 
   \item \textbf{Proves}:
@@ -384,13 +378,13 @@ El procés de creació i construcció del producte de programari inclou les seg�
   \item \textbf{Manteniment i actualitzacions}
     \begin{itemize}
         \item Realitzar manteniment regular del sistema per assegurar la seva funcionalitat.
-        \item Implementar actualitzacions i millores basades en \textit{feedback} i nous requisits.
+        \item Implementar actualitzacions, millores i nous requisits.
     \end{itemize}
 \end{enumerate}
 
 
 
-El Diagrama de Gantt~\ref{fig:Diagrama de Gantt} proporciona una visió detallada del calendari del projecte, desglossant les diferents fases i tasques previstes. Aquesta eina visual ofereix una visió general clara del progrés del projecte, facilitant tant la gestió del temps com l'assignació de recursos. Mitjançant el diagrama, és possible identificar les dates clau i controlar l’avanç de les tasques, ajudant així a assegurar que el projecte es mantingui en el camí correcte per a una finalització exitosa.
+Tal com es veu al diagrama Gantt~\ref{fig:Diagrama de Gantt} proporciona una visió detallada del calendari del projecte, desglossant les diferents fases i tasques previstes. Aquesta eina visual ofereix una visió general clara del progrés del projecte, facilitant tant la gestió del temps com l'assignació de recursos. Mitjançant el diagrama, és possible identificar les dates clau i controlar l’avanç de les tasques, ajudant així a assegurar que el projecte es mantingui en el camí correcte per a una finalització exitosa.
 
 \begin{figure}[h!] % La posició de la figura pot ser ajustada amb 'h!', 't', 'b', etc.
     \centering
@@ -412,7 +406,7 @@ El Diagrama de Gantt~\ref{fig:Diagrama de Gantt} proporciona una visió detallad
 \section{Introducció}
 \label{subsec:Introducció}
 
-En aquest capítol es tractaran els coneixements necessaris per desenvolupar correctament una aplicació bancària que utilitza codis QR per realitzar operacions. En resum, és important entendre com funciona el codi QR, especialment en relació amb com emmagatzemar el contingut. A més, cal disposar de coneixements sobre arquitectura i desenvolupament de programari per aportar valor a l'aplicació.
+En aquest capítol es tractaran els coneixements necessaris per desenvolupar correctament una aplicació bancària que utilitza codis QR per realitzar operacions. És important entendre com funciona el codi QR, especialment en relació amb com emmagatzemar el contingut. A més, cal disposar de coneixements sobre arquitectura i desenvolupament de programari per aportar valor a l'aplicació.
 
 \subsection{Propòsit}
 \label{subsec: Propòsit}
@@ -434,11 +428,11 @@ A continuació, es presenta una llista amb les parts fonamentals que defineixen 
     \item \textbf{Usuari Client}: L'usuari client és la persona que utilitza l'aplicació per realitzar pagaments o cobraments.
     \item \textbf{Usuari Administrador}: L'usuari administrador és qui gestiona l'aplicació, configurant els sistemes de pagament i supervisant les transaccions, comptes i també els usuaris.
     \item \textbf{Transacció}: Les transaccions es fan entre comptes bancaris, independentment dels usuaris. No es pot fer una transacció dins del mateix compte, però sí que poden ser entre comptes del mateix client.
-    \item \textbf{QR de pagament}: Per a cada compte, només hi ha un codi QR actiu, ja que aquests estan xifrats per garantir la seguretat. Cada vegada que es genera un nou codi QR, la clau de desxifratge s’actualitza. A més, els codis QR són d'ús únic i caduquen després d'un temps determinat. Tots aquests processos es duen a terme per reforçar la protecció.
+    \item \textbf{QR de pagament}: Per a cada compte, només hi ha un codi QR actiu, ja que aquests estan xifrats per garantir la seguretat. Cada vegada que es genera un nou codi QR, la clau de xifratge s’actualitza. A més, els codis QR són d'ús únic i caduquen després d'un temps determinat. Tots aquests processos es duen a terme per reforçar la protecció.
     \item \textbf{QR de cobrament}: El codi QR de cobrament és més senzill que el de pagament, ja que presenta menys restriccions. A diferència del codi QR de pagament, el de cobrament no està xifrat ni caduca, i es pot utilitzar tantes vegades com es desitgi.
     \item \textbf{Activat/Desactivar Usuari client}: Un usuari pot canviar l'estat del seu compte per si mateix o mitjançant un administrador. Quan el usuari està desactivat, l'usuari no podrà realitzar cap acció ni visualitzar informació, encara que podrà rebre cobraments.
-    \item \textbf{Activar/Desactivar Compte}: Un compte pot canviar el seu estat per si mateix o mitjançant un administrador. Quan el compte està desactivat, l'usuari no podrà generar codis QR de pagament ni fer pagaments amb el compte desactivat. Altres operacions seguiran igual.
-    \item \textbf{Dictionary}: Cada cop que l'usuari genera un codi QR, tota la informació es guarda en un Diccionary. Quan el codi és escanejat, el sistema consulta internament aquest Diccionary per obtenir les dades necessàries, com el compte d'origen i l'import.
+    \item \textbf{Activar/Desactivar Compte}: Un compte pot canviar el seu estat per si mateix o mitjançant un administrador. Quan el compte està desactivat, l'usuari no podrà generar codis QR de pagament ni fer pagaments de quansevol manera. Altres operacions seguiran igual.
+    \item \textbf{Dictionary}: Cada cop que l’usuari genera un codi QR, tota la informació es guarda en la taula \textit{Diccionary}. Quan el codi és escanejat, el sistema consulta internament aquest \textit{Diccionary} per obtenir les dades necessàries, com el compte d’origen i l’import.
     \item \textbf{Codi QR}: El codi QR és un element clau de l'aplicació, utilitzat per comunicar informació entre clients.
 \end{itemize}
 
@@ -451,7 +445,7 @@ A continuació, es presenta una llista amb les parts fonamentals que defineixen 
 
 Els codis QR (Quick Response) van ser desenvolupats al Japó a mitjans dels anys 90. És un tipus de codi de barres bidimensional que pot emmagatzemar una gran quantitat d'informació en un espai reduït. Aquest codi es pot escanejar fàcilment amb la càmera d'un telèfon mòbil o amb dispositius específics, permetent accedir a la informació que conté de manera ràpida i senzilla.\\
 
-La Figura~\ref{fig:Imatge d'un codi QR} mostra un codi QR. Es pot escanejar amb la càmera del mòbil i conté text emmagatzemat en el seu interior. El codi QR té tres quadrats grans en les cantonades, que ajuden a posicionar-lo correctament. La resta dels quadrats són en general de dos colors: negre (1) i blanc (0). Aquests colors formen un patró que representa informació en format binari, que posteriorment es converteix en text.
+Tal es com veu a la figura~\ref{fig:Imatge d'un codi QR} mostra un codi QR. Es pot escanejar amb la càmera del mòbil i conté text emmagatzemat en el seu interior. El codi QR té tres quadrats grans en les cantonades, que ajuden a posicionar-lo correctament. La resta dels quadrats són en general de dos colors: negre (1) i blanc (0). Aquests colors formen un patró que representa informació en format binari, que posteriorment es converteix en text.
 
 \begin{figure}[h!] % La posició de la figura pot ser ajustada amb 'h!', 't', 'b', etc.
     \centering
@@ -460,7 +454,7 @@ La Figura~\ref{fig:Imatge d'un codi QR} mostra un codi QR. Es pot escanejar amb 
     \label{fig:Imatge d'un codi QR} % Etiqueta per referenciar la imatge
   \end{figure}
 
-Els codis QR s'han popularitzat per la seva versatilitat i eficiència. En aplicacions de pagaments i cobraments, els codis QR ofereixen una manera ràpida i segura de transferir informació, com per exemple detalls de pagament o d'una transacció específica. L'usuari simplement escaneja el codi amb el seu dispositiu i la informació es transmet instantàniament, eliminant la necessitat d'entrar dades manualment, reduint errors i accelerant el procés de transacció.\\
+  Els codis QR s’han popularitzat per la seva versatilitat i eficiència. En aplicacions de pagaments i cobraments, els codis QR ofereixen una manera ràpida i segura de transferir informació, com ara detalls de pagament o d’una transacció específica. L’usuari simplement escaneja el codi amb el seu dispositiu, i la informació es transmet instantàniament, eliminant la necessitat d’introduir dades manualment, reduint errors i accelerant el procés de transacció. A més, aquesta manera de fer-ho protegeix les dades personals, ja que evita la necessitat de mostrar informació sensible a altres persones.
 
 
 \chapter{Requisits del sistema}
@@ -495,8 +489,6 @@ En l'apartat de bibliografia es detallen amb més precisió les informacions sob
 
 \pau{Aquí és una bona oportunitat per afegir un ítem a la bibliografia relacionat amb Bizum.}\sudan{Alguna cosa així??}
 
-D'altra banda, el Bizum està vinculat a un número de telèfon, mentre que l'aplicació que es presenta es vincularà a un número de compte bancari. Cada compte bancari serà capaç de generar codis QR per a cobraments o, a la inversa, serà capaç de llegir codis QR per a efectuar pagaments.\\
-
 
 
 \textbf{Gestió d'usuaris clients:}
@@ -516,11 +508,6 @@ D'altra banda, el Bizum està vinculat a un número de telèfon, mentre que l'ap
     \item \textbf{RF-8.} Els usuaris administradors han de poder modificar la contrasenya d'accés, proporcionant la seva contrasenya antiga.
     \item \textbf{RF-9.} Els usuaris administradors han de poder donar una nova contrasenya d'accés a l'usuari client, sense que calgui proporcionar la contrasenya antiga.
     \item \textbf{RF-10.} Els usuaris administradors han de poder donar-se de baixa ells mateixos (excepte l'usuari ``admin'').
-\end{itemize}
-
-
-\textbf{Operacions d'usuari administrador:}
-\begin{itemize}
     \item \textbf{RF-11.} Els usuaris administradors han de poder visualitzar tots els usuaris clients i tots els moviments associats als seus comptes.
     \item \textbf{RF-12.} Els usuaris administradors han de poder veure tots els usuaris administradors i tots els moviments associats a cadascun d'ells.
     \item \textbf{RF-13.} Els usuaris administradors han de poder gestionar tant els usuaris clients com els seus comptes.
@@ -565,7 +552,7 @@ D'altra banda, el Bizum està vinculat a un número de telèfon, mentre que l'ap
 \subsection{Matriu de dependències de requisits}
 \label{Matriu de dependències de requisits}
 
-A continuació presenta una taula~\ref{fig:Matriu de dependències de requisits funcionals} que il·lustra les relacions entre els diferents requisits del projecte. Aquesta matriu és fonamental per entendre com cada requisit es connecta i depèn d'altres, facilitant així la gestió de canvis i l'assegurament de la coherència durant tot el cicle de vida del projecte.\\
+Seguint la taula~\ref{fig:Matriu de dependències de requisits funcionals} que il·lustra les relacions entre els diferents requisits del projecte. Aquesta matriu és fonamental per entendre com cada requisit es connecta i depèn d'altres, facilitant així la gestió de canvis i l'assegurament de la coherència durant tot el cicle de vida del projecte.\\
 
 A través d'aquesta matriu, es poden identificar clarament les interdependències, cosa que permet una millor planificació i implementació dels requisits:
 
@@ -621,9 +608,9 @@ Aquest maquinari s'ha seleccionat per la seva fiabilitat i capacitat de processa
 \section{Front-end}
 \label{sec: Front-end}
 
-El \textit{front end} es refereix a la part del desenvolupament d'una aplicació o lloc web que interactua directament amb els usuaris. En termes simples, és tot el que els usuaris veuen i amb el que interactuen en una aplicació o pàgina web. Inclou el disseny i la implementació de la interfície d'usuari (UI), que comprèn elements com ara botons, menús, pàgines i imatges.\\
+El \textit{front-end} es refereix a la part del desenvolupament d'una aplicació o lloc web que interactua directament amb els usuaris. En termes simples, és tot el que els usuaris veuen i amb el que interactuen en una aplicació. Inclou el disseny i la implementació de la interfície d'usuari (UI), que comprèn elements com ara botons, menús, pàgines i imatges.\\
 
-Per al desenvolupament de front-end d'aplicacions mòbils, hi ha diverses tecnologies i eines que poden ser utilitzades, depenent de les necessitats específiques del projecte, com la plataforma objectiu, els requisits d'usuari i el rendiment desitjat. 
+Per al desenvolupament de \textit{front-end} d'aplicacions mòbils, hi ha diverses tecnologies i eines que poden ser utilitzades, depenent de les necessitats específiques del projecte, com la plataforma objectiu, els requisits d'usuari i el rendiment desitjat. 
 
 \subsection{Tecnologies més conegudes}
 \label{subsec: Tecnologies més conegudes}
@@ -660,14 +647,14 @@ A continuació, es detallen algunes de les tecnologies més conegudes i populars
 \subsection{Tecnologia Escollida: Flutter}
 \label{subsec: Tecnologia Escollida: Flutter}
 
-En aquest projecte, s'ha escollit \textbf{Flutter} com a framework per al desenvolupament del front-end de l'aplicació mòbil. A continuació, es detallen les raons per les quals Flutter ha estat seleccionat, així com els avantatges clau que ofereix aquest framework, especialment en comparació amb altres opcions comunes:
+En aquest projecte, s'ha escollit \textbf{Flutter} com a framework per al desenvolupament del \textit{front-end} de l'aplicació mòbil. A continuació, es detallen les raons per les quals Flutter ha estat seleccionat, així com els avantatges clau que ofereix aquest framework, especialment en comparació amb altres opcions comunes:
 
 \begin{itemize}
     \item \textbf{Rendiment Elevat:} Flutter ofereix un rendiment destacat gràcies a la seva arquitectura basada en la compilació a codi nadiu. A diferència de les solucions híbrides com React Native o Ionic, que utilitzen una capa intermitja per comunicar-se amb el sistema operatiu, Flutter compila directament a codi nadiu. Aquesta característica millora la velocitat d'execució i la resposta davant les accions dels usuaris.
 
     \item \textbf{Disseny Consistent:} Flutter proporciona una experiència visual i funcional uniforme tant en dispositius Android com iOS gràcies als seus widgets personalitzables. Això és una millora respecte a les tecnologies com React Native, que poden requerir ajustaments addicionals per garantir que l'aplicació sigui coherent entre plataformes. Flutter permet als desenvolupadors mantenir un disseny consistent sense necessitat de personalitzar excessivament el codi per a cada plataforma.
 
-    \item \textbf{Productivitat Augmentada:} Flutter utilitza el \textbf{llenguatge Dart}, que facilita l'escriptura de codi de manera eficient. La funcionalitat de *hot reload* de Flutter permet als desenvolupadors veure els canvis en temps real sense haver de reiniciar l'aplicació completa. Aquesta característica és superior a les eines de desenvolupament d'altres frameworks com Xamarin, on el procés de reinici i recompilació pot ser més llarg.
+    \item \textbf{Productivitat Augmentada:} Flutter utilitza el \textbf{llenguatge Dart}, que facilita l'escriptura de codi de manera eficient. La funcionalitat de \textbf{hot reload} de Flutter permet als desenvolupadors veure els canvis en temps real sense haver de reiniciar l'aplicació completa. Aquesta característica és superior a les eines de desenvolupament d'altres frameworks com Xamarin, on el procés de reinici i recompilació pot ser més llarg.
 
     \item \textbf{Suport Actiu i Comunitat:} Flutter compta amb un suport actiu per part de Google i una comunitat en creixement que proporciona recursos i solucions per a problemes comuns. Aquesta comunitat en creixement i el suport continuat asseguren que Flutter continuï evolucionant i millorant. Comparat amb frameworks com Xamarin o Ionic, que poden tenir comunitats més petites o menys activament suportades, Flutter ofereix un ecosistema més robust i dinàmic.
 \end{itemize}
@@ -683,14 +670,14 @@ Amb aquests avantatges, Flutter es presenta com una opció ideal per al desenvol
 
 Per al desenvolupament d'aplicacions amb Flutter, hi ha diversos entorns de desenvolupament integrats (IDE) disponibles. En aquest projecte, s'ha escollit \textbf{Android Studio} com a IDE per implementar la part client. Android Studio és l'entorn de desenvolupament integrat oficial per a aplicacions Android, creat per Google. Aquest IDE ofereix un conjunt complet d'eines dissenyades per facilitar la creació i gestió d'aplicacions destinades a dispositius Android.\\
 
-Un aspecte destacat d'Android Studio és l'emulador integrat, que permet provar les aplicacions en dispositius simulats sense necessitat de tenir un dispositiu físic. L'emulador simula diverses configuracions de dispositius Android, com ara diferents mides de pantalla i versions del sistema operatiu. Això permet als desenvolupadors observar com es comporta l'aplicació en una gamma de condicions i configuracions diverses. L'ús de l'emulador facilita la depuració i les proves, oferint una manera ràpida i flexible de verificar el funcionament de l'aplicació abans del desplegament final.
+Un aspecte destacat d'Android Studio és \textbf{l'emulador integrat}, que permet provar les aplicacions en dispositius simulats sense necessitat de tenir un dispositiu físic. L'emulador simula diverses configuracions de dispositius Android, com ara diferents mides de pantalla i versions del sistema operatiu. Això permet als desenvolupadors observar com es comporta l'aplicació en una gamma de condicions i configuracions diverses. L'ús de l'emulador facilita la depuració i les proves, oferint una manera ràpida i flexible de verificar el funcionament de l'aplicació abans del desplegament final.
 
 
 
 \section{Back-end}
 \label{sec: Back-end}
 
-El \textit{back end} és la part de l'arquitectura d'una aplicació que opera al servidor, gestionant la lògica de negoci, el processament de dades i la comunicació amb altres serveis. La seva funció principal és assegurar que l'aplicació funcioni correctament, processant les sol·licituds dels usuaris i gestionant les operacions internes necessàries per proporcionar una resposta adequada.
+El \textit{back-end} és la part de l'arquitectura d'una aplicació que opera al servidor, gestionant la lògica de negoci, el processament de dades i la comunicació amb altres serveis. La seva funció principal és assegurar que l'aplicació funcioni correctament, processant les sol·licituds dels usuaris i gestionant les operacions internes necessàries per proporcionar una resposta adequada.
 
 
 \subsection{Tecnologies més conegudes}
@@ -751,42 +738,38 @@ Per al desenvolupament del backend d'una aplicació mòbil, hi ha diverses tecno
         \end{itemize}
     \end{itemize}
 \end{itemize}
-La creació d'APIs (Interfícies de Programació d'Aplicacions) és fonamental per permetre la comunicació entre el servidor i els clients.
 
-\pau{Igual que abans, caldria explicar una mica els avantatges de cada tecnologia que es presenta respecte a altres alternatives, justificant-ne així l'elecció.}
+
+\pau{Igual que abans, caldria explicar una mica els avantatges de cada tecnologia que es presenta respecte a altres alternatives, justificant-ne així l'elecció.}\sudan{corregit}
 
 
 \subsection{Tecnologia Escollida: GraphQL}
 \label{subsec: Tecnologies Escollida: GraphQL}
 
-En el desenvolupament del backend de l'aplicació mòbil, aqueste projecte utilitza GraphQL com a tecnologia principal. GraphQL és un llenguatge de consulta d'API desenvolupat per Facebook que ofereix diverses avantatges respecte a altres tecnologies de backend tradicionals com REST.\\
+En el desenvolupament del backend de l'aplicació mòbil, aqueste projecte utilitza \textbf{GraphQL} com a tecnologia principal. GraphQL és un llenguatge de consulta d'API desenvolupat per Facebook que ofereix diverses avantatges respecte a altres tecnologies de backend tradicionals com REST.\\
 
-Una de les principals avantatges de GraphQL és la seva capacitat per proporcionar consultes flexibles. A diferència de les API REST, on cada endpoint retorna un conjunt fix de dades, GraphQL permet als clients especificar exactament quins camps volen recuperar. Això evita la sobrecàrrega de dades i optimitza la comunicació entre el client i el servidor, ja que només es transfereixen les dades necessàries per a cada sol·licitud. Aquesta característica és especialment valuosa en entorns mòbils, on l'ús eficient de l'ample de banda i la velocitat de resposta són essencials.\\
+Una de les principals avantatges de GraphQL és la seva capacitat per proporcionar \textbf{consultes flexibles}. A diferència de les API REST, on cada endpoint retorna un conjunt fix de dades, GraphQL permet als clients especificar exactament quins camps volen recuperar. Això evita la sobrecàrrega de dades i optimitza la comunicació entre el client i el servidor, ja que només es transfereixen les dades necessàries per a cada sol·licitud. Aquesta característica és especialment valuosa en entorns mòbils, on l'ús eficient de l'ample de banda i la velocitat de resposta són essencials.\\
 
 A més, GraphQL utilitza un sistema de tipus fort i un esquema ben definit que facilita tant el desenvolupament com la depuració. Els tipus de dades i les operacions disponibles estan clarament especificats en l’esquema, cosa que permet una millor validació i documentació automàtica de l'API. Això no només accelera el desenvolupament, sinó que també millora la qualitat i la mantenibilitat del codi.\\
 
-Un altre avantatge important de GraphQL és la seva capacitat per evolucionar l'API de manera flexible. Amb GraphQL, es poden afegir nous camps i tipus de dades a l'API sense afectar les consultes existents. Això facilita l'evolució contínua de l'API sense interrupcions per als clients actuals, permetent un desplegament més suau de noves funcionalitats.\\
-
-En comparació amb tecnologies com REST, que requereixen múltiples endpoints per accedir a diferents recursos, GraphQL simplifica l'arquitectura de l'API. Amb un sol endpoint, es poden realitzar diverses consultes i mutacions, cosa que redueix la complexitat del sistema i millora la seva eficiència.\\
-
+En comparació amb tecnologies com REST, que requereixen múltiples endpoints per accedir a diferents recursos, GraphQL simplifica l'arquitectura de l'API. Amb un sol endpoint, es poden realitzar diverses consultes i mutacions, cosa que redueix la complexitat del sistema i millora la seva eficiència.
 
 
 \subsection{Codi obert per implementar servidors GraphQL: Apollo Server}
 \label{Codi obert per implementar servidors GraphQL: Apollo Server}
 
 
-Apollo Server és una biblioteca poderosa i versàtil que simplifica la creació i gestió de servidors GraphQL, oferint una interfície intuïtiva i un ecosistema integrat que facilita el desenvolupament.\\
+\textbf{Apollo Server} és una biblioteca poderosa i versàtil que simplifica la creació i gestió de servidors GraphQL, oferint una interfície intuïtiva i un ecosistema integrat que facilita el desenvolupament.\\
 
 Un dels seus punts forts més destacats és la seva completa compatibilitat amb els estàndards i especificacions de GraphQL, garantint que les aplicacions creades amb aquesta tecnologia segueixin les millors pràctiques i funcionin de manera òptima en qualsevol entorn GraphQL. Entre les seves característiques avançades, destaquen la gestió de subscripcions per a dades en temps real, el suport per a directives personalitzades i una gestió eficient de la memòria cau.\\
 
-Distribuït a través de npm (Node Package Manager), Apollo Server és fàcil d'instal·lar i actualitzar, la qual cosa permet als desenvolupadors integrar-lo ràpidament en els seus projectes. Aquesta facilitat d'ús és un factor clau per al seu èxit en entorns de desenvolupament moderns.\\
+Distribuït a través de \textbf{npm} (Node Package Manager), Apollo Server és fàcil d'instal·lar i actualitzar, la qual cosa permet als desenvolupadors integrar-lo ràpidament en els seus projectes. Aquesta facilitat d'ús és un factor clau per al seu èxit en entorns de desenvolupament moderns.\\
 
-Finalment, Apollo Server és altament configurable, permetent als desenvolupadors adaptar-lo a les necessitats específiques del projecte. Aquesta flexibilitat es manifesta en la seva capacitat per funcionar amb qualsevol servidor HTTP, facilitant la seva integració en arquitectures existents sense necessitat de realitzar canvis significatius.
 
 \subsection{Llenguatge Escollit: TS}
 \label{subsec:Llenguatge Escillit: TS}
 
-El llenguatge de programació utilitzat en la part de \textit{back end} d'aquest projecte és TypeScript (TS). TypeScript és una extensió de JavaScript que incorpora tipatge estàtic al llenguatge. Això permet definir els tipus de dades per a variables i funcions, facilitant la detecció d'errors en temps de compilació abans que el codi s'executi. Aquesta funcionalitat no només millora la qualitat del codi, sinó que també enriqueix l'experiència de desenvolupament amb autocompleció i suggeriments intel·ligents en els editors de codi, augmentant així la productivitat dels desenvolupadors.\\
+El llenguatge de programació utilitzat en la part de \textit{back-end} d'aquest projecte és \textbf{TypeScript} (TS). TypeScript és una extensió de JavaScript que incorpora tipatge estàtic al llenguatge. Això permet definir els tipus de dades per a variables i funcions, facilitant la detecció d'errors en temps de compilació abans que el codi s'executi. Aquesta funcionalitat no només millora la qualitat del codi, sinó que també enriqueix l'experiència de desenvolupament amb autocompleció i suggeriments intel·ligents en els editors de codi, augmentant així la productivitat dels desenvolupadors.\\
 
 A més, TypeScript és totalment compatible amb el codi JavaScript existent, ja que és un superconjunt d'aquest llenguatge. Això facilita la integració progressiva de TypeScript en projectes que utilitzin JavaScript, permetent una transició suau. El codi TypeScript es compila a JavaScript, la qual cosa garanteix la seva compatibilitat amb qualsevol entorn que suporti JavaScript, com els navegadors web i entorns de servidor com Node.js.
 
@@ -795,7 +778,7 @@ A més, TypeScript és totalment compatible amb el codi JavaScript existent, ja 
 \section{Base de dades}
 \label{subsec: Base de dades}
 
-Una base de dades és un sistema organitzat per emmagatzemar, gestionar i recuperar dades de manera eficient. Aquest sistema permet als usuaris emmagatzemar gran quantitat d'informació en un format estructurat, facilitant la consulta i actualització de les dades. Amb l'evolució de la tecnologia, les bases de dades en el núvol s'han convertit en una opció popular per a moltes organitzacions. 
+Una base de dades és un sistema organitzat per emmagatzemar, gestionar i recuperar dades de manera eficient. Aquest sistema permet als usuaris emmagatzemar gran quantitat d'informació en un format estructurat, facilitant la consulta i actualització de les dades. Amb l'evolució de la tecnologia, les bases de dades en el núvol s'han convertit en una opció popular per a moltes organitzacions.\\
 
 Les bases de dades en el núvol representen una solució moderna per a l'emmagatzematge i gestió de dades, proporcionades com a servei a través d'Internet. Aquest enfocament ofereix nombrosos avantatges en comparació amb les bases de dades tradicionals instal·lades localment.
 
@@ -845,7 +828,7 @@ Hi ha diversos proveïdors destacats que ofereixen serveis de bases de dades en 
 \label{Base de Dades Escollida: MongoDB Atlas}
 
 
-En aquest projecte, la base de dades s'ha implementat utilitzant MongoDB Atlas.\\
+En aquest projecte, la base de dades s'ha implementat utilitzant \textbf{MongoDB Atlas}.\\
 
 MongoDB, a diferència de MySQL i PostgreSQL, és una base de dades NoSQL basada en documents. Aquesta característica li confereix una gran flexibilitat en l'estructura de dades, ja que no requereix un esquema fix com les bases de dades relacionals. En contrast, MySQL i PostgreSQL utilitzen esquemes fixos que poden complicar la modificació de l'estructura de les dades un cop establerta.\\
 
@@ -868,7 +851,7 @@ El control de versions és una pràctica essencial en el desenvolupament de soft
 \subsection{Control de Versions Escollida: GitHub}
 \label{subsec: Control de Versions Escollida: GitHub}
 
-GitHub és una plataforma de control de versions basada en Git que proporciona diversos avantatges significatius. Facilita una col·laboració eficaç entre desenvolupadors mitjançant el sistema de pull requests, que permet la revisió i fusió de canvis en el codi.\\
+\textbf{GitHub} és una plataforma de control de versions basada en Git que proporciona diversos avantatges significatius. Facilita una col·laboració eficaç entre desenvolupadors mitjançant el sistema de pull requests, que permet la revisió i fusió de canvis en el codi.\\
 
 En un entorn amb múltiples desenvolupadors, cada un d'ells disposa d'una còpia completa del repositori, la qual cosa afavoreix un treball descentralitzat i una sincronització efectiva dels canvis.\\
 
@@ -951,7 +934,9 @@ A més, el diagrama mostra altres casos d'ús relacionats amb la gestió de comp
 \subsection{Diagrama de casos d'ús del sistema}
 \label{subsec: Diagrama de casos d'ús del sistema}
 
-Addicionalment, el sistema compta amb la funció de generar \textit{logs} per a cada operació, tal com es mostra a la figura~\ref{fig:Diagrama de Casos d'Ús de Context del sistema}. Això vol dir que, fins i tot en cas d'eliminació d'un usuari o un compte, l'historial associat es manté sempre guardat. Aquest enfocament assegura la conservació de dades importants per a possibles auditories o revisions posteriors, garantint així la traçabilitat i la seguretat del sistema.
+Addicionalment, el sistema compta amb la funció de generar \textit{logs} per a cada operació, tal com es mostra a la diagrama~\ref{fig:Diagrama de Casos d'Ús de Context del sistema}. Això vol dir que, fins i tot en cas d'eliminació d'un usuari o un compte, l'historial associat es manté sempre guardat.\\
+
+Aquest enfocament assegura la conservació de dades importants per a possibles auditories o revisions posteriors, garantint així la traçabilitat i la seguretat del sistema.
 
 
 \begin{figure}[h]
@@ -968,7 +953,7 @@ Addicionalment, el sistema compta amb la funció de generar \textit{logs} per a 
 \section{Fitxes de cas d'ús}
 \label{sec: fitxes de cas d'ús}
 
-Un fitxer de cas d'ús és un document que descriu detalladament les interaccions entre un usuari i un sistema per aconseguir un objectiu concret. Aquest fitxer és fonamental en el desenvolupament de sistemes informàtics, ja que proporciona una visió clara i comprensible dels requisits funcionals del sistema des de la perspectiva de l'usuari.
+Un fitxer de cas d'ús és un document que descriu detalladament les interaccions entre un usuari i un sistema per aconseguir un objectiu concret. Aquest fitxer és fonamental en el desenvolupament de sistemes informàtics, ja que proporciona una visió clara i comprensible dels requisits funcionals del sistema des de la perspectiva de l'usuari.\\
 
 A continuació, es presenten cinc fitxers de cas d'ús que han estat creats per descriure les funcionalitats clau del sistema:
 
@@ -1032,16 +1017,16 @@ Aquest quart fitxer de cas d'ús, que es mostra a la figura~\ref{fig:Escanejar u
 
 
 \clearpage
-\subsection{Modificar l'estat d'un compte bancari}
-\label{subsec:Modificar l'estat d'un compte bancari}
+\subsection{Administrador modificar l'estat d'un compte bancari}
+\label{subsec:Administrador modificar l'estat d'un compte bancari}
 
-El últim fitxer de cas d'ús que apareix a sota de la figura~\ref{fig:Modificar l'estat d'un compte bancari} explica el procés mitjançant el qual un administrador pot canviar l'estat d'un compte bancari associat a un client. Inclou la identificació del compte bancari, la selecció del compte a modificar, i la realització de la modificació.
+El últim fitxer de cas d'ús que apareix a sota de la figura~\ref{fig:Administrador modificar l'estat d'un compte bancari} explica el procés mitjançant el qual un administrador pot canviar l'estat d'un compte bancari associat a un client. Inclou la identificació del compte bancari, la selecció del compte a modificar, i la realització de la modificació.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{imatges/f5.png}
-    \caption{Modificar l'estat d'un compte bancari}
-    \label{fig:Modificar l'estat d'un compte bancari}
+    \caption{Administrador modificar l'estat d'un compte bancari}
+    \label{fig:Administrador modificar l'estat d'un compte bancari}
 \end{figure}
 
 
@@ -1051,7 +1036,9 @@ El últim fitxer de cas d'ús que apareix a sota de la figura~\ref{fig:Modificar
 \section{Diagrama de la base de dades}
 \label{sec: diagrama de base de dades}
 
-Un diagrama de la base de dades que hi ha a sota és una representació visual que mostra com es distribueixen i organitzen les dades dins d'una base de dades. Aquest tipus de diagrama facilita la comprensió de l'estructura, les relacions i l'organització de les dades dins del sistema. A continuació, es presenta el diagrama~\ref{fig: Diagrama de base de dades} amb una descripció detallada de les seves components principals:
+Un diagrama de base de dades és una representació gràfica que mostra les taules d'una base de dades i les relacions entre elles. Ajuda a visualitzar com es dissenya i organitza la informació.\\
+
+A continuació, es presenta el diagrama~\ref{fig: Diagrama de base de dades} amb una descripció detallada de les seves components principals:
 
 
 \begin{figure}[h]
@@ -1063,7 +1050,7 @@ Un diagrama de la base de dades que hi ha a sota és una representació visual q
 
 \pau{Cal citar bé la figura.}\sudan{corregit}
 
-El diagrama representa un model de dades que inclou quatre entitats principals: User, Account, Transaction i Dictionary. Aquestes entitats estan interrelacionades per gestionar informació d'usuaris, comptes, transaccions i altres dades associades.
+El diagrama representa un model de dades que inclou quatre entitats principals: \textbf{User, Account, Transaction i Dictionary}. Aquestes entitats estan interrelacionades per gestionar informació d'usuaris, comptes, transaccions i altres dades associades. A continuació, es detalla cadascun d'ells.
 
 \subsection{User}
 \label{subsec: User}
@@ -1115,7 +1102,7 @@ Aquesta entitat conté les dades obligatòries que cada compte ha de tenir:
 \subsection{Dictionary}
 \label{subsec: Dictionary}
 
-L'entitat \textbf{Dictionary} que mostra la figura~\ref{fig: Ús de Dictionary} de sota emmagatzema informació complementària relacionada amb els comptes i les transaccions. Aquesta entitat es fa servir per guardar dades com missatges encriptats, dates de creació, i estats d'activació, permetent verificar i processar correctament les operacions financeres dins del sistema.\\
+L'entitat \textbf{Dictionary} que mostra la diagrama~\ref{fig: Ús de Dictionary} de sota emmagatzema informació complementària relacionada amb els comptes i les transaccions. Aquesta entitat es fa servir per guardar dades com missatges encriptats, dates de creació, i estats d'activació, permetent verificar i processar correctament les operacions financeres dins del sistema.\\
 
 
 \begin{figure}[h]
@@ -1210,7 +1197,7 @@ Aquesta diagrama de flux~\ref{fig: Diagrama de processos} representa els process
 \label{ sec: Interfícies d'usuari }
 
 
-El disseny de les interfícies d'usuari ha estat una prioritat abans d'endinsar-nos en el desenvolupament del \textit{front end}. Aquestes interfícies proporcionen una visió preliminar de l'aspecte i la sensació que tindrà l'aplicació. Les figures següents mostren els dissenys de les interfícies d'usuari. \\
+El disseny de les interfícies d'usuari ha estat una prioritat abans d'endinsar-nos en el desenvolupament del \textit{front-end}. Aquestes interfícies proporcionen una visió preliminar de l'aspecte i la sensació que tindrà l'aplicació. Les figures següents mostren els dissenys de les interfícies d'usuari. \\
 
 Dissenyar tots els possibles estats de l'aplicació en un temps tan limitat és inviable. No obstant això, atès que l'aplicació principal i la dels usuaris comparteixen gran part de la seva interfície, només s'han dissenyat les vistes principals. En desenvolupar l'aplicació de l'usuari, la majoria dels components s'han reutilitzat, modificant-ne el comportament segons les necessitats, ja que les interaccions dels usuaris són limitades.\\
 
@@ -1227,9 +1214,9 @@ L'usuari client és qui utilitza les funcionalitats de l'aplicació per gestiona
 \subsubsection{Primeres pàgines}
 \label{subsubsec: Primeres pàgines}
 
-Al entrar a l'aplicació, es mostra una pàgina de benvinguda. Aquesta pàgina durarà 3 segons, després anirà a la pàgina de \textbf{Login}.\\
+En entrar a l'aplicació, es mostra una pàgina de benvinguda que es manté durant 3 segons. Després, la pàgina redirigeix automàticament a la pàgina de \textbf{Login}. Si ho desitja, l'usuari pot saltar els 3 segons clicant el botó \textit{Login}.\\
 
-En el cas que el client no estigui registrat, cal anar primer a la pàgina de registre per donar-se d'alta. Amb el botó de \textbf{Register} s'anirà a la pàgina de registre.
+Llavors, si el client no estigui registrat, cal anar primer a la pàgina de registre per donar-se d'alta. Amb el botó de \textit{Register} s'anirà a la pàgina de \textbf{registre}.
 
 
 \begin{figure}[h]
@@ -1244,9 +1231,9 @@ En el cas que el client no estigui registrat, cal anar primer a la pàgina de re
 \subsubsection{Registrar un nou usuari}
 \label{subsubsec: Registrar un nou usuari}
 
-El sistema fa una comprovació per verificar si les dades introduïdes corresponen al format esperat.\\
+En aquesta pàgina es demanen dades personals, el sistema fa una comprovació per verificar si les dades introduïdes corresponen al format esperat.\\
 
-Si les dades són correctes, envia la informació al servidor per iniciar el procés de registre. Si no ho són, el sistema indicarà que no s'ha pogut completar l'operació de registre. Si tot està correcte, s'anirà automàticament a la pàgina de \texttt{login}.
+Si les dades són correctes, envia la informació al servidor per iniciar el procés de registre. Si no ho són, el sistema indicarà que no s'ha pogut completar l'operació de registre. Al final del procés, es redirigirà automàticament a la pàgina de \textbf{login}.
 
 \begin{figure}[h]
     \centering
@@ -1261,7 +1248,11 @@ Si les dades són correctes, envia la informació al servidor per iniciar el pro
 \subsubsection{Login}
 \label{subsubsec:Login}
 
-Una vegada l'usuari estigui registrat, podrà accedir a l'aplicació. La figura de la dreta mostra la pàgina principal de l'aplicació, on apareixen diversos botons. A les figures següents es detallarà el significat de cadascun d'aquests elements.
+Una vegada l'usuari estigui registrat, podrà accedir a l'aplicació.,\\
+
+La figura~\ref{fig: Pàgina de login - client} de la dreta mostra la pàgina principal de l'aplicació, on apareixen diversos botons. Al mig apareix un compte bancari que s'ha creat per defecte. Per poder utilitzar les funcionalitats de sota, cal que tingui un compte bancari seleccionat.\\
+
+En les següents seccions es detallarà el significat de cadascun d'aquests elements.
 
 \begin{figure}[h]
     \centering
@@ -1276,7 +1267,7 @@ Una vegada l'usuari estigui registrat, podrà accedir a l'aplicació. La figura 
 \subsubsection{Càmera per escanejar codi QR}
 \label{subsubsec:Càmera per escanejar codi QR}
 
-Per activar la funció de la càmera, primer cal seleccionar un compte bancari. A continuació, utilitza la càmera per escanejar un codi QR generat prèviament. La càmera escanejarà el codi i, si les dades són correctes, es processarà l'operació. Si tot va bé, es mostrarà un missatge de 'OK' amb els detalls de l'operació, i finalment es proporciona un botó per tornar a la pàgina principal.\\
+La càmera s'utilitza per escanejar un codi QR generat prèviament. Un cop escanejat el codi, si les dades són correctes, es processarà l'operació. Si tot va bé, es mostrarà un missatge de 'OK' amb els detalls de l'operació, i finalment es proporcionarà un botó per tornar a la pàgina principal.\\
 
 En tornar a la pàgina principal, es mostrarà la transacció que s'ha fet just abans.
 
@@ -1303,14 +1294,15 @@ En tornar a la pàgina principal, es mostrarà la transacció que s'ha fet just 
 \subsubsection{Pagina per generar codi QR de pagament}
 \label{subsubsec:Pagina per generar codi QR de pagament}
 
-Cal seleccionar un compte bancari per activar aquesta funció. En entrar a la pàgina, hi haurà dues opcions:
+En entrar a la pàgina per generar un codi QR de pagament, hi haurà dues opcions:
 
 \begin{itemize} 
     \item Amb import introduït: el sistema fa una comprovació per assegurar-se que l'import és acceptable. 
     \item Sense import introduït: l'import serà introduït per la persona que escaneja, i després el sistema farà la comprovació. 
 \end{itemize}
 
-De totes maneres, el codi QR caducarà després d'un temps, només serà vàlid l'últim QR generat i només es podrà escanejar una sola vegada.
+De totes maneres, el codi QR caducarà després d’un temps; només serà vàlid l'últim QR generat i només es permetrà escanejar-lo una sola vegada.
+
 
 \begin{figure}[h]
     \centering
@@ -1326,7 +1318,7 @@ De totes maneres, el codi QR caducarà després d'un temps, només serà vàlid 
 \subsubsection{Generar codi QR de cobrament}
 \label{subsubsec:Generar codi QR de cobrament}
 
-És molt similar a la funcionalitat de "Generar un codi QR de pagament". Per defecte, en entrar a la pàgina, ja es mostra el codi QR de cobrament sense un import definit.\\
+És molt similar a la funcionalitat anterior~\ref{subsubsec:Pagina per generar codi QR de pagament}. Per defecte, en entrar a la pàgina, ja es mostra el codi QR de cobrament sense un import definit.\\
 
 La diferència és que aquest codi QR de cobrament no caduca mai i es pot fer servir tantes vegades com es vulgui.
 
@@ -1363,7 +1355,7 @@ Per eliminar un compte bancari, cal que el saldo sigui 0. Si no és així, caldr
 \subsubsection{Modificar l'estat del compte bancari}
 \label{subsubsec:Modificar l'estat del compte bancari}
 
-Cal que hi hagi un compte seleccionat. Simplement clicant en l'icona del cadenat, es canviarà l'estat del compte bancari. Si està en estat de desactivat, no es podrà generar un QR de pagament ni efectuar cap pagament.
+Per activar o desactiver un comte bancari, es simplement clicant en l'icona del cadenat, es canviarà l'estat del compte bancari. Si està en estat de desactivat, no es podrà generar un QR de pagament ni efectuar cap pagament.\\
 
 El cadenat es tanca o obre segons l'estat.
 
@@ -1475,10 +1467,10 @@ Per sortir de la secció, se't preguntarà si estàs segur que vols sortir. Un c
 \label{subsubsec:Gestió de l'usuari}
 
 \begin{itemize}
-    \item \textbf{Change password:} Per canviar la contrasenya, cal que introdueixis la contrasenya antiga i la nova dues vegades.
-    \item \textbf{Change color:} Per canviar el color de fons, cal que seleccionis el color que més et conveni.
-    \item \textbf{Set user status:} Per modificar l'estat de l'usuari, si l'usuari està desactivat no podrà realitzar cap operació amb el compte bancari.
-    \item \textbf{Remove user:} Per eliminar l'usuari, cal que no hi hagi import en els seus comptes bancaris.
+    \item \textbf{Canviar la contrasenya:} Per canviar la contrasenya, cal que introdueixis la contrasenya antiga i la nova dues vegades.
+    \item \textbf{Canviar fons de color:} Per canviar el color de fons, cal que seleccionis el color que més et conveni.
+    \item \textbf{Canviar l'estat:} Per modificar l'estat de l'usuari, si l'usuari està desactivat no podrà realitzar cap operació amb el compte bancari.
+    \item \textbf{Eliminar usuari:} Per eliminar l'usuari, cal que no hi hagi import en els seus comptes bancaris.
 \end{itemize}
 
 \begin{figure}[h]
@@ -1499,12 +1491,14 @@ Per sortir de la secció, se't preguntarà si estàs segur que vols sortir. Un c
 \subsection{Administrador}
 \label{subsec: Admin}
 
-L'usuari administrador és qui té permisos especials per gestionar i configurar l'aplicació, incloent la creació i eliminació d'altres usuaris, així com la gestió de configuracions i opcions avançades.
+L'usuari administrador és qui té permisos especials per gestionar i configurar l'aplicació, incloent la creació i eliminació d'altres usuaris clients, així com la gestió de configuracions i opcions avançades.
 
 \subsubsection{Login d'un administrador}
 \label{subsubsec: Login d'un administrador}
 
-Un administrador accedeix de la mateixa manera que un client. Per defecte, hi ha un administrador predefinit amb el nom d'usuari \textit{"Admin"} i la contrasenya \textit{"Admin123"}. Aquest administrador no es pot eliminar. A partir d'aquí, es poden registrar altres administradors.
+Un administrador accedeix de la mateixa manera que un client. Per defecte, hi ha un administrador predefinit amb el nom d'usuari \textit{"Admin"} i la contrasenya \textit{"Admin123"}. Aquest administrador no es eliminable. Cal que s'identifiqui l'administrador per poder donar d'alta altres administradors.\\
+
+La funcionalitat que hi apareix a sota s'activa només quan s'ha seleccionat un usuari.
 
 \begin{figure}[h]
     \centering
@@ -1518,18 +1512,18 @@ Un administrador accedeix de la mateixa manera que un client. Per defecte, hi ha
 
 
 \clearpage
-\subsubsection{Llistar els comptes de l'usuari i modificar l'estat del compte}
-\label{subsubsec:Llistar els comptes de l'usuari i modificar l'estat del compte}
+\subsubsection{Llistar els comptes dels clients i modificar-ne l'estat}
+\label{subsubsec:Llistar els comptes dels clients i modificar-ne l'estat}
 
-Un administrador permet visualitzar tots els usuaris clients i els seus comptes bancaris. També permet modificar l'estat dels comptes bancaris.
+Un administrador pot visualitzar tots els usuaris clients i els seus comptes bancaris. També pot modificar l'estat dels comptes bancaris.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.31\textwidth]{imatges/mainAdmin1.png}
     \includegraphics[width=0.31\textwidth]{imatges/userAccounts1.png}
     \includegraphics[width=0.31\textwidth]{imatges/userAccounts2.png}
-    \caption{Llistar els comptes de l'usuari i modificar l'estat del compte}
-    \label{fig: Llistar els comptes de l'usuari i modificar l'estat del compte}
+    \caption{Llistar els comptes dels clients i modificar-ne l'estat}
+    \label{fig: Llistar els comptes dels clients i modificar-ne l'estat}
 \end{figure}
 
 
@@ -1538,9 +1532,7 @@ Un administrador permet visualitzar tots els usuaris clients i els seus comptes 
 \subsubsection{Crear una nova contrasenya per client}
 \label{subsubsec: Crear una nova contrasenya per client}
 
-Un administrador pot canviar la contrasenya d'un usuari client sense haver de proporcionar la contrasenya antiga.\\
-
-Cal proporcionar una contrasenya d'almenys 3 caràcters, i el canvi es pot efectuar només si les dues contrasenyes coincideixen.
+Un administrador pot canviar la contrasenya d'un usuari client sense haver de proporcionar la contrasenya antiga. La nova contrasenya té restriccions com en el moment de registrar-se: cal proporcionar una contrasenya d'almenys 3 caràcters, i el canvi es pot efectuar només si les dues contrasenyes coincideixen.
 
 \begin{figure}[h]
     \centering
@@ -1556,7 +1548,7 @@ Cal proporcionar una contrasenya d'almenys 3 caràcters, i el canvi es pot efect
 \subsubsection{Modificar l'estat de l'usuari client}
 \label{subsubsec: Modificar l'estat de l'usuari client}
 
-Un administrador té el privilegi de modificar l'estat d'un usuari. Si un usuari té l'estat desactivat, no podrà realitzar cap operació sobre els comptes bancaris.
+Un administrador té el privilegi de modificar l'estat d'un usuari. Si un usuari té l'estat desactivat, no podrà realitzar cap operació sobre els seus comptes bancaris.
 
 \begin{figure}[h]
     \centering
@@ -1572,14 +1564,13 @@ Un administrador té el privilegi de modificar l'estat d'un usuari. Si un usuari
 \subsubsection{Eliminar un usuari client}
 \label{subsubsec: Eliminar un usuari client}
 
-Només es pot eliminar un usuari client quan no hi hagi saldo en els seus comptes. Primer es fa una comprovació, i després es mostra un diàleg de confirmació.
-
-\sudan{tornar a fer el codi, crear una nova funcio que es digui, removable}
+Només es pot eliminar un usuari client quan el client no disposa de cap compte bancari. Primer es fa una comprovació, i després es mostra un diàleg que demana confirmació.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.4\textwidth]{imatges/mainAdmin4.png}
-    \includegraphics[width=0.4\textwidth]{imatges/delete1.png}
+    \includegraphics[width=0.31\textwidth]{imatges/mainAdmin4.png}
+    \includegraphics[width=0.31\textwidth]{imatges/delete1.png}
+    \includegraphics[width=0.31\textwidth]{imatges/removeuserNo.png}
     \caption{Eliminar un usuari client}
     \label{fig: Eliminar un usuari client}
 \end{figure}
@@ -1591,7 +1582,7 @@ Només es pot eliminar un usuari client quan no hi hagi saldo en els seus compte
 \label{subsubsec: Visualitzar els moviments d'un usuari}
 
 
-Un administrador visualitzar tots els moviments de tots els usuari clients.
+Un administrador pot llistar tots els moviments d'un usuari client.
 
 \begin{figure}[h]
     \centering
@@ -1600,6 +1591,30 @@ Un administrador visualitzar tots els moviments de tots els usuari clients.
     \caption{Visualitzar els moviments d'un usuari}
     \label{fig: Visualitzar els moviments d'un usuari}
 \end{figure}
+
+\clearpage
+\subsubsection{Registrar un nou usuari}
+\label{subsubsec: Registrar un nou usuari}
+
+
+Un administrador pot donar d'alta tant un usuari administrador com un usuari client.
+
+\begin{figure}[h]
+    \centering
+    % Primera fila de dos imatges
+    \begin{minipage}{0.31\textwidth}
+        \includegraphics[width=\linewidth]{imatges/adminadd.png}
+        \includegraphics[width=\linewidth]{imatges/adminadd2.png}
+    \end{minipage}
+    % Segona fila de tres imatges
+    \begin{minipage}{0.31\textwidth}
+        \includegraphics[width=\linewidth]{imatges/adminadd1.png}
+        \includegraphics[width=\linewidth]{imatges/adminadd3.png}
+    \end{minipage}
+    \caption{Registrar un nou usuari}
+    \label{fig: Registrar un nou usuari}
+\end{figure}
+
 
 
 
@@ -1634,7 +1649,7 @@ Els administradors poden veure les operacions realitzades entre ells.
 \subsubsection{Canviar la pròpia contrasenya}
 \label{subsubsec: Canviar la pròpia contrasenya}
 
-L'usuari administrador pot modificar la seva pròpia contrasenya, però cal introduir la contrasenya antiga.
+L'usuari administrador pot modificar la seva pròpia contrasenya, però cal introduir la contrasenya antiga. A més, la nova contrasenya ha de complir les normes establertes.
 
 \begin{figure}[h]
     \centering
@@ -1687,12 +1702,12 @@ Per generar codis QR en Flutter, una biblioteca popular és \textbf{qr\_flutter}
 
 El problema que vaig trobar en la generació del codi QR es deu a l'actualització de la biblioteca qr\_flutter. En les versions \textit{2.0.0} fins a a \textit{3.0.0}, utilitzàvem la nomenclatura \textit{QrImage}. No obstant això, en la versió actual \textit{4.1.0}, s'ha actualitzat a \textit{QrImageView}. Inicialment, això causava errors de compilació perquè el sistema no reconeixia \textit{QrImage}. Em va sorprendre molt, però finalment vaig descobrir que el problema es devia a aquesta actualització.\\ 
 
-En la figura~\ref{fig:Versió antiga vs. versió nova}  es mostren dues imatges que il·lustren el codi per a les dues versions:
+Tal com es representa a la figura~\ref{fig:Versió antiga vs. versió nova}  es mostren dues imatges que il·lustren el codi per a les dues versions:
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{imatges/qrold.png}
-    \includegraphics[width=0.5\textwidth]{imatges/qrnew.png}
+    \includegraphics[width=0.31\textwidth]{imatges/qrold.png}
+    \includegraphics[width=0.31\textwidth]{imatges/qrnew.png}
     \caption{Versió antiga vs. versió nova}
     \label{fig:Versió antiga vs. versió nova}
 \end{figure}
@@ -1737,7 +1752,7 @@ En aquest projecte, gestionem les credencials d'usuari utilitzant la biblioteca 
 \end{itemize}
 
 
-\pau{Aquí es podria explicar també les biblioteques que ha calgut utilitzar per generar i llegir codis QR, com les has integrat a la teva aplicació, problemes que t'has trobat i com els has solucionat, etc. I el mateix per biblioteques o mòduls utilitzats per encriptar missatges.}
+\pau{Aquí es podria explicar també les biblioteques que ha calgut utilitzar per generar i llegir codis QR, com les has integrat a la teva aplicació, problemes que t'has trobat i com els has solucionat, etc. I el mateix per biblioteques o mòduls utilitzats per encriptar missatges.}\sudan{corregit}
 
 
 \section{Desenvolupament d'aplicació}
@@ -1747,7 +1762,7 @@ Vaig començar a desenvolupar el servidor \pau{(vols dir l'API de l'aplicació?)
 
 Un cop vaig tenir una base sòlida al servidor, vaig començar a dissenyar la interfície d'usuari. Durant aquest procés, vaig adaptar el disseny en funció dels punts finals disponibles i les funcionalitats implementades en el servidor, mentre identificava les possibles mancances en l'API. Així, després de completar el disseny de la interfície, vaig tornar a l'API per afegir les funcionalitats que faltaven i per netejar el codi existent.\\
 
-A mesura que avançava en el desenvolupament, vaig començar a treballar en les interfície d'usuari \pau{(potser millor ``vaig començar a treballar en les interfícies d'usuari'')}\sudan{corregit}. Vaig desenvolupar primer l'aplicació bàsica \pau{(aplicació?)}, que contenia la major part de la lògica i complexitat. Aquesta fase va ser crucial, ja que vaig afegir diversos components i vistes que posteriorment es reutilitzarien a l'aplicació client. Vaig adoptar un enfocament iteratiu: cada vegada que afegia o ajustava una funcionalitat en el servidor, feia el mateix en el client, variant les funcionalitats de manera sincronitzada. Aquesta estratègia em va permetre assegurar-me que ambdues parts de l'aplicació estiguessin alineades i funcionessin conjuntament.\\
+A mesura que avançava en el desenvolupament, vaig començar a treballar en les interfície d'usuari \pau{(potser millor ``vaig començar a treballar en les interfícies d'usuari'')}\sudan{corregit}. Vaig desenvolupar primer l'esquelet bàsica \pau{(aplicació?)}\sudan{corregit per esquelet}, que contenia la major part de la lògica i complexitat. Aquesta fase va ser crucial, ja que vaig afegir diversos components i vistes que posteriorment es reutilitzarien a l'aplicació client. Vaig adoptar un enfocament iteratiu: cada vegada que afegia o ajustava una funcionalitat en el servidor, feia el mateix en el client, variant les funcionalitats de manera sincronitzada. Aquesta estratègia em va permetre assegurar-me que ambdues parts de l'aplicació estiguessin alineades i funcionessin conjuntament.\\
 
 Tot i que no vaig utilitzar eines específiques com ``Nx'', vaig intentar fer abstracció i reutilitzar el codi de manera eficaç per simplificar el desenvolupament. Si en el futur es necessita afegir un altre projecte \pau{(aplicació?)}\sudan{corregit}, el procés serà més senzill, ja que molts components i funcions podrien ser reutilitzats.
 
@@ -1777,7 +1792,7 @@ En la figura~\ref{fig:Problemes d'implementació amb Android Studio} es mostra u
 Més endavant, vaig descobrir que el simulador sovint es pot omplir de memòria, cosa que pot provocar que no arranqui correctament. El simulador té un límit de memòria, i gestionar-ho adequadament és important per garantir que funcioni de manera fluida. Si experimentes problemes de rendiment, cal ajustar la configuració del simulador i fer una neteja periòdica de dades. La solució que faig servir és realitzar un \textbf{wipe data} del simulador, el qual neteja les dades emmagatzemades i resol els problemes de càrrega.\\
 
 
-Una altra opció que es pot combinar amb el wipe data és crear una pàgina d'entrada simple. Aquesta mesura permet comprovar si el problema es resol amb un simulador net, abans de tornar a implementar el codi del projecte. D'aquesta manera, es pot excloure la possibilitat que el problema provingui del codi i determinar si el problema és del simulador. Un altre avantatge d'aquesta pàgina simple és que permet fer implementacions complexes en aquest espai de manera independent del codi global, cosa que facilita les proves en casos quan no es té la seguretat total sobre la funcionalitat.\\
+Una altra opció que es pot combinar amb el wipe data és crear una pàgina simple. Aquesta mesura permet comprovar si el problema es troba en el simulador o en el codi. Un altre avantatge d'aquesta pàgina simple és que permet realitzar implementacions complexes de manera independent del codi global, cosa que facilita les proves en casos en què no es té la seguretat total sobre la funcionalitat.\\
 
 La figura~\ref{fig: pàgina de prova} mostrada a continuació presenta el codi de la pàgina simple (mutation.dart). Aquesta pàgina es carrega canviant la ruta del main.
 
@@ -1822,7 +1837,7 @@ Aquesta imatge~\ref{fig: Comanda flutter doctor} mostra l'execució de flutter d
 \subsection{GitHub}
 \label{subsec: GitHub}
 
-Un error important que vaig cometre en aquest projecte va ser que, quan el codi no arrencava, la primera cosa que feia era anar al repositori i retirar els commits, fent còpies del projecte localment per seguretat. Si, després de retirar un commit, el codi seguia sense funcionar, procedia a retirar-ne un altre, i així successivament.\\
+Un error greu que vaig cometre en aquest projecte va ser que, quan el codi no arrencava, la primera cosa que feia era anar al repositori i retirar els commits, fent còpies del projecte localment per seguretat. Si, després de retirar un commit, el codi seguia sense funcionar, procedia a retirar-ne un altre, i així successivament.\\
 
 Més endavant, em vaig adonar que aquest enfocament no era efectiu i em vaig adonar que "això no és possible; el codi de fa una setmana funcionava correctament..."\\
 
@@ -1853,11 +1868,11 @@ Per solucionar aquest problema, és necessari estudiar a fons les comandes de Gi
 \subsection{MongoDB}
 \label{subsec: MongoDB}
 
-Vaig passar més d'un dia barallant-me amb un error aparentment simple. El problema era el següent: tenia la taula \textbf{users} creada, però no contenia tots els atributs necessaris. Un dels atributs era el compte bancari, i volia actualitzar-lo per incloure una llista de comptes bancaris.\\
+Vaig passar més d'un dia barallant-me amb un error aparentment simple. El problema era el següent: tenia creada la taula \textbf{users}, però no contenia tots els atributs necessaris. Un dels atributs era el compte bancari, i volia substituir-lo per una llista de comptes bancaris.\\
 
 Vaig revisar tots els atributs de l'esquema i vaig revisar el codi del resolver una i altra vegada. Vaig anar a MongoDB per esborrar totes les dades anteriors de la taula (sense eliminar la taula mateixa). No hi havia manera que funcionés correctament; només es podia inserir un sol compte bancari, tot i que el servidor indicava que la inserció es realitzava correctament.\\
 
-Finalment, vaig descobrir que havia d'eliminar la taula sencera per poder efectuar l'actualització, com indica la figura~\ref{fig: Eliminar la taula de mongoDB} següent.
+Finalment, vaig descobrir que havia d'eliminar la taula sencera per poder efectuar l'actualització, com indica la figura~\ref{fig: Eliminar la taula de mongoDB}.
 
 
 \begin{figure}[h]
@@ -1875,17 +1890,77 @@ Finalment, vaig descobrir que havia d'eliminar la taula sencera per poder efectu
 \section{Proves}
 \label{sec: Proves}
 
-Aquesta secció descriu diverses categories de proves que es duen a terme durant el desenvolupament de programari per assegurar la seva qualitat i el correcte funcionament. A continuació es presenta un breu resum de cada tipus de prova:
+Aquesta secció descriu diverses categories de proves que es duen a terme durant el desenvolupament de programari per assegurar la seva qualitat i el correcte funcionament. A continuació, es presenta un breu resum de cada tipus de prova, juntament amb un exemple del projecte:
 
+\subsection{Proves d'unitat}
+\label{subsec:Proves d'unitat}
+
+Aquestes proves se centren a verificar el correcte funcionament de les parts més petites del codi, com ara funcions o mètodes, de manera independent.\\
+
+Un exemple és la generació de contrasenyes, on es realitza el procés de hashing i es guarden les contrasenyes a la base de dades de manera codificada. La figura~\ref{fig: Les contrasenyes codificades} de sota mostra el resultat.
+
+\clearpage
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=1\textwidth]{imatges/prova1.png}
+    \caption{Les contrasenyes codificades}
+    \label{fig: Les contrasenyes codificades}
+\end{figure}
+
+
+\subsection{Proves d'integració}
+\label{subsec:Proves d'integració}
+
+L'objectiu d'aquestes proves és assegurar que les diferents unitats de codi treballin bé conjuntament quan es combinen, garantint així el bon funcionament del sistema en el seu conjunt.\\
+
+Escanejar un codi QR de cobrament seria un cas de prova d'integració. Per part del client, es poden obtenir les dades necessàries per fer la transacció, que després es transmeten al servidor. El servidor processa la transacció i retorna una resposta que el client ha de mostrar.\\
+
+La figura~\ref{fig: Resolució d'una transferència QR} mostra com apareix el client i els logs del servidor en el cas que tot hagi anat bé.
+
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=0.2\textwidth]{imatges/capturedQR.png}
+    \includegraphics[width=0.7\textwidth]{imatges/prova2.png}
+    \caption{Resolució d'una transferència QR}
+    \label{fig: Resolució d'una transferència QR}
+\end{figure}
+
+
+\subsection{Proves de regressió}
+\label{subsec: Proves de regressió}
+
+Aquestes proves es realitzen per garantir que les noves funcionalitats o canvis no han introduït errors en altres parts del sistema. Es tornen a executar proves prèvies per assegurar que el comportament del sistema no ha canviat de manera inesperada.\\
+
+En el cas d'aquest projecte, per implementar el codi QR de pagament o cobrament, primer treballo amb missatges en clar. Un cop verificat que tot funciona correctament, incorporo el missatge xifrat només per al codi QR de pagament. Així, comprovo que el procés de xifrat i desxifrat no afecta el procés d'operació.\\
+
+La figura~\ref{fig: Xifratge del codi QR de pagament} mostra un codi QR de pagament i el missatge integrat.
+
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=0.2\textwidth]{imatges/paymentQRcode1.png}
+    \includegraphics[width=0.7\textwidth]{imatges/qrpaymentmissage.jpg}
+    \caption{Xifratge del codi QR de pagament}
+    \label{fig: Xifratge del codi QR de pagament}
+\end{figure}
+
+
+\subsection{Proves de sistema}
+\label{subsec: Proves de sistema}
+
+Aquestes proves verifiquen que tot el sistema compleixi amb els requisits establerts, utilitzant escenaris d'ús que reflecteixen situacions reals.
+
+\subsection{Altres proves}
+\label{subsec: Altres proves}
+\sudan{No se que puc explicar d'aqui?}
 \begin{itemize}
-\item \textbf{Proves d'unitat}: Aquestes proves se centren en verificar el correcte funcionament de les parts més petites del codi, com funcions o mètodes, de manera independent.
-\item \textbf{Proves d'integració}: L'objectiu d'aquestes proves és assegurar que les diferents unitats de codi treballin bé conjuntament quan es combinen, garantint així el bon funcionament del sistema en el seu conjunt.
-\item \textbf{Proves de regressió}: Aquestes proves es realitzen per garantir que les noves funcionalitats o canvis no han introduït errors en altres parts del sistema. Es tornen a executar proves prèvies per assegurar que el comportament del sistema no ha canviat de manera inesperada.
-\item \textbf{Proves de sistema}: Aquestes proves verifiquen que tot el sistema compleixi amb els requisits establerts, utilitzant escenaris d'ús que reflecteixen situacions reals.
-\item \textbf{Proves d'acceptació de l'usuari}: Aquestes proves són realitzades per usuaris finals en un entorn que simula el real, per obtenir el seu \textit{feedback} sobre la usabilitat i l'adequació de les noves funcionalitats.
-\item \textbf{Proves de càrrega i rendiment}: Es realitzen per avaluar com es comporta el sistema sota condicions de càrrega elevades i diferents situacions de rendiment, ajudant a identificar possibles problemes i millores necessàries.
-\item \textbf{Proves de seguretat}: Aquestes proves tenen l'objectiu de verificar que el sistema és segur i està protegit contra vulnerabilitats i atacs potencials.
-\item \textbf{Proves de compatibilitat}: S'utilitzen per assegurar que el sistema funcioni correctament en diverses plataformes, navegadors, dispositius i sistemes operatius.
+
+    \item \textbf{Proves d'acceptació de l'usuari}: Aquestes proves són realitzades per usuaris finals en un entorn que simula el real, per obtenir el seu \textit{feedback} sobre la usabilitat i l'adequació de les noves funcionalitats.
+    
+    \sudan{Aquets 3 de sota no he estudiat}
+    \item \textbf{Proves de càrrega i rendiment}: Es realitzen per avaluar com es comporta el sistema sota condicions de càrrega elevades i diferents situacions de rendiment, ajudant a identificar possibles problemes i millores necessàries.
+    \item \textbf{Proves de seguretat}: Aquestes proves tenen l'objectiu de verificar que el sistema és segur i està protegit contra vulnerabilitats i atacs potencials.
+    \item \textbf{Proves de compatibilitat}: S'utilitzen per assegurar que el sistema funcioni correctament en diverses plataformes, navegadors, dispositius i sistemes operatius.
+    
 \end{itemize}
 
 L'aplicació de la interfície d'usuari (IU) s'ha provat manualment per trobar errors. En el cas de l'API, provar els punts finals ha estat una mica més difícil, però s'ha utilitzat programari especialitzat per fer-ho. Pel que fa a les aplicacions d'interfície d'usuari, s'han provat casos avançats executant l'aplicació. Quan s'ha trobat un error, primer he revisat les proves per veure si el cas no estava cobert o si va ser un error en la prova, ja que és una situació que pot passar. Si es trobava un error en les proves, actualitzava les proves i després corregia el codi real. Si no es trobava un error en les proves, buscava l'error en el codi i després el cobria amb les proves.
@@ -1902,27 +1977,129 @@ L'aplicació de la interfície d'usuari (IU) s'ha provat manualment per trobar e
 \section{Implantació}
 \label{sec: Implantació}
 
-La implantació de l'aplicació es realitza en diverses fases, amb un enfocament gradual per assegurar la qualitat i funcionalitat del sistema. La fase inicial del projecte va consistir en desenvolupar l'aplicació de pagament mitjançant codi QR. Aquesta primera etapa es va centrar en establir la infraestructura bàsica necessària per generar i escanejar codis QR associats a transaccions de pagament.\\
+
+La implantació de l'aplicació es realitza en diverses fases, amb un enfocament gradual per assegurar la qualitat i funcionalitat del sistema. La fase inicial del projecte va consistir en desenvolupar l'aplicació de pagament mitjançant codi QR. Aquesta primera etapa es va centrar en establir l'infraestructura bàsica necessària per generar i escanejar codis QR associats a transaccions de pagament.\\
 
 Un cop l'aplicació va estar operativa amb les funcionalitats bàsiques, la següent etapa va ser la incorporació d'una passarel·la de pagament. Aquesta passarel·la és crucial per processar les transaccions de pagament de manera segura i eficient. Actualment, el desenvolupament de la passarel·la està en curs, i la seva integració és el següent pas important per completar la implantació de l'aplicació.\\
 
-El projecte té dues vies potencials per a la seva implantació futura. La primera opció és integrar l'aplicació amb els sistemes bancaris estatals, similar a com funciona Bizum. Aquesta integració permetria que l'aplicació ofereixi funcionalitats similars a les d'un servei de pagament a través de bancs. La segona opció és establir una passarel·la de pagament pròpia, creant una solució similar a PayPal que permeti operar com una empresa de pagaments independent. Aquesta opció ofereix una major autonomia i flexibilitat en la gestió de les transaccions.
 
-\pau{També hauries de parlar de quines mesures has pres o prendries en el moment de la implantació pel que fa a garantir la protecció de dades (i, per tant, la legislació i normatives vigents).}
+
+\subsection{Opcions per a la Implantació Futura}
+
+El projecte presenta dues vies potencials per a la seva implantació futura:
+
+\begin{enumerate}
+    \item \textbf{Integració amb Sistemes Bancaris Estatals:} La primera opció és integrar l'aplicació amb els sistemes bancaris estatals, seguint un model similar al de Bizum. Aquesta integració permetria que l'aplicació ofereixi funcionalitats comparables a les d'un servei de pagament basat en la infraestructura bancària existent. Aquest enfocament facilitarià la interoperabilitat amb els sistemes de pagament establerts i podria beneficiar-se de la confiança ja existent en el sistema bancari.
+
+    \item \textbf{Desenvolupament d'una Passarel·la de Pagament Propria:} La segona opció és crear una passarel·la de pagament pròpia, desenvolupant una solució independent similar a PayPal. Aquesta opció permetria una major autonomia en la gestió de les transaccions, oferint una flexibilitat més gran en la configuració i adaptació dels serveis de pagament. A més, operant com una empresa de pagaments independent, es podria innovar i adaptar els serveis segons les necessitats específiques del mercat.
+\end{enumerate}
+
+\subsection{Mesures de Protecció de Dades i Compliment Normatiu}
+
+En el moment de la implantació, és essencial garantir la protecció de dades dels usuaris i complir amb les normatives vigents. Per aquest motiu, s'han establert les següents mesures clau:
+
+\begin{itemize}
+  \item \textbf{Cumpliment amb el Reglament General de Protecció de Dades (GDPR):}
+    \begin{itemize}
+      \item \textit{Seguretat de Dades Personals:} Es garantirà que les dades personals dels usuaris estiguin protegides mitjançant xifratge en trànsit i en repòs.
+      \item \textit{Consentiment i Transparència:} S'obtenirà el consentiment explícit dels usuaris abans de recollir dades, oferint informació clara sobre l'ús que se'n farà.
+      \item \textit{Drets dels Usuaris:} Els usuaris podran accedir, modificar o eliminar les seves dades a través d'una interfície fàcil d'usar.
+    \end{itemize}
+  
+  \item \textbf{Seguretat en el Processament de Pagaments:}
+    \begin{itemize}
+      \item \textit{Protecció de Transaccions:} Les dades de les transaccions seran xifrades per prevenir interceptacions o manipulacions.
+      \item \textit{Compliment amb PCI-DSS:} La passarel·la de pagament complirà amb els estàndards PCI-DSS per assegurar la protecció de les dades de targeta de crèdit.
+    \end{itemize}
+  
+  \item \textbf{Gestió de Riscos i Auditories:}
+    \begin{itemize}
+      \item \textit{Auditories de Seguretat:} Es realitzaran auditories periòdiques per detectar i corregir vulnerabilitats.
+      \item \textit{Plans de Resposta a Incidents:} S'implementaran plans per gestionar eficaçment qualsevol incidència de seguretat.
+    \end{itemize}
+  
+  \item \textbf{Compliment Normatiu Local i Internacional:}
+    \begin{itemize}
+      \item \textit{Normatives Locals:} Es complirà amb les lleis locals relatives a la protecció de dades i transaccions financeres.
+      \item \textit{Regulacions Internacionals:} Si l'aplicació opera internacionalment, s'adaptarà a les regulacions de protecció de dades dels diferents països.
+    \end{itemize}
+\end{itemize}
+\pau{També hauries de parlar de quines mesures has pres o prendries en el moment de la implantació pel que fa a garantir la protecció de dades (i, per tant, la legislació i normatives vigents).}\sudan{corregit}
 
 
 \section{Resultats}
 \label{sec: Resultats}
 
-Fins al moment, l'aplicació ha aconseguit implementar les funcionalitats bàsiques necessàries per generar i escanejar codis QR. No obstant això, encara falta integrar la passarel·la de pagament per completar el procés de pagament. La principal dificultat actual és la integració amb la passarel·la, que requereix una coordinació complexa amb els proveïdors de serveis de pagament i la implementació de mesures de seguretat addicionals.\\
+En aquesta secció es presenta l'aplicació final amb detall, mitjançant captures de pantalla que il·lustren les diferents funcionalitats. Es descriu com cada una d'aquestes pantalles contribueix a assolir els objectius plantejats inicialment, proporcionant una visió clara de l'eficàcia de l'aplicació en complir amb els requisits establerts.
 
-Els beneficis esperats de l'aplicació són significatius. Un cop completada, l'aplicació permetrà als usuaris realitzar pagaments de manera senzilla i segura utilitzant codis QR, amb opcions tant per integrar-se amb bancs com per utilitzar una passarel·la de pagament pròpia. Aquesta flexibilitat en els mètodes de pagament oferirà una alternativa valuosa a serveis establerts com PayPal i proporcionarà als usuaris una solució innovadora i eficient per als seus pagaments.\\
+\subsection{La pàgina principal de l'usuari client}
+\label{subsec: La pàgina principal de l'usuari client}
 
-Els pròxims passos en el desenvolupament inclouen la finalització de la integració de la passarel·la de pagament i la implementació de les funcionalitats avançades. A continuació, es realitzaran proves exhaustives per garantir el bon funcionament del sistema abans del llançament oficial de l'aplicació.
+La pàgina principal del client s'ha dissenyat per oferir una experiència d'usuari intuïtiva i eficaç, amb un accés ràpid a les funcions més importants. A continuació es detallen les funcionalitats clau de la pàgina i com cada una d'elles contribueix als objectius del projecte:
 
-\pau{Tot això que has posat ja ho has mig explicat a la secció anterior i, en tot cas, seria més pertintent posar-ho a ``treball futur''. Aquí a resultats has de mostrar com ha quedat l'aplicació final, amb captures de les diferents pantalles, i explicant com cadascuna assoleix els objectius plantejats inicialment. Les captures han de ser les finals, mentre que al Capítol~\ref{chp:analisi} hi ha d'anar només el disseny inicial de les pantalles (esbossos).}
+\begin{itemize}
+    \item \textbf{Accés Ràpid a Funcions Clau:} A la part inferior de la pàgina, es presenten botons d'accés ràpid a les funcions essencials, com la càmera escanejadora, el generador de codi QR de pagament i cobrament, així com altres opcions rellevants. Aquest disseny permet als usuaris accedir fàcilment a les funcionalitats més utilitzades, millorant l'eficiència i reduint el temps necessari per completar les tasques habituals.
+    
+    \item \textbf{Botó per Sortir:} El botó per sortir de l'aplicació està ubicat en una posició destacada per garantir que els usuaris puguin tancar la sessió de manera segura i ràpida quan acabin d'utilitzar l'aplicació. Això ajuda a protegir la informació personal i garantir la seguretat de les dades.
+    
+    \item \textbf{Botó per Afegir Comptes Bancaris:} Aquesta funcionalitat permet als usuaris afegir i gestionar els seus comptes bancaris directament des de la pàgina principal. Amb un accés fàcil a aquesta opció, els usuaris poden vincular els seus comptes per realitzar pagaments o rebre transferències sense complicacions.
+    
+    \item \textbf{Navegador per Gestió del Propi Usuari:} Un navegador dedicat facilita la gestió de les dades personals i preferències de l'usuari. Aquest navegador permet accedir a opcions com la modificació de dades personals, proporcionant una manera eficient de gestionar la informació de l'usuari.
+\end{itemize}
 
-\pau{Tot això de les proves no hi ha d'anar! Ja les expliques al capítol anterior.}
+Cada una d'aquestes funcionalitats està dissenyada per contribuir a una experiència d'usuari fluida i eficaç, assegurant que els clients puguin gestionar les seves transaccions i dades personals amb facilitat. Aquest enfocament ajuda a aconseguir els objectius del projecte i a maximitzar la satisfacció dels usuaris.\\
+
+El disseny final es mostra en la següent figura~\ref{fig: La pàgina principal de l'usuari client}:
+
+
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/main101.png}
+    \includegraphics[width=0.4\textwidth]{imatges/client_others.png}
+    \includegraphics[width=0.4\textwidth]{imatges/main102.png}
+    \includegraphics[width=0.4\textwidth]{imatges/navigatorClient.png}
+    \caption{La pàgina principal de l'usuari client}
+    \label{fig: La pàgina principal de l'usuari client}
+\end{figure}
+
+
+\clearpage
+
+\subsection{La pàgina principal de l'usuari administrador}
+\label{subsec: La pàgina principal de l'usuari administrador}
+
+
+En aquesta secció es descriu la pàgina principal de l'administrador, amb un enfocament especial en les funcionalitats que permeten la gestió eficient del sistema. A continuació es detallen les opcions disponibles i com aquestes contribueixen a la supervisió i administració del sistema:
+
+\begin{itemize}
+
+    \item \textbf{Accés Ràpid a Funcions Clau:} Un cop seleccionat el usuari client, a la part inferior de la pàgina, es presenten botons d'accés ràpid a les funcions essencials, com gestionar estat del usuari, modificar contrasenya, veure els seus moviments, així com altres opcions rellevants. Aquest disseny permet als usuaris accedir fàcilment a les funcionalitats més utilitzades, millorant l'eficiència i reduint el temps necessari per completar les tasques habituals.Els administradors poden afegir, editar o eliminar comptes d'usuaris des de la pàgina principal.
+    
+    \item \textbf{Botó per Sortir:} El botó per sortir de l'aplicació està ubicat en una posició destacada per garantir que els usuaris puguin tancar la sessió de manera segura i ràpida quan acabin d'utilitzar l'aplicació. Això ajuda a protegir la informació personal i garantir la seguretat de les dades.
+
+    \item \textbf{Navegador per Gestió dels administradors:} Un navegador dedicat facilita la gestió de les dades personals i veure tots els administradors. Aquest navegador permet accedir a opcions com la modificació de dades personals, proporcionant una manera eficient de gestionar la informació de l'usuari.
+
+\end{itemize}
+
+Cada una d'aquestes funcionalitats ha estat dissenyada per ajudar els administradors a gestionar eficaçment el sistema i a assegurar-se que els objectius operatius es compleixin. La pàgina principal proporciona una interfície centralitzada i organitzada, facilitant la tasca de supervisió i administració del sistema.
+
+El disseny final es mostra en la següent figura~\ref{fig: La pàgina principal de l'usuari client}:
+
+
+\begin{figure}[h]   
+    \centering
+    \includegraphics[width=0.4\textwidth]{imatges/adminMainpage.png}
+    \includegraphics[width=0.4\textwidth]{imatges/adminNavigation.png}
+    \caption{La pàgina principal de l'usuari client}
+    \label{fig: La pàgina principal de l'usuari client}
+\end{figure}
+
+
+
+
+\pau{Tot això que has posat ja ho has mig explicat a la secció anterior i, en tot cas, seria més pertintent posar-ho a ``treball futur''. Aquí a resultats has de mostrar com ha quedat l'aplicació final, amb captures de les diferents pantalles, i explicant com cadascuna assoleix els objectius plantejats inicialment. Les captures han de ser les finals, mentre que al Capítol~\ref{chp:analisi} hi ha d'anar només el disseny inicial de les pantalles (esbossos).}\sudan{en les captures del Capítol ~\ref{chp:analisi} jo ho són finals...}
+
+\pau{Tot això de les proves no hi ha d'anar! Ja les expliques al capítol anterior.}\sudan{corregit}
 
 
 
@@ -1946,21 +2123,38 @@ Els pròxims passos en el desenvolupament inclouen la finalització de la integr
 \label{chp:conclusions}
 
 
-L'objectiu d'aquest projecte és permetre que les persones puguin realitzar operacions bancàries amb la màxima flexibilitat i seguretat possible. La idea va sorgir després de la meva experiència a la Xina el 2019, on vaig observar que la majoria de les transaccions es realitzaven a través de l'aplicació de missatgeria ``WeChat''. Aquesta aplicació integra una passarel·la de pagament molt còmoda, que facilita les transaccions i ofereix una major transparència en les operacions. A més, l'ús de pagaments electrònics contribueix a reduir els robatoris associats amb l'ús de diners en efectiu.\\
+L'objectiu d'aquest projecte és permetre que les persones puguin realitzar operacions bancàries amb la màxima flexibilitat i seguretat possible.\\
 
-Recentment, vaig visitar una sala de jocs amb amics on vaig notar un canvi significatiu en el sistema de pagament. Abans, només es podien utilitzar monedes d'1 € per activar les màquines, però ara s'ha afegit un mini TPV (Terminal Punt de Venda) per a cada màquina. Aquesta actualització requereix una inversió en infraestructura per als TPV. Només cal imaginar què passaria si aquest procés es pogués simplificar utilitzant un codi QR: cada màquina podria estar configurada amb l'import a cobrar, mentre que els clients podrien pagar fàcilment escanejant el codi QR a través del seu dispositiu mòbil. Aquesta solució ofereix una alternativa més flexible i eficient, tant per a les empreses com per als usuaris.\\
-
-
-El sistema de pagament amb codi QR ofereix una sèrie d'avantatges clau. En primer lloc, simplifica el procés de pagament, ja que els clients poden realitzar transaccions simplement escanejant un codi QR amb el seu dispositiu mòbil. Això redueix la necessitat d'infraestructura física com ara TPVs i minimitza els problemes associats amb el seu manteniment, com ara problemes de bateria, cobertura o maquinari defectuós.\\
+Recentment vaig visitar una sala de jocs on vaig observar una millora en el sistema de pagament: les antigues monedes han estat substituïdes per mini TPV (Terminals Punt de Venda) a cada màquina. No obstant això, aquest canvi implica una inversió en infraestructura. Si pogués utilitzant codis QR, cada màquina podria mostrar l'import a pagar amb un simple codi QR i els clients podrien realitzar el pagament escanejant el codi QR amb el seu mòbil. Aquesta solució seria més flexible i eficient tant per a les empreses com per als usuaris. Això redueix la necessitat d'infraestructura física com ara TPVs i minimitza els problemes associats amb el seu manteniment, com ara problemes de bateria, cobertura o maquinari defectuós.\\
 
 Tanmateix, per adoptar amb èxit aquesta tecnologia, cal avançar en diversos aspectes. En primer lloc, és essencial garantir la seguretat de les transaccions. El procés de pagament amb codi QR ha d'incloure mesures de seguretat robustes, com ara l'encriptació de dades i l'autenticació de dos factors, per protegir les dades dels usuaris i prevenir fraus.\\
 
 A més, la implementació d'una passarel·la de pagament fiable i eficient és crucial. Això pot implicar la integració amb sistemes de pagament establerts, com ara Bizum, o el desenvolupament d'una solució pròpia, similar a PayPal. La passarel·la de pagament ha de ser capaç de gestionar les transaccions de manera fluïda i assegurar la compatibilitat amb diversos dispositius i aplicacions.\\
 
 
-En resum, els pagaments mitjançant codi QR poden revolucionar la forma en què es realitzen les transaccions comercials, oferint una solució més flexible i eficient. Tot i que plantegen nous reptes, especialment en termes de seguretat, la continuïtat en la innovació tecnològica pot ajudar a superar aquests obstacles i millorar l'experiència de pagament per a usuaris i negocis per igual.\\
+L'aplicació presentada en aquest projecte aprofita els avantatges dels codis QR per oferir una solució de pagament innovadora i eficient. A continuació, es detallen els principals beneficis i les funcionalitats clau que aporta l'aplicació:
 
-\pau{Faltaria dir què aporta l'aplicació presentada en aquest projecte. Es diu que l'ús de codis QR és beneficiós, però no s'acaba de dir que l'aplicació que es presenta implementa tots aquests avantatges.}
+\begin{itemize}
+    \item \textbf{Facilitat d'Ús:} Els codis QR permeten als usuaris realitzar pagaments simplement escanejant el codi amb el seu dispositiu mòbil. Aquesta funcionalitat simplifica el procés de pagament, reduint la necessitat d'introduir manualment dades com números de targeta o informació de compte bancari.
+
+    \item \textbf{Seguretat:} L'aplicació utilitza xifratge per garantir que les dades transmeses a través dels codis QR estiguin protegides. Això redueix el risc de frau i garanteix que les transaccions siguin segures.
+
+    \item \textbf{Eficiència en les Transaccions:} Mitjançant l'ús de codis QR, les transaccions es poden completar ràpidament, reduint els temps d'espera tant per als clients com per als comerciants. Això millora l'experiència de l'usuari i agilita el procés de pagament.
+
+    \item \textbf{Integració Simple:} L'aplicació està dissenyada per integrar-se fàcilment amb sistemes de pagament existents i amb les passarel·les de pagament. Aquesta flexibilitat facilita la seva adopció tant per a petits comerciants com per a grans empreses.
+
+    \item \textbf{Adaptabilitat i Flexibilitat:} Els codis QR poden ser generats i utilitzats per una àmplia gamma d'aplicacions, des de pagaments en comerços fins a transaccions en línia. Això ofereix una gran flexibilitat en la manera en què els clients poden utilitzar l'aplicació.
+
+    \item \textbf{Reducció d'Errors Humans:} La digitalització del procés de pagament mitjançant codis QR minimitza els errors que poden ocórrer amb els pagaments manuals. Això ajuda a garantir que les transaccions es registrin correctament i es processin sense problemes.
+
+    \item \textbf{Sostenibilitat:} L'ús de codis QR per a pagaments contribueix a una menor necessitat de paper, ja que les transaccions es poden realitzar de manera completament digital. Aquesta característica és especialment beneficiosa per a la sostenibilitat ambiental.
+
+\end{itemize}
+
+En resum, els pagaments mitjançant codi QR poden revolucionar la forma en què es realitzen les transaccions comercials, oferint una solució més flexible i eficient. L'aplicació aprofita aquestes capacitats per oferir un procés de pagament senzill i segur, millorant l'experiència tant per a usuaris com per a comerciants. Encara que presenten nous reptes, especialment en termes de seguretat, la innovació tecnològica continuada ajudarà a superar aquests obstacles. A més, aquest enfocament proporciona beneficis pràctics i estratègics, adaptant-se a les necessitats de totes les parts implicades i millorant l'experiència de pagament en general.
+
+
+\pau{Faltaria dir què aporta l'aplicació presentada en aquest projecte. Es diu que l'ús de codis QR és beneficiós, però no s'acaba de dir que l'aplicació que es presenta implementa tots aquests avantatges.}\sudan{corregit??}
 
 
 
@@ -1968,7 +2162,18 @@ En resum, els pagaments mitjançant codi QR poden revolucionar la forma en què 
 \chapter{Treball futur}
 \label{chp:treballfutur}
 
-\pau{Estaria bé un petit text introductori dient que s'ha dividit el treball futur en tres seccions.}
+\section{Introducció}
+\label{sec:Introducció}
+
+Fins al moment, l'aplicació ha aconseguit implementar les funcionalitats bàsiques necessàries per generar i escanejar codis QR. No obstant això, encara falta integrar la passarel·la de pagament per completar el procés de pagament. La principal dificultat actual és la integració amb la passarel·la, que requereix una coordinació complexa amb els proveïdors de serveis de pagament i la implementació de mesures de seguretat addicionals.\\
+
+Els beneficis esperats de l'aplicació són significatius. Un cop completada, l'aplicació permetrà als usuaris realitzar pagaments de manera senzilla i segura utilitzant codis QR, amb opcions tant per integrar-se amb bancs com per utilitzar una passarel·la de pagament pròpia. Aquesta flexibilitat en els mètodes de pagament oferirà una alternativa valuosa a serveis establerts com PayPal i proporcionarà als usuaris una solució innovadora i eficient per als seus pagaments.\\
+
+Els pròxims passos en el desenvolupament inclouen la finalització de la integració de la passarel·la de pagament i la implementació de les funcionalitats avançades.
+
+\pau{Estaria bé un petit text introductori dient que s'ha dividit el treball futur en tres seccions.}\sudan{corregit}
+
+He dividit el treball futur en tres seccions: Funcionalitats de l'aplicació, Seguretat de dades i Millora del codi. Es explicarà més detalladament cada secció.
 
 \section{Funcionalitats de l'aplicació}
 \label{sec: Funcionalitats de l'aplicació}
@@ -2009,14 +2214,21 @@ En el codi actual hi ha molts aspectes que es poden millorar, així com nombroso
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % GETI projects: bibliography as a chapter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Bibliografiaaaaa}
+\chapter{Bibliografia}
 \renewcommand{\bibsection}{} % Remove intrinsic bibliography name
 
 \bibliographystyle{ThesisStyleBreakable}
 \bibliography{bibliography}
 
+\begin{thebibliography}{9}
 
+    \bibitem{Overleaf}
+    \textit{Overleaf},
+    \url{https://www.overleaf.com}
 
+    
+\end{thebibliography}
+\sudan{no en se treure el (no citat).}
 
 
 
